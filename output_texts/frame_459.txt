@@ -1,0 +1,16 @@
+227. A security engineer is designing a solution that will provide end-to-end encryption between clients
+and Docker containers running in Amazon Elastic Container
+
+Service (Amazon ECS). This solution will also handle volatile traffic patterns.
+Which solution would have the MOST scalability and LOWEST latency?
+
+A. Configure a Network Load Balancer to terminate the TLS traffic and then re-encrypt the traffic to the
+containers.
+
+B. Configure an Application Load Balancer to terminate the TLS traffic and then re-encrypt the traffic to
+the containers.
+
+C. Configure a Network Load Balancer with a TCP listener to pass through TLS traffic to the containers.
+D. Configure Amazon Route to use multivalue answer routing to send traffic to the containers.
+
+Answer: C

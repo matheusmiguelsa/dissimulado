@@ -1,0 +1,18 @@
+231. A company needs to migrate several applications to AWS. This will require storing more than
+5,000 credentials. To meet compliance requirements, the company will use its existing password
+management system for key rotation, auditing, and integration with third-party secrets containers. The
+company has a limited budget and is seeking the most cost-effective solution that is still secure.
+
+How should the company accomplish this at the LOWEST cost?
+
+A. Configure the company's key management solution to integrate with AWS Systems Manager
+Parameter Store.
+
+B. Configure the company's key management solution to integrate with AWS Secrets Manager.
+
+C. Use an Amazon $3 encrypted bucket to store the secrets and configure the applications with the
+appropriate roles to access the secrets.
+
+D. Configure the company's key management solution to integrate with AWS CloudHSM.
+
+Answer: A

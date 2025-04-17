@@ -1,0 +1,16 @@
+230. A company's AWS CloudTrail logs are all centrally stored in an Amazon $3 bucket. The security
+team controls the company's AWS account. The security team must prevent unauthorized access and
+tampering of the CloudTrail logs.
+
+Which combination of steps should the security team take? (Choose three.)
+A. Configure server-side encryption with AWS KMS managed encryption keys (SSE-KMS)
+B. Compress log file with secure gzip.
+
+C. Create an Amazon EventBridge (Amazon CloudWatch Events) rule to notify the security team of any
+modifications on CloudTrail log files.
+
+D. Implement least privilege access to the $3 bucket by configuring a bucket policy.
+E. Configure CloudTrail log file integrity validation.
+F. Configure Access Analyzer for $3.
+
+Answer: A, D, E
