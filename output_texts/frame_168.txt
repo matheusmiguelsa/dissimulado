@@ -1,0 +1,30 @@
+82. A company has multiple VPCs in their account that are peered,
+as shown in the diagram. A Security Engineer wants to perform
+
+. . . ~~”  192.168.0.0116
+penetration tests of the Amazon EC2 instances in all three VPCs.
+
+1o0.0.016
+
+LAL VAY
+pox-12121212 pex-23232323
+
+172.16.0.0/16
+
+A. Deploy a pre-authorized scanning engine from the AWS Marketplace into VPC B, and use it to scan
+instances in all three VPCs. Do not complete the penetration test request form.
+
+B. Deploy a pre-authorized scanning engine from the Marketplace into each VPC, and scan instances in
+each VPC from the scanning engine in that VPC. Do not complete the penetration test request form.
+
+C. Create a VPN connection from the data center to VPC A. Use an on-premises scanning engine to
+scan the instances in all three VPCs. Complete the penetration test request form for all three VPCs.
+
+D. Create a VPN connection from the data center to each of the three VPCs. Use an on-premises
+scanning engine to scan the instances in each VPC. Do not complete the penetration test request form.
+
+E. Create a VPN connection from the data center to each of the three VPCs. Use an on-premises
+scanning engine to scan the instances in each VPC. Complete the penetration test request form for all
+three VPCs.
+
+Answer: B,D

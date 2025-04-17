@@ -1,0 +1,18 @@
+85. A company runs an application on AWS that needs to be accessed only by employees. Most
+employees work from the office, but others work remotely or travel.
+
+How can the Security Engineer protect this workload so that only employees can access it?
+
+A. Add each employee's home IP address to the security group for the application so that only those
+users can access the workload.
+
+B. Create a virtual gateway for VPN connectivity for each employee, and restrict access to the workload
+from within the VPC.
+
+C. Use a VPN appliance from the AWS Marketplace for users to connect to, and restrict workload
+access to traffic from that appliance.
+
+D. Route all traffic to the workload through AWS WAF. Add each employee's home IP address into an
+AWS WAF rule, and block all other traffic.
+
+Answer:C

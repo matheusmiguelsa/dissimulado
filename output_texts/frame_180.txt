@@ -1,0 +1,20 @@
+88. An organization has three applications running on AWS, each accessing the same data on Amazon
+$3. The data on Amazon S3 is server-side encrypted by using an AWS KMS Customer Master Key
+(CMK).
+
+What is the recommended method to ensure that each application has its own programmatic access
+control permissions on the KMS CMK?
+
+A. Change the key policy permissions associated with the KMS CMK for each application when it must
+access the data in Amazon S3.
+
+B. Have each application assume an IAM role that provides permissions to use the AWS Certificate
+Manager CMK.
+
+C. Have each application use a grant on the KMS CMK to add or remove specific access controls on
+the KMS CMK.
+
+D. Have each application use an IAM policy in a user context to have specific access permissions on
+the KMS CMK.
+
+Answer: C

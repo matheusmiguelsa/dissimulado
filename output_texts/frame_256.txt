@@ -1,0 +1,25 @@
+126.A company is building a data lake on Amazon $3. The data consists of millions of small files containing
+sensitive information. The Security team has the following requirements for the architecture:
+
+* Data must be encrypted in transit.
+* Data must be encrypted at rest.
+
+* The bucket must be private, but if the bucket is accidentally made public, the data must remain
+confidential.
+
+Which combination of steps would meet the requirements? (Choose two.)
+
+A. Enable AES-256 encryption using server-side encryption with Amazon S3-managed encryption keys (SSE-
+$3) on the S3 bucket.
+
+B. Enable default encryption with server-side encryption with AWS KMS-managed keys (SSE-KMS) on the $3
+ucket.
+
+C. Add a bucket policy that includes a deny if a PutObject request does not include aws:SecureTransport.
+D. Add a bucket policy with aws:Sourcelp to Allow uploads and downloads from the corporate intranet only.
+
+E. Add a bucket policy that includes a deny if a PutObject request does not include s3:x-amz-server-side-
+encryption: "aws:kms”.
+
+F. Enable Amazon Macie to monitor and act on changes to the data lake's $3 bucket.
+Answer: B, C

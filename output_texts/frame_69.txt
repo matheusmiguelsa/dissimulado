@@ -1,0 +1,17 @@
+33. A Security Engineer received an AWS Abuse Notice listing EC2 instance IDs that are reportedly
+abusing other hosts.
+
+Which action should the Engineer take based on this situation? (Choose three.)
+
+A. Use AWS Artifact to capture an exact image of the state of each instance.
+
+B. Create EBS Snapshots of each of the volumes attached to the compromised instances.
+C. Capture a memory dump.
+
+D. Log in to each instance with administrative credentials to restart the instance.
+
+E. Revoke all network ingress and egress except for to/from a forensics workstation.
+
+F. Run Auto Recovery for Amazon EC2.
+
+Answer: B, C, E

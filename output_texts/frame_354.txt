@@ -1,0 +1,18 @@
+175. A company has hundreds of AWS accounts, and a centralized Amazon $3 bucket used to collect
+AWS CloudTrail logs for all of these accounts. A Security
+
+Engineer wants to create a solution that will enable the company to run ad hoc queries against its
+CloudTrail logs dating back 3 years from when the trails were first enabled in the company's AWS
+account.
+
+How should the company accomplish this with the least amount of administrative overhead?
+A. Run an Amazon EMR cluster that uses a MapReduce job to examine the CloudTrail trails.
+B. Use the events history feature of the CloudTrail console to query the CloudTrail trails.
+
+C. Write an AWS Lambda function to query the CloudTrail trails. Configure the Lambda function to be
+executed whenever a new file is created in the CloudTrail $3 bucket.
+
+D. Create an Amazon Athena table that looks at the $3 bucket the CloudTrail trails are being written to.
+Use Athena to run queries against the trails.
+
+Answer: D

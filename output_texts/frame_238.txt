@@ -1,0 +1,18 @@
+117. A Security Engineer is defining the logging solution for a newly developed product. Systems
+Administrators and Developers need to have appropriate access to event log files in AWS CloudTrail to
+support and troubleshoot the product.
+
+Which combination of controls should be used to protect against tampering with and unauthorized
+access to log files? (Choose two.)
+
+A. Ensure that the log file integrity validation mechanism is enabled.
+B. Ensure that all log files are written to at least two separate Amazon S3 buckets in the same account.
+C. Ensure that Systems Administrators and Developers can edit log files, but prevent any other access.
+
+D. Ensure that Systems Administrators and Developers with job-related need-to-know requirements
+only are capable of viewing "€abut not modifying "€athe log files.
+
+E. Ensure that all log files are stored on Amazon EC2 instances that allow SSH access from the internal
+corporate network only.
+
+Answer: A, D

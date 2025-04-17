@@ -1,0 +1,13 @@
+12. A company has a customer master key (CMK) with imported key materials. Company policy
+requires that all encryption keys must be rotated every year.
+What can be done to implement the above policy?
+
+A. Enable automatic key rotation annually for the CMK.
+
+B. Use AWS Command Line Interface to create an AWS Lambda function to rotate the existing CMK
+annually.
+
+C. Import new key material to the existing CMK and manually rotate the CMK.
+D. Create a new CMK, import new key material to it, and point the key alias to the new CMK.
+
+Answer: D

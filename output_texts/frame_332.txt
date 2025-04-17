@@ -1,0 +1,23 @@
+164. A company's architecture requires that its three Amazon EC2 instances run behind an Application
+Load Balancer (ALB). The EC2 instances transmit sensitive data between each other. Developers use
+SSL certificates to encrypt the traffic between the public users and the ALB. However, the Developers
+are unsure of how to encrypt the data in transit between the ALB and the EC2 instances and the traffic
+between the EC2 instances.
+
+Which combination of activities must the company implement to meet its encryption requirements?
+(Choose two.)
+
+A. Configure SSL/TLS on the EC2 instances and configure the ALB target group to use HTTPS.
+
+B. Ensure that all resources are in the same VPC so the default encryption provided by the VPC is used
+to encrypt the traffic between the EC2 instances.
+
+C. In the ALB, select the default encryption to encrypt the traffic between the ALB and the EC2
+instances.
+
+D. In the code for the application, include a cryptography library and encrypt the data before sending it
+between the EC2 instances.
+
+E. Configure AWS Direct Connect to provide an encrypted tunnel between the EC2 instances.
+
+Answer: A, D

@@ -1,0 +1,18 @@
+155. A company manages three separate AWS accounts for its production, development, and test
+environments. Each Developer is assigned a unique IAM user under the development account. A new
+application hosted on an Amazon EC2 instance in the development account requires read access to the
+archived documents stored in an Amazon $3 bucket in the production account.
+
+How should access be granted?
+
+A. Create an IAM role in the production account and allow EC2 instance in the development account to
+assume that role using the trust policy. Provide read access for the required S3 bucket to this role.
+
+B. Use a custom identity broker to allow Developer IAM users to temporarily access the $3 bucket.
+C. Create a temporary IAM user for the application to use in the production account.
+
+D. Create a temporary IAM user in the production account and provide read access to Amazon S3.
+Generate the temporary IAM user's access key and secret key and store these keys on the EC2
+instance used by the application in the development account.
+
+Answer: A

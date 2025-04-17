@@ -1,0 +1,58 @@
+171.4 company plans to use custom AMls to launch Amazon EC2 instances across multiple AWS accounts in a single Region to
+security monitoring and analytics tasks. The EC2 instances are launched in EC2 Auto Scaling groups. To increase the security of the solution, a
+Security Engineer will manage the lifecycle of the custom AMls in a centralized account and will encrypt them with a centrally managed AWS KMS
+
+CMK. The Security Engineer configure
+launched by
+Which combination of configuration ste
+permissions to execute tasks?
+
+A. Create a customer-managed CMK in
+
+applying
+the use 0
+
+he centralized account. Allow other a
+
+created IAM role to launch EC2 instances.
+
+B. Create
+applying
+
+a customer-managed CMK in
+
+he centralized account. Allow other a
+
+permissions to create grants for the centrally managed CMK. Use this IAM rol
+to perform cryptographical operations and with the EC2 Auto Scaling service-
+
+C. Create a customer-managed CMK or
+cryptographical operations by applying
+includes
+
+grantee principal.
+
+D. Create a customer-mana
+cryptographical operations
+
+proper cross-account permissions in t
+
+pplicab
+
+proper cross-account permissions in the key policy. Create an IAM role in al
+f the centrally managed CMK for cryptographical operations. Configure EC2
+
+pplicab
+
+proper cross-account permissions in the key policy. Create an IAM role in al
+le to creat
+
+inked r
+
+an AWS managed CMK in the centralized acc
+
+he key
+
+to perform cryptographical operations against the centrally managed CMK.
+
+Answer: B

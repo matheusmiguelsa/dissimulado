@@ -1,0 +1,14 @@
+84. For compliance reasons, an organization limits the use of resources to three specific AWS regions.
+It wants to be alerted when any resources are launched in unapproved regions.
+
+Which of the following approaches will provide alerts on any resources launched in an unapproved
+region?
+
+A. Develop an alerting mechanism based on processing AWS CloudTrail logs.
+
+B. Monitor Amazon $3 Event Notifications for objects stored in buckets in unapproved regions.
+C. Analyze Amazon CloudWatch Logs for activities in unapproved regions.
+
+D. Use AWS Trusted Advisor to alert on all resources being created.
+
+Answer: A

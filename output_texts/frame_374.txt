@@ -1,0 +1,19 @@
+185. During a manual review of system logs from an Amazon Linux EC2 instance, a Security Engineer
+noticed that there are sudo commands that were never properly alerted or reported on the Amazon
+CloudWatch Logs agent.
+
+Why were there no alerts on the sudo commands?
+
+A. There is a security group blocking outbound port 80 traffic that is preventing the agent from sending
+the logs.
+
+B. The IAM instance profile on the EC2 instance was not properly configured to allow the CloudWatch
+Logs agent to push the logs to CloudWatch.
+
+C. CloudWatch Logs status is set to ON versus SECURE, which prevents if from pulling in OS security
+event logs.
+
+D. The VPC requires that all traffic go through a proxy, and the CloudWatch Logs agent does not
+support a proxy configuration.
+
+Answer: B

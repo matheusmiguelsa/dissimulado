@@ -1,0 +1,12 @@
+119. Which of the following are valid event sources that are associated with web access control lists
+that trigger AWS WAF rules? (Choose two.)
+
+A. Amazon $3 static web hosting
+B. Amazon CloudFront distribution
+C. Application Load Balancer
+
+D. Amazon Route 53
+
+E. VPC Flow Logs
+
+Answer: B, C

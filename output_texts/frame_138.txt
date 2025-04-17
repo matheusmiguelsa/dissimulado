@@ -1,0 +1,24 @@
+67. A Security Engineer must add additional protection to a legacy web application by adding the
+following HTTP security headers:
+
+-Content Security-Policy
+
+-X-Frame-Options
+
+-X-XSS-Protection
+
+The Engineer does not have access to the source code of the legacy web application.
+Which of the following approaches would meet this requirement?
+
+A. Configure an Amazon Route 53 routing policy to send all web traffic that does not include the
+required headers to a black hole.
+
+B. rem an AWS Lambda@Edge origin response function that inserts the required headers.
+
+igrate the legacy application to an Amazon $3 static website and front it with an Amazon
+Ciout Front distribution.
+
+D. Construct an AWS WAF rule to replace existing HTTP headers with the required security headers by
+using regular expressions.
+
+Answer: B

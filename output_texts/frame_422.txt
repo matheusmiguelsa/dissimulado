@@ -1,0 +1,19 @@
+209. A company's director of information security wants a daily email report from AWS that contains
+recommendations for each company account to meet AWS
+
+Security best practices.
+Which solution would meet these requirements?
+
+A. In every AWS account, configure AWS Lambda to query the AWS Support API for AWS Trusted
+Advisor security checks. Send the results from Lambda to an Amazon SNS topic to send reports.
+
+B. Configure Amazon GuardDuty in a master account and invite all other accounts to be managed by
+the master account. Use GuardDuty's integration with Amazon SNS to report on findings.
+
+C. Use Amazon Athena and Amazon QuickSight to build reports off of AWS CloudTrail. Create a daily
+Amazon CloudWatch trigger to run the report daily and email it using Amazon SNS.
+
+D. Use AWS Artifact's prebuilt reports and subscriptions. Subscribe the director of information security
+to the reports by adding the director as the security alternate contact for each account.
+
+Answer: A

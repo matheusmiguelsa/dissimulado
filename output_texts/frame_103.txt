@@ -1,0 +1,33 @@
+50. A Security Engineer has been asked to troubleshoot inbound connectivity to a web server. This single web
+
+server is not receiving inbound connections from the internet, whereas all other web servers are functioning
+roperly.
+
+The architecture includes network ACLs, security groups, and a virtual security appliance. In addition, the
+
+Development team has implemented Application Load
+
+Balancers (ALBs) to distribute the load across all web servers. It is a requirement that traffic between the web
+
+servers and the internet flow through the virtual security appliance.
+
+The Security Engineer has verified the following:
+
+1. The rule set in the Security Groups is correct
+
+2. The rule set in the network ACLs is correct
+
+3. The rule set in the virtual appliance is correct
+
+Which of the following are other valid items to troubleshoot in this scenario? (Choose two.)
+
+A. Verify that the 0.0.0.0/0 route in the route table for the web server subnet points to a NAT gateway.
+B. Verify which Security Group is applied to the particular web server's elastic network interface (ENI).
+
+C. Verify that the 0.0.0.0/0 route in the route table for the web server subnet points to the virtual security
+appliance.
+
+D. Verify the registered targets in the ALB.
+E. Verify that the 0.0.0.0/0 route in the public subnet points to a NAT gateway.
+
+Answer: B, D

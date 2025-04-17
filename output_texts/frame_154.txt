@@ -1,0 +1,19 @@
+75. A company plans to move most of its IT infrastructure to AWS. The company wants to leverage its
+existing on-premises Active Directory as an identity provider for
+
+AWS.
+
+Which steps should be taken to authenticate to AWS services using the company’s on-premises Active
+Directory? (Choose three.)
+
+A. Create IAM roles with permissions corresponding to each Active Directory group.
+B. Create IAM groups with permissions corresponding to each Active Directory group.
+C. Create a SAML provider with IAM.
+
+D. Create a SAML provider with Amazon Cloud Directory.
+
+E. Configure AWS as a trusted relying party for the Active Directory
+
+F. Configure IAM as a trusted relying party for Amazon Cloud Directory.
+
+Answer: A, C, E

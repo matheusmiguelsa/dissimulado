@@ -1,0 +1,559 @@
+The Security team believes that a former employee may have gained unauthorized access to AWS resources sometime in the past 3 months by using an identified access key.
+What approach would enable the Security team to find out what the former employee may have done within AWS?
+
+A. Use the AWS CloudTrail console to search for user activity. Most Voted
+B. Use the Amazon CloudWatch Logs console to filter CloudTrail data by user.
+C. Use AWS Config to see what actions were taken by the user.
+D. Use Amazon Athena to query CloudTrail logs stored in Amazon S3.
+ 
+Answer: A
+A (85%)
+D (15%)
+
+Question #2Topic 1
+A company is storing data in Amazon S3 Glacier. The security engineer implemented a new vault lock policy for 10TB of data and called initiate-vault-lock operation 12 hours ago. The audit team identified a typo in the policy that is allowing unintended access to the vault.
+What is the MOST cost-effective way to correct this?
+
+A. Call the abort-vault-lock operation. Update the policy. Call the initiate-vault-lock operation again. Most Voted
+B. Copy the vault data to a new S3 bucket. Delete the vault. Create a new vault with the data.
+C. Update the policy to keep the vault lock in place.
+D. Update the policy. Call initiate-vault-lock operation again to apply the new policy.
+ 
+Answer: A
+A (86%)
+14%
+
+Question #3Topic 1
+A company wants to control access to its AWS resources by using identities and groups that are defined in its existing Microsoft Active Directory.
+What must the company create in its AWS account to map permissions for AWS services to Active Directory user attributes?
+
+A. AWS IAM groups
+B. AWS IAM users
+C. AWS IAM roles Most Voted
+D. AWS IAM access keys
+ 
+Answer: C
+C (100%)
+
+Question #4Topic 1
+A company has contracted with a third party to audit several AWS accounts. To enable the audit, cross-account IAM roles have been created in each account targeted for audit. The Auditor is having trouble accessing some of the accounts.
+Which of the following may be causing this problem? (Choose three.)
+
+A. The external ID used by the Auditor is missing or incorrect. Most Voted
+B. The Auditor is using the incorrect password.
+C. The Auditor has not been granted sts:AssumeRole for the role in the destination account. Most Voted
+D. The Amazon EC2 role used by the Auditor must be set to the destination account role.
+E. The secret key used by the Auditor is missing or incorrect.
+F. The role ARN used by the Auditor is missing or incorrect. Most Voted
+ 
+Answer: A,C,F
+ACF (80%)
+13%
+7%
+
+Question #5Topic 1
+Compliance requirements state that all communications between company on-premises hosts and EC2 instances be encrypted in transit. Hosts use custom proprietary protocols for their communication, and EC2 instances need to be fronted by a load balancer for increased availability.
+Which of the following solutions will meet these requirements?
+
+A. Offload SSL termination onto an SSL listener on a Classic Load Balancer, and use a TCP connection between the load balancer and the EC2 instances.
+B. Route all traffic through a TCP listener on a Classic Load Balancer, and terminate the TLS connection on the EC2 instances. Most Voted
+C. Create an HTTPS listener using an Application Load Balancer, and route all of the communication through that load balancer.
+D. Offload SSL termination onto an SSL listener using an Application Load Balancer, and re-spawn and SSL connection between the load balancer and the EC2 instances.
+ 
+Answer: B
+B (100%)
+
+Question #6Topic 1
+An application is currently secured using network access control lists and security groups. Web servers are located in public subnets behind an Application Load
+Balancer (ALB); application servers are located in private subnets.
+How can edge security be enhanced to safeguard the Amazon EC2 instances against attack? (Choose two.)
+
+A. Configure the application's EC2 instances to use NAT gateways for all inbound traffic.
+B. Move the web servers to private subnets without public IP addresses. Most Voted
+C. Configure AWS WAF to provide DDoS attack protection for the ALB. Most Voted
+D. Require all inbound network traffic to route through a bastion host in the private subnet.
+E. Require all inbound and outbound network traffic to route through an AWS Direct Connect connection.
+ 
+Answer: B,C
+BC (100%)
+
+Question #7Topic 1
+A Security Administrator is restricting the capabilities of company root user accounts. The company uses AWS Organizations and has enabled it for all feature sets, including consolidated billing. The top-level account is used for billing and administrative purposes, not for operational AWS resource purposes.
+How can the Administrator restrict usage of member root user accounts across the organization?
+
+A. Disable the use of the root user account at the organizational root. Enable multi-factor authentication of the root user account for each organizational member account.
+B. Configure IAM user policies to restrict root account capabilities for each Organizations member account.
+C. Create an organizational unit (OU) in Organizations with a service control policy that controls usage of the root user. Add all operational accounts to the new OU. Most Voted
+D. Configure AWS CloudTrail to integrate with Amazon CloudWatch Logs and then create a metric filter for RootAccountUsage.
+ 
+Answer: C
+C (100%)
+
+Question #8Topic 1
+A Systems Engineer has been tasked with configuring outbound mail through Simple Email Service (SES) and requires compliance with current TLS standards.
+The mail application should be configured to connect to which of the following endpoints and corresponding ports?
+
+A. email.us-east-1.amazonaws.com over port 8080
+B. email-pop3.us-east-1.amazonaws.com over port 995
+C. email-smtp.us-east-1.amazonaws.com over port 587 Most Voted
+D. email-imap.us-east-1.amazonaws.com over port 993
+ 
+Answer: C
+C (100%)
+
+Question #9Topic 1
+A threat assessment has identified a risk whereby an internal employee could exfiltrate sensitive data from production host running inside AWS (Account 1). The threat was documented as follows:
+Threat description: A malicious actor could upload sensitive data from Server X by configuring credentials for an AWS account (Account 2) they control and uploading data to an Amazon S3 bucket within their control.
+Server X has outbound internet access configured via a proxy server. Legitimate access to S3 is required so that the application can upload encrypted files to an
+S3 bucket. Server X is currently using an IAM instance role. The proxy server is not able to inspect any of the server communication due to TLS encryption.
+Which of the following options will mitigate the threat? (Choose two.)
+
+A. Bypass the proxy and use an S3 VPC endpoint with a policy that whitelists only certain S3 buckets within Account 1. Most Voted
+B. Block outbound access to public S3 endpoints on the proxy server. Most Voted
+C. Configure Network ACLs on Server X to deny access to S3 endpoints.
+D. Modify the S3 bucket policy for the legitimate bucket to allow access only from the public IP addresses associated with the application server.
+E. Remove the IAM instance role from the application server and save API access keys in a trusted and encrypted application config file.
+ 
+Answer: A,B
+AB (76%)
+AD (24%)
+
+Question #10Topic 1
+A company will store sensitive documents in three Amazon S3 buckets based on a data classification scheme of `Sensitive,` `Confidential,` and `Restricted.` The security solution must meet all of the following requirements:
+✑ Each object must be encrypted using a unique key.
+✑ Items that are stored in the `Restricted` bucket require two-factor authentication for decryption.
+✑ AWS KMS must automatically rotate encryption keys annually.
+Which of the following meets these requirements?
+
+A. Create a Customer Master Key (CMK) for each data classification type, and enable the rotation of it annually. For the ג€Restrictedג€ CMK, define the MFA policy within the key policy. Use S3 SSE-KMS to encrypt the objects. Most Voted
+B. Create a CMK grant for each data classification type with EnableKeyRotation and MultiFactorAuthPresent set to true. S3 can then use the grants to encrypt each object with a unique CMK.
+C. Create a CMK for each data classification type, and within the CMK policy, enable rotation of it annually, and define the MFA policy. S3 can then create DEK grants to uniquely encrypt each object within the S3 bucket.
+D. Create a CMK with unique imported key material for each data classification type, and rotate them annually. For the ג€Restrictedג€ key material, define the MFA policy in the key policy. Use S3 SSE-KMS to encrypt the objects.
+
+Question #11Topic 1
+An organization wants to deploy a three-tier web application whereby the application servers run on Amazon EC2 instances. These EC2 instances need access to credentials that they will use to authenticate their SQL connections to an Amazon RDS DB instance. Also, AWS Lambda functions must issue queries to the RDS database by using the same database credentials.
+The credentials must be stored so that the EC2 instances and the Lambda functions can access them. No other access is allowed. The access logs must record when the credentials were accessed and by whom.
+What should the Security Engineer do to meet these requirements?
+
+A. Store the database credentials in AWS Key Management Service (AWS KMS). Create an IAM role with access to AWS KMS by using the EC2 and Lambda service principals in the role's trust policy. Add the role to an EC2 instance profile. Attach the instance profile to the EC2 instances. Set up Lambda to use the new role for execution.
+B. Store the database credentials in AWS KMS. Create an IAM role with access to KMS by using the EC2 and Lambda service principals in the role's trust policy. Add the role to an EC2 instance profile. Attach the instance profile to the EC2 instances and the Lambda function.
+C. Store the database credentials in AWS Secrets Manager. Create an IAM role with access to Secrets Manager by using the EC2 and Lambda service principals in the role's trust policy. Add the role to an EC2 instance profile. Attach the instance profile to the EC2 instances and the Lambda function.
+D. Store the database credentials in AWS Secrets Manager. Create an IAM role with access to Secrets Manager by using the EC2 and Lambda service principals in the role's trust policy. Add the role to an EC2 instance profile. Attach the instance profile to the EC2 instances. Set up Lambda to use the new role for execution. Most Voted
+ 
+Answer: D
+D (100%)
+
+Question #12Topic 1
+A company has a customer master key (CMK) with imported key materials. Company policy requires that all encryption keys must be rotated every year.
+What can be done to implement the above policy?
+
+A. Enable automatic key rotation annually for the CMK.
+B. Use AWS Command Line Interface to create an AWS Lambda function to rotate the existing CMK annually.
+C. Import new key material to the existing CMK and manually rotate the CMK.
+D. Create a new CMK, import new key material to it, and point the key alias to the new CMK. Most Voted
+ 
+Answer: D
+D (100%)
+
+Question #13Topic 1
+A water utility company uses a number of Amazon EC2 instances to manage updates to a fleet of 2,000 Internet of Things (IoT) field devices that monitor water quality. These devices each have unique access credentials.
+An operational safety policy requires that access to specific credentials is independently auditable.
+What is the MOST cost-effective way to manage the storage of credentials?
+
+A. Use AWS Systems Manager to store the credentials as Secure Strings Parameters. Secure by using an AWS KMS key. Most Voted
+B. Use AWS Key Management System to store a master key, which is used to encrypt the credentials. The encrypted credentials are stored in an Amazon RDS instance.
+C. Use AWS Secrets Manager to store the credentials.
+D. Store the credentials in a JSON file on Amazon S3 with server-side encryption.
+ 
+Answer: A
+A (100%)
+
+Question #14Topic 1
+An organization is using Amazon CloudWatch Logs with agents deployed on its Linux Amazon EC2 instances. The agent configuration files have been checked and the application log files to be pushed are configured correctly. A review has identified that logging from specific instances is missing.
+Which steps should be taken to troubleshoot the issue? (Choose two.)
+
+A. Use an EC2 run command to confirm that the ג€awslogsג€ service is running on all instances. Most Voted
+B. Verify that the permissions used by the agent allow creation of log groups/streams and to put log events. Most Voted
+C. Check whether any application log entries were rejected because of invalid time stamps by reviewing /var/cwlogs/rejects.log.
+D. Check that the trust relationship grants the service ג€cwlogs.amazonaws.comג€ permission to write objects to the Amazon S3 staging bucket.
+E. Verify that the time zone on the application servers is in UTC.
+ 
+Answer: A,B
+AB (84%)
+Other
+
+Question #15Topic 1
+A Security Engineer must design a solution that enables the incident Response team to audit for changes to a user's IAM permissions in the case of a security incident.
+How can this be accomplished?
+
+A. Use AWS Config to review the IAM policy assigned to users before and after the incident. Most Voted
+B. Run the GenerateCredentialReport via the AWS CLI, and copy the output to Amazon S3 daily for auditing purposes.
+C. Copy AWS CloudFormation templates to S3, and audit for changes from the template.
+D. Use Amazon EC2 Systems Manager to deploy images, and review AWS CloudTrail logs for changes.
+ 
+Answer: A
+A (86%)
+14%
+
+Question #16Topic 1
+A company has complex connectivity rules governing ingress, egress, and communications between Amazon EC2 instances. The rules are so complex that they cannot be implemented within the limits of the maximum number of security groups and network access control lists (network ACLs).
+What mechanism will allow the company to implement all required network rules without incurring additional cost?
+
+A. Configure AWS WAF rules to implement the required rules.
+B. Use the operating system built-in, host-based firewall to implement the required rules. Most Voted
+C. Use a NAT gateway to control ingress and egress according to the requirements.
+D. Launch an EC2-based firewall product from the AWS Marketplace, and implement the required rules in that product.
+ 
+Answer: B
+B (100%)
+
+Question #17Topic 1
+An IAM user with fill EC2 permissions could bot start an Amazon EC2 instance after it was stopped for a maintenance task. Upon starting the instance, the instance state would change to `Pending`, but after a few seconds, it would switch back to `Stopped`.
+An inspection revealed that the instance has attached Amazon EBS volumes that were encrypted by using a Customer Master Key (CMK). When these encrypted volumes were detached, the IAM user was able to start the EC2 instances.
+The IAM user policy is as follows:
+
+What additional items need to be added to the IAM user policy? (Choose two.)
+
+A. kms:GenerateDataKey
+B. kms:Decrypt
+C. kms:CreateGrant Most Voted
+D. ג€Conditionג€: { ג€Boolג€: { ג€kms:ViaServiceג€: ג€ec2.us-west-2.amazonaws.comג€ } }
+E. ג€Conditionג€: { ג€Boolג€: { ג€kms:GrantIsForAWSResourceג€: true } } Most Voted
+ 
+Answer: C,E
+CE (60%)
+BC (40%)
+
+Question #18Topic 1
+A Security Administrator has a website hosted in Amazon S3. The Administrator has been given the following requirements:
+✑ Users may access the website by using an Amazon CloudFront distribution.
+✑ Users may not access the website directly by using an Amazon S3 URL.
+Which configurations will support these requirements? (Choose two.)
+
+A. Associate an origin access identity with the CloudFront distribution. Most Voted
+B. Implement a ג€Principalג€: ג€cloudfront.amazonaws.comג€ condition in the S3 bucket policy.
+C. Modify the S3 bucket permissions so that only the origin access identity can access the bucket contents. Most Voted
+D. Implement security groups so that the S3 bucket can be accessed only by using the intended CloudFront distribution.
+E. Configure the S3 bucket policy so that it is accessible only through VPC endpoints, and place the CloudFront distribution into the specified VPC.
+ 
+Answer: A,C
+AC (100%)
+
+Question #19Topic 1
+A Security Engineer has created an Amazon CloudWatch event that invokes an AWS Lambda function daily. The Lambda function runs an Amazon Athena query that checks AWS CloudTrail logs in Amazon S3 to detect whether any IAM user accounts or credentials have been created in the past 30 days. The results of the
+Athena query are created in the same S3 bucket. The Engineer runs a test execution of the Lambda function via the AWS Console, and the function runs successfully.
+After several minutes, the Engineer finds that his Athena query has failed with the error message: `Insufficient Permissions`. The IAM permissions of the Security
+Engineer and the Lambda function are shown below:
+
+Security Engineer -
+
+
+Lambda function execution role -
+
+What is causing the error?
+
+A. The Lambda function does not have permissions to start the Athena query execution.
+B. The Security Engineer does not have permissions to start the Athena query execution.
+C. The Athena service does not support invocation through Lambda.
+D. The Lambda function does not have permissions to access the CloudTrail S3 bucket. Most Voted
+ 
+Answer: D
+D (58%)
+B (38%)
+4%
+
+Question #20Topic 1
+A company requires that IP packet data be inspected for invalid or malicious content.
+Which of the following approaches achieve this requirement? (Choose two.)
+
+A. Configure a proxy solution on Amazon EC2 and route all outbound VPC traffic through it. Perform inspection within proxy software on the EC2 instance. Most Voted
+B. Configure the host-based agent on each EC2 instance within the VPC. Perform inspection within the host-based agent. Most Voted
+C. Enable VPC Flow Logs for all subnets in the VPC. Perform inspection from the Flow Log data within Amazon CloudWatch Logs.
+D. Configure Elastic Load Balancing (ELB) access logs. Perform inspection from the log data within the ELB access log files.
+E. Configure the CloudWatch Logs agent on each EC2 instance within the VPC. Perform inspection from the log data within CloudWatch Logs.
+ 
+Answer: A,B
+AB (100%)
+
+Question #21Topic 1
+An organization has a system in AWS that allows a large number of remote workers to submit data files. File sizes vary from a few kilobytes to several megabytes.
+A recent audit highlighted a concern that data files are not encrypted while in transit over untrusted networks.
+Which solution would remediate the audit finding while minimizing the effort required?
+
+A. Upload an SSL certificate to IAM, and configure Amazon CloudFront with the passphrase for the private key.
+B. Call KMS.Encrypt() in the client, passing in the data file contents, and call KMS.Decrypt() server-side.
+C. Use AWS Certificate Manager to provision a certificate on an Elastic Load Balancing in front of the web service's servers. Most Voted
+D. Create a new VPC with an Amazon VPC VPN endpoint, and update the web service's DNS record.
+ 
+Answer: C
+C (100%)
+
+Question #22Topic 1
+Which option for the use of the AWS Key Management Service (KMS) supports key management best practices that focus on minimizing the potential scope of data exposed by a possible future key compromise?
+
+A. Use KMS automatic key rotation to replace the master key, and use this new master key for future encryption operations without re-encrypting previously encrypted data. Most Voted
+B. Generate a new Customer Master Key (CMK), re-encrypt all existing data with the new CMK, and use it for all future encryption operations.
+C. Change the CMK alias every 90 days, and update key-calling applications with the new key alias.
+D. Change the CMK permissions to ensure that individuals who can provision keys are not the same individuals who can use the keys.
+ 
+Answer: A
+A (57%)
+B (43%)
+
+Question #23Topic 1
+A Security Engineer must enforce the use of only Amazon EC2, Amazon S3, Amazon RDS, Amazon DynamoDB, and AWS STS in specific accounts.
+What is a scalable and efficient approach to meet this requirement?
+
+A. Set up an AWS Organizations hierarchy, and replace the FullAWSAccess policy with the following Service Control Policy for the governed organization units:  Most Voted
+B. Create multiple IAM users for the regulated accounts, and attach the following policy statement to restrict services as required: 
+C. Set up an Organizations hierarchy, replace the global FullAWSAccess with the following Service Control Policy at the top level: 
+D. Set up all users in the Active Directory for federated access to all accounts in the company. Associate Active Directory groups with IAM groups, and attach the following policy statement to restrict services as required: 
+ 
+Answer: A
+A (100%)
+
+Question #24Topic 1
+A company's database developer has just migrated an Amazon RDS database credential to be stored and managed by AWS Secrets Manager. The developer has also enabled rotation of the credential within the Secrets Manager console and set the rotation to change every 30 days.
+After a short period of time, a number of existing applications have failed with authentication errors.
+What is the MOST likely cause of the authentication errors?
+
+A. Migrating the credential to RDS requires that all access come through requests to the Secrets Manager.
+B. Enabling rotation in Secrets Manager causes the secret to rotate immediately, and the applications are using the earlier credential. Most Voted
+C. The Secrets Manager IAM policy does not allow access to the RDS database.
+D. The Secrets Manager IAM policy does not allow access for the applications.
+ 
+Answer: B
+B (58%)
+A (42%)
+
+Question #25Topic 1
+A Security Engineer launches two Amazon EC2 instances in the same Amazon VPC but in separate Availability Zones. Each instance has a public IP address and is able to connect to external hosts on the internet. The two instances are able to communicate with each other by using their private IP addresses, but they are not able to communicate with each other when using their public IP addresses.
+Which action should the Security Engineer take to allow communication over the public IP addresses?
+
+A. Associate the instances to the same security groups.
+B. Add 0.0.0.0/0 to the egress rules of the instance security groups.
+C. Add the instance IDs to the ingress rules of the instance security groups.
+D. Add the public IP addresses to the ingress rules of the instance security groups. Most Voted
+ 
+Answer: D
+D (100%)
+
+Question #26Topic 1
+The Security Engineer is managing a web application that processes highly sensitive personal information. The application runs on Amazon EC2. The application has strict compliance requirements, which instruct that all incoming traffic to the application is protected from common web exploits and that all outgoing traffic from the EC2 instances is restricted to specific whitelisted URLs.
+Which architecture should the Security Engineer use to meet these requirements?
+
+A. Use AWS Shield to scan inbound traffic for web exploits. Use VPC Flow Logs and AWS Lambda to restrict egress traffic to specific whitelisted URLs.
+B. Use AWS Shield to scan inbound traffic for web exploits. Use a third-party AWS Marketplace solution to restrict egress traffic to specific whitelisted URLs.
+C. Use AWS WAF to scan inbound traffic for web exploits. Use VPC Flow Logs and AWS Lambda to restrict egress traffic to specific whitelisted URLs.
+D. Use AWS WAF to scan inbound traffic for web exploits. Use a third-party AWS Marketplace solution to restrict egress traffic to specific whitelisted URLs. Most Voted
+ 
+Answer: D
+D (100%)
+
+Question #27Topic 1
+A company recently experienced a DDoS attack that prevented its web server from serving content. The website is static and hosts only HTML, CSS, and PDF files that users download.
+Based on the architecture shown in the image, what is the BEST way to protect the site against future attacks while minimizing the ongoing operational overhead?
+
+
+A. Move all the files to an Amazon S3 bucket. Have the web server serve the files from the S3 bucket.
+B. Launch a second Amazon EC2 instance in a new subnet. Launch an Application Load Balancer in front of both instances.
+C. Launch an Application Load Balancer in front of the EC2 instance. Create an Amazon CloudFront distribution in front of the Application Load Balancer.
+D. Move all the files to an S3 bucket. Create a CloudFront distribution in front of the bucket and terminate the web server. Most Voted
+ 
+Answer: D
+D (93%)
+4%
+
+Question #28Topic 1
+The Information Technology department has stopped using Classic Load Balancers and switched to Application Load Balancers to save costs. After the switch, some users on older devices are no longer able to connect to the website.
+What is causing this situation?
+
+A. Application Load Balancers do not support older web browsers.
+B. The Perfect Forward Secrecy settings are not configured correctly.
+C. The intermediate certificate is installed within the Application Load Balancer.
+D. The cipher suites on the Application Load Balancers are blocking connections. Most Voted
+ 
+Answer: D
+D (71%)
+14%
+14%
+
+Question #29Topic 1
+A security team is responsible for reviewing AWS API call activity in the cloud environment for security violations. These events must be recorded and retained in a centralized location for both current and future AWS regions.
+What is the SIMPLEST way to meet these requirements?
+
+A. Enable AWS Trusted Advisor security checks in the AWS Console, and report all security incidents for all regions.
+B. Enable AWS CloudTrail by creating individual trails for each region, and specify a single Amazon S3 bucket to receive log files for later analysis.
+C. Enable AWS CloudTrail by creating a new trail and applying the trail to all regions. Specify a single Amazon S3 bucket as the storage location. Most Voted
+D. Enable Amazon CloudWatch logging for all AWS services across all regions, and aggregate them to a single Amazon S3 bucket for later analysis.
+ 
+Answer: C
+C (89%)
+11%
+
+Question #30Topic 1
+A Security Administrator is performing a log analysis as a result of a suspected AWS account compromise. The Administrator wants to analyze suspicious AWS
+CloudTrail log files but is overwhelmed by the volume of audit logs being generated.
+What approach enables the Administrator to search through the logs MOST efficiently?
+
+A. Implement a ג€write-onlyג€ CloudTrail event filter to detect any modifications to the AWS account resources.
+B. Configure Amazon Macie to classify and discover sensitive data in the Amazon S3 bucket that contains the CloudTrail audit logs.
+C. Configure Amazon Athena to read from the CloudTrail S3 bucket and query the logs to examine account activities. Most Voted
+D. Enable Amazon S3 event notifications to trigger an AWS Lambda function that sends an email alarm when there are new CloudTrail API entries.
+ 
+Answer: C
+C (58%)
+A (42%)
+
+Question 1
+A leading hospital has a web application hosted in AWS that will store sensitive Personally Identifiable Information (PII) of its patients in an Amazon S3 bucket. Both the master keys and the unencrypted data should never be sent to AWS to comply with the strict compliance and regulatory requirements of the company.
+
+Which S3 encryption technique should the Security Engineer implement?
+
+A. Implement an Amazon S3 client-side encryption with a KMS key.
+B. Implement an Amazon S3 client-side encryption with a client-side master key.
+C. Implement an Amazon S3 server-side encryption with a KMS managed key.
+D. Implement an Amazon S3 server-side encryption with customer provided key.
+Answer: B
+
+Question 2
+An enterprise monitoring application collects data and generates audit logs of all operational activities of the company’s AWS Cloud infrastructure. The IT Security team requires that the application retain the logs for 5 years before the data can be deleted.
+
+How can the Security Engineer meet the above requirement?
+
+A. Use Amazon S3 Glacier to store the audit logs and apply a Vault Lock policy.
+B. Use Amazon EBS Volumes to store the audit logs and take automated EBS snapshots every month using Amazon Data Lifecycle Manager.
+C. Use Amazon S3 to store the audit logs and enable Multi-Factor Authentication Delete (MFA Delete) for additional protection.
+D. Use Amazon EFS to store the audit logs and enable Network File System version 4 (NFSv4) file-locking mechanism.
+Answer: A
+
+Question 3
+For data privacy, a healthcare company has been asked to comply with the Health Insurance Portability and Accountability Act (HIPAA) in handling static user documents. They instructed their Security Engineer to ensure that all of the data being backed up or stored on Amazon S3 are durably stored and encrypted.
+
+Which combination of actions should the Engineer implement to meet the above requirement? (Select TWO.)
+
+A. Encrypt the data locally first using your own encryption keys before sending the data to Amazon S3. Send the data over HTTPS.
+B. Instead of using an S3 bucket, move and store the data on Amazon EBS volumes in two AZs with encryption enabled.
+C. Instead of using an S3 bucket, migrate and securely store the data in an encrypted RDS database.
+D. Enable Server-Side Encryption with Amazon S3-Managed Keys (SSE-S3) on the S3 bucket with AES-256 encryption.
+E. Enable Server-Side Encryption with Amazon S3-Managed Keys (SSE-S3) on the S3 bucket with AES-128 encryption.
+Answer: A,D
+
+
+Question 4
+A multinational company is developing a sophisticated web application that requires integration with multiple third-party APIs. The company’s unique keys for each API are hardcoded inside an AWS CloudFormation template.
+
+The security team requires that the keys be passed into the template without exposing their values in plaintext. Moreover, the keys must be encrypted at rest and in transit.
+
+Which of the following provides the HIGHEST level of security while meeting these requirements?
+
+A. Use AWS Systems Manager Parameter Store to store the API keys. Then, reference them in the AWS CloudFormation templates using !GetAtt AppKey.Value
+B. Use AWS Systems Manager Parameter Store to store the API keys as SecureString parameters. Then, reference them in the AWS CloudFormation templates using {{resolve:ssm:AppKey}}
+C. Utilize AWS Secrets Manager to store the API keys. Then, reference them in the AWS CloudFormation templates using {{resolve:secretsmanager:AppKey:SecretString:password}}
+D. Use an Amazon S3 bucket to store the API keys. Then, create a custom AWS Lambda function to read the keys from the S3 bucket. Reference the keys in the AWS CloudFormation templates using a custom resource that invokes the Lambda function.
+Answer: C
+
+
+
+
+Question 5
+A company is looking to store its confidential financial files in AWS, which are accessed every week. A Security Engineer was instructed to set up the storage system, which uses envelope encryption and automates key rotation. It should also provide an audit trail that shows who used the encryption key and by whom for security purposes.
+
+Which of the following should the Engineer implement to satisfy the requirement with the LEAST amount of cost? (Select TWO.)
+
+A. Store the confidential financial files in Amazon S3.
+B. Store the confidential financial files in the Amazon S3 Glacier Deep Archive.
+C. Enable Server-Side Encryption with Customer-Provided Keys (SSE-C).
+D. Enable Server-Side Encryption with Amazon S3-Managed Keys (SSE-S3).
+E. Enable Server-Side Encryption with AWS KMS Keys (SSE-KMS).
+Answer: A,E
+
+Question 6
+A company is expanding its operations and setting up new teams in different regions around the world. The company is using AWS for its development environment. There’s a strict policy that only approved software can be used when launching EC2 instances.
+
+In addition to enforcing the policy, the company also wants to ensure that the solution is cost-effective, does not significantly increase the launch time of the EC2 instances, and is easy to manage and maintain. The company also wants to ensure that the solution is scalable and can easily accommodate the addition of new software to the approved list or the removal of software from it.
+
+Which of the following solutions would be the most effective considering all the requirements?
+
+A. Use a portfolio in the AWS Service Catalog that includes EC2 products with the right AMIs, each containing only the approved software. Ensure that developers have access only to this Service Catalog portfolio when they need to launch a product in the software development account.
+B. Set up an Amazon EventBridge rule that triggers whenever any EC2 RunInstances API event occurs in the software development account. Specify AWS Systems Manager Run Command as a target of the rule. Configure Run Command to run a script that installs all approved software onto the instances that the developers launch.
+C. Use AWS Systems Manager State Manager to create an association that specifies the approved software. The association will automatically install the software when an EC2 instance is launched.
+D. Use AWS Config to monitor the EC2 instances and send alerts when unapproved software is detected. The alerts can then be used to manually remove the software.
+Answer: A
+
+
+Question 7
+After migrating the DNS records of a domain to Route 53, a company configured logging of public DNS queries. After a week, the company realized that log data were accumulating quickly. The company is worried that this might incur high storage fees in the long run, so they wanted logs older than 1 month to be deleted.
+
+Which action will resolve the problem most cost-effectively?
+
+Free AWS Courses
+A. Configure a retention policy in CloudWatch Logs to delete logs older than 1 month.
+B. Change the destination of the DNS query logs to S3 Glacier Deep Archive.
+C. Configure CloudWatch Logs to export log data to an S3 bucket. Set an S3 lifecycle policy that deletes objects older than 1 month.
+D. Create a scheduled job using a Lambda function to export logs from CloudWatch Logs to an S3 bucket. Set an S3 lifecycle policy that deletes objects older than 1 month.
+Answer: A
+
+Question 8
+A data security company is experimenting on various security features that they can implement on their Elastic Load Balancers such as Server Order Preference, Predefined Security Policy, Perfect Forward Secrecy, and many others. The company is planning to use the Perfect Forward Secrecy feature to provide additional safeguards to their architecture against the eavesdropping of encrypted data through the use of a unique random session key. This feature also prevents the decoding of captured data, even if the secret long-term key is compromised.
+
+Which AWS services can offer SSL/TLS cipher suites for Perfect Forward Secrecy?
+
+A. Amazon EC2 and Amazon S3
+B. AWS CloudTrail and Amazon CloudWatch
+C. Amazon CloudFront and Elastic Load Balancers
+D. Amazon API Gateway and AWS Lambda
+Answer: C
+
+
+Question 9
+A Security Engineer sent a ping command from her laptop, with an IP address of 112.237.99.166, to an EC2 instance which has a private IP address of 172.31.17.140. However, the response ping is dropped and does not reach her laptop. To troubleshoot the issue, the Engineer checked the flow logs of your VPC and saw the following entries as shown below.
+
+2 123456789010 eni-1235b8ca 112.237.99.166 172.31.17.140 0 0 1 4 336 1432917027 1432917142
+ACCEPT OK
+2 123456789010 eni-1235b8ca 172.31.17.140 112.237.99.166 0 0 1 4 336 1432917094 1432917142
+REJECT OK
+
+What is the MOST likely root cause of this issue?
+
+A. The security group has an inbound rule that allows ICMP traffic but does not have an outbound rule to explicitly allow outgoing ICMP traffic.
+B. The network ACL permits inbound ICMP traffic but does not permit outbound ICMP traffic.
+C. The security group’s inbound rules do not allow ICMP traffic.
+D. The Network ACL does not permit inbound ICMP traffic.
+Answer: B
+
+
+ 
+
+Question 10
+A newly hired Security Analyst is assigned to manage the existing CloudFormation templates of the company. The Analyst opened the templates and analyzed the configured IAM policy for an S3 bucket as shown below:
+
+<pre>
+{
+  “Version”: “2012-10-17”,
+  “Statement”: [
+    {
+      “Effect”: “Allow”,
+      “Action”: [
+        “s3:Get*”,
+        “s3:List*”
+     ],
+     “Resource”: “*”
+  },
+  {
+     “Effect”: “Allow”,
+     “Action”: “s3:PutObject”,
+     “Resource”: “arn:aws:s3:::team-palawan/*”
+   }
+ ] }
+</pre>
+
+What does the following IAM policy allow? (Select THREE.)
+
+A. Allows reading objects from all S3 buckets owned by the account.
+B. Allows writing objects into the team-palawan S3 bucket.
+C. Allows changing access rights for the team-palawan S3 bucket.
+D. Allows reading objects in the team-palawan S3 bucket but not allowed to list the objects in the bucket.
+E. Allows reading objects from the team-palawan S3 bucket.
+F. Allows reading and deleting objects from the team-palawan S3 bucket.
+Answer: A,B,E

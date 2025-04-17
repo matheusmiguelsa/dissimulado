@@ -1,0 +1,21 @@
+191. A security engineer received an Amazon GuardDuty alert indicating a finding involving the Amazon
+EC2 instance that hosts the company's primary website. The
+
+GuardDuty finding received read:
+UnauthorizedAccess:|AMUser/InstanceCredentialExfiltration.
+
+The security engineer confirmed that a malicious actor used API access keys intended for the EC2
+instance from a country where the company does not operate.
+
+The security engineer needs to deny access to the malicious actor.
+
+What is the first step the security engineer should take?
+
+A. Open the EC2 console and remove any security groups that allow inbound traffic from 0.0.0.0/0.
+
+B. Install the AWS Systems Manager Agent on the EC2 instance and run an inventory report.
+
+C. Install the Amazon Inspector agent on the host and run an assessment with the CVE rules package.
+D. Open the IAM console and revoke all IAM sessions that are associated with the instance profile.
+
+Answer: D

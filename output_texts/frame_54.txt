@@ -1,0 +1,14 @@
+26. The Information Technology department has stopped using Classic Load Balancers and switched
+to Application Load Balancers to save costs. After the switch, some users on older devices are no
+longer able to connect to the website.
+
+What is causing this situation?
+
+A. Application Load Balancers do not support older web browsers.
+
+B. The Perfect Forward Secrecy settings are not configured correctly.
+
+C. The intermediate certificate is installed within the Application Load Balancer.
+D. The cipher suites on the Application Load Balancers are blocking connections.
+
+Answer: D

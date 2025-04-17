@@ -1,0 +1,19 @@
+204. A company's security engineer has been asked to monitor and report all AWS account root user
+activities.
+
+Which of the following would enable the security engineer to monitor and report all root user activities?
+(Choose two.)
+
+A. Configuring AWS Organizations to monitor root user API calls on the paying account
+
+B. Creating an Amazon CloudWatch Events rule that will trigger when any API call from the root user is
+reported
+
+C. Configuring Amazon Inspector to scan the AWS account for any root user activity
+
+D. Configuring AWS Trusted Advisor to send an email to the security team when the root user logs in to
+the console
+
+E. Using Amazon SNS to notify the target group
+
+Answer: B,E

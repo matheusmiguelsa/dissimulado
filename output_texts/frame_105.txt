@@ -1,0 +1,16 @@
+51. Which approach will generate automated security alerts should too many unauthorized AWS API requests be
+identified?
+
+A. Create an Amazon CloudWatch metric filter that looks for API call error codes and then implement an alarm
+based on that metrics rate.
+
+B. Configure AWS CloudTrail to stream event data to Amazon Kinesis. Configure an AWS Lambda function on the
+stream to alarm when the threshold has been exceeded.
+
+C. Run an Amazon Athena SQL query against CloudTrail log files. Use Amazon QuickSight to create an operational
+dashboard.
+
+D. Use the Amazon Personal Health Dashboard to monitor the account's use of AWS services, and raise an alert if
+service error rates increase.
+
+Answer: A

@@ -1,0 +1,19 @@
+201. A developer reported that AWS CloudTrail was disabled on their account. A security engineer
+investigated the account and discovered the event was undetected by the current security solution. The
+security engineer must recommend a solution that will detect future changes to the CloudTrail
+configuration and send alerts when changes occur.
+
+What should the security engineer do to meet these requirements?
+
+A. Use AWS Resource Access Manager (AWS RAM) to monitor the AWS CloudTrail configuration. Send
+notifications using Amazon SNS.
+
+B. Create an Amazon CloudWatch Events rule to monitor Amazon GuardDuty findings. Send email
+notifications using Amazon SNS.
+
+C. Update security contact details in AWS account settings for AWS Support to send alerts when
+suspicious activity is detected.
+
+D. Use Amazon Inspector to automatically detect security issues. Send alerts using Amazon SNS.
+
+Answer: B

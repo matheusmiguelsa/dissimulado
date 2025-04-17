@@ -1,0 +1,17 @@
+37. The Development team receives an error message each time the team members attempt to encrypt
+or decrypt a Secure String parameter from the SSM
+
+Parameter Store by using an AWS KMS customer managed key (CMK).
+Which CMk-related issues could be responsible? (Choose two.)
+
+A. The CMK specified in the application does not exist.
+
+B. The CMK specified in the application is currently in use.
+
+C. The CMK specified in the application is using the CMK KeylD instead of CMK Amazon Resource
+Name.
+
+D. The CMK specified in the application is not enabled.
+E. The CMK specified in the application is using an alias.
+
+Answer: A, D

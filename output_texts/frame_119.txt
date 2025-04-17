@@ -1,0 +1,16 @@
+58. A company plans to move most of its IT infrastructure to AWS. They want to leverage their existing
+on-premises Active Directory as an identity provider for AWS.
+
+Which combination of steps should a Security Engineer take to federate the company's on-premises
+Active Directory with AWS? (Choose two.)
+
+A. Create IAM roles with permissions corresponding to each Active Directory group.
+
+B. Create IAM groups with permissions corresponding to each Active Directory group.
+
+C. Configure Amazon Cloud Directory to support a SAML provider.
+
+D. Configure Active Directory to add relying party trust between Active Directory and AWS.
+E. Configure Amazon Cognito to add relying party trust between Active Directory and AWS.
+
+Answer: A, D

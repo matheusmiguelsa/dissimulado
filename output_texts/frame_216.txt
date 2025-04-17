@@ -1,0 +1,19 @@
+106. An application makes calls to AWS services using the AWS SDK. The application runs on Amazon
+EC2 instances with an associated IAM role. When the application attempts to access an object within
+an Amazon $3 bucket; the Administrator receives the following error message: HTTP 403: Access
+Denied.
+
+Which combination of steps should the Administrator take to troubleshoot this issue? (Choose three.)
+A. Confirm that the EC2 instance's security group authorizes S3 access.
+
+B. Verify that the KMS key policy allows decrypt access for the KMS key for this IAM principle.
+
+C. Check the $3 bucket policy for statements that deny access to objects.
+
+D. Confirm that the EC2 instance is using the correct key pair.
+
+E. Confirm that the IAM role associated with the EC2 instance has the proper privileges.
+
+F. Confirm that the instance and the $3 bucket are in the same Region.
+
+Answer: B,C,E

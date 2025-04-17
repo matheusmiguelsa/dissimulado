@@ -1,0 +1,18 @@
+64. A company has a forensic logging use case whereby several hundred applications running on
+Docker on EC2 need to send logs to a central location. The Security
+
+Engineer must create a logging solution that is able to perform real-time analytics on the log files,
+grants the ability to replay events, and persists data.
+
+Which AWS Services, together, can satisfy this use case? (Choose two.)
+A. Amazon Elasticsearch
+
+B. Amazon Kinesis
+
+C. Amazon SQS
+
+D. Amazon CloudWatch
+
+E. Amazon Athena
+
+Answer: A, B

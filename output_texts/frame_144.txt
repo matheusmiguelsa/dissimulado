@@ -1,0 +1,16 @@
+70. In response to the past DDoS attack experiences, a Security Engineer has set up an Amazon
+CloudFront distribution for an Amazon $3 bucket. There is concern that some users may bypass the
+CloudFront distribution and access the $3 bucket directly.
+
+What must be done to prevent users from accessing the $3 objects directly by using URLs?
+A. Change the S3 bucket/object permission so that only the bucket owner has access.
+
+B. Set up a CloudFront origin access identity (OAl), and change the $3 bucket/object permission so
+that only the OAI has access.
+
+C. Create IAM roles for CloudFront, and change the $3 bucket/object permission so that only the IAM
+role has access.
+
+D. Redirect S3 bucket access to the corresponding CloudFront distribution.
+
+Answer: B

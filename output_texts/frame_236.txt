@@ -1,0 +1,13 @@
+116. A company plans to migrate a sensitive dataset to Amazon $3. A Security Engineer must ensure
+that the data is encrypted at rest. The encryption solution must enable the company to generate its
+own keys without needing to manage key storage or the encryption process.
+
+What should the Security Engineer use to accomplish this?
+
+A. Server-side encryption with Amazon S3-managed keys (SSE-S3)
+B. Server-side encryption with AWS KMS-managed keys (SSE-KMS)
+C. Server-side encryption with customer-provided keys (SSE-C)
+
+D. Client-side encryption with an AWS KMS-managed CMK
+
+Answer: B

@@ -1,0 +1,16 @@
+104. A company's security policy requires that VPC Flow Logs are enabled on all VPCs. A Security
+Engineer is looking to automate the process of auditing the VPC resources for compliance.
+
+What combination of actions should the Engineer take? (Choose two.)
+
+A. Create an AWS Lambda function that determines whether Flow Logs are enabled for a given VPC.
+B. Create an AWS Config configuration item for each VPC in the company AWS account.
+
+C. Create an AWS Config managed rule with a resource type of AWS:: Lambda:: Function.
+
+D. Create an Amazon CloudWatch Event rule that triggers on events emitted by AWS Config.
+
+E. Create an AWS Config custom rule, and associate it with an AWS Lambda function that contains the
+evaluating logic.
+
+Answer: A, E

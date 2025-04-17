@@ -1,0 +1,19 @@
+19. A company requires that IP packet data be inspected for invalid or malicious content.
+Which of the following approaches achieve this requirement? (Choose two.)
+
+A. Configure a proxy solution on Amazon EC2 and route all outbound VPC traffic through it. Perform
+inspection within proxy software on the EC2 instance.
+
+B. Configure the host-based agent on each EC2 instance within the VPC. Perform inspection within the
+host-based agent.
+
+C. Enable VPC Flow Logs for all subnets in the VPC. Perform inspection from the Flow Log data within
+Amazon CloudWatch Logs.
+
+D. Configure Elastic Load Balancing (ELB) access logs. Perform inspection from the log data within the
+ELB access log files.
+
+E. Configure the CloudWatch Logs agent on each EC2 instance within the VPC. Perform inspection
+from the log data within CloudWatch Logs.
+
+Answer:A, B

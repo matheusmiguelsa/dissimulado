@@ -1,0 +1,14 @@
+46. A pharmaceutical company has digitized versions of historical prescriptions stored on premises.
+The company would like to move these prescriptions to AWS and perform analytics on the data in
+them. Any operation with this data requires that the data be encrypted in transit and at rest.
+
+Which application flow would meet the data protection requirements on AWS?
+A. Digitized files -> Amazon Kinesis Data Analytics
+B. Digitized files -> Amazon Kinesis Data Firehose -> Amazon $3 -> Amazon Athena
+
+C. Digitized files -> Amazon Kinesis Data Streams -> Kinesis Client Library consumer -> Amazon S3 ->
+Athena
+
+D. Digitized files -> Amazon Kinesis Data Firehose -> Amazon Elasticsearch
+
+Answer: B

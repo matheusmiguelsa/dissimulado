@@ -1,0 +1,13 @@
+157. An organizational must establish the ability to delete an AWS KMS Customer Master Key (CMK)
+within a 24-hour timeframe to keep it from being used for encrypt or decrypt operations.
+
+Which of the following actions will address this requirement?
+
+A. Manually rotate a key within KMS to create a new CMK immediately.
+
+B. Use the KMS import key functionality to execute a delete key operation.
+
+C. Use the schedule key deletion function within KMS to specify the minimum wait period for deletion.
+D. Change the KMS CMK alias to immediately prevent any services from using the CMK.
+
+Answer: B

@@ -1,0 +1,15 @@
+219. A company is setting up products to deploy in AWS Service Catalog. Management is concerned
+that when users launch products, elevated IAM privileges will be required to create resources.
+
+How should the company mitigate this concern?
+
+A. Add a template constraint to each product in the portfolio.
+
+B. Add a launch constraint to each product in the portfolio.
+
+C. Define resource update constraints for each product in the portfolio.
+
+D. Update the AWS CloudFormation template backing the product to include a service role
+configuration.
+
+Answer: B

@@ -1,0 +1,16 @@
+149. Developers in an organization have moved from a standard application deployment to containers.
+The Security Engineer is tasked with ensuring that containers are secure.
+
+Which strategies will reduce the attack surface and enhance the security of the containers? (Choose
+two.)
+
+A. Use the containers to automate security deployments.
+
+B. Limit resource consumption (CPU, memory), networking connections, ports, and unnecessary
+container libraries.
+
+C. Segregate container by host, function, and data classification.
+D. Use Docker Notary framework to sign task definitions.
+E. Enable container breakout at the host kernel.
+
+Answer: B, C

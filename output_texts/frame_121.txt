@@ -1,0 +1,19 @@
+59. A security alert has been raised for an Amazon EC2 instance in a customer account that is
+exhibiting strange behavior. The Security Engineer must first isolate the
+
+EC2 instance and then use tools for further investigation.
+
+What should the Security Engineer use to isolate and research this event? (Choose three.)
+A. AWS CloudTrail
+
+B. Amazon Athena
+
+C. AWS Key Management Service (AWS KMS)
+
+D. VPC Flow Logs
+
+E. AWS Firewall Manager
+
+F. Security groups
+
+Answer: A, D, F

@@ -1,0 +1,23 @@
+99. An application uses Amazon Cognito to manage end users’ permissions when directly accessing
+AWS resources, including Amazon DynamoDB. A new feature request reads as follows:
+
+Provide a mechanism to mark customers as suspended pending investigation or suspended
+permanently. Customers should still be able to log in when suspended, but should not be able to make
+changes.
+
+The priorities are to reduce complexity and avoid potential for future security issues.
+Which approach will meet these requirements and priorities?
+
+A. Create a new database field €asuspended_status€ aand modify the application logic to validate that
+field when processing requests.
+
+B. Add suspended customers to second Cognito user pool and update the application login flow to
+check both user pools.
+
+C. Use Amazon Cognito Sync to push out a €asuspension_status€ aparameter and split the IAM policy
+into normal users and suspended users.
+
+D. Move suspended customers to a second Cognito group and define an appropriate IAM access policy
+for the group.
+
+Answer: D

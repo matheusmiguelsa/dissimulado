@@ -1,0 +1,14 @@
+54. A company has deployed a custom DNS server in AWS. The Security Engineer wants to ensure that
+Amazon EC2 instances cannot use the Amazon-provided
+
+DNS.
+
+How can the Security Engineer block access to the Amazon-provided DNS in the VPC?
+A. Deny access to the Amazon DNS IP within all security groups.
+
+B. Add a rule to all network access control lists that deny access to the Amazon DNS IP.
+C. Add a route to all route tables that black holes traffic to the Amazon DNS IP.
+
+D. Disable DNS resolution within the VPC configuration.
+
+Answer: D

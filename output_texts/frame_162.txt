@@ -1,0 +1,13 @@
+79. AWS CloudTrail is being used to monitor API calls in an organization. An audit revealed that
+CloudTrail is failing to deliver events to Amazon S3 as expected.
+
+What initial actions should be taken to allow delivery of CloudTrail events to $3? (Choose two.)
+A. Verify that the S3 bucket policy allow CloudTrail to write objects.
+
+B. Verify that the IAM role used by CloudTrail has access to write to Amazon CloudWatch Logs.
+C. Remove any lifecycle policies on the $3 bucket that are archiving objects to Amazon Glacier.
+D. Verify that the $3 bucket defined in CloudTrail exists.
+
+E. Verify that the log file prefix defined in CloudTrail exists in the S3 bucket.
+
+Answer: A, D

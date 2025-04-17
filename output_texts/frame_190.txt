@@ -1,0 +1,15 @@
+93. A Security Administrator at a university is configuring a fleet of Amazon EC2 instances. The EC2
+instances are shared among students, and non-root SSH access is allowed. The Administrator is
+concerned about students attacking other AWS account resources by using the EC2 instance metadata
+service.
+
+What can the Administrator do to protect against this potential attack?
+A. Disable the EC2 instance metadata service.
+
+B. Log all student SSH interactive session activity.
+
+C. Implement iptables-based restrictions on the instances.
+
+D. Install the Amazon Inspector agent on the instances.
+
+Answer: C

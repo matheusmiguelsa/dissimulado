@@ -1,0 +1,18 @@
+128. An Amazon EC2 instance is denied access to a newly created AWS KMS CMK used for decrypt
+actions. The environment has the following configuration:
+
+c® The instance is allowed the kms:Decrypt action in its IAM role for all resources
+
+c® The AWS KMS CMK status is set to enabled
+
+c® The instance can communicate with the KMS API using a configured VPC endpoint
+What is causing the issue?
+
+A. The kms:GenerateDataKey permission is missing from the EC2 instance's IAM role
+
+B. The ARN tag on the CMK contains the EC2 instance’s ID instead of the instance’s ARN
+C. The kms:Encrypt permission is missing from the EC2 IAM role
+
+D. The KMS CMK key policy that enables IAM user permissions is missing
+
+Answer: D

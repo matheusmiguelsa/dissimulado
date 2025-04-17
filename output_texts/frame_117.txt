@@ -1,0 +1,14 @@
+57. A distributed web application is installed across several EC2 instances in public subnets residing in
+two Availability Zones. Apache logs show several intermittent brute-force attacks from hundreds of IP
+addresses at the layer 7 level over the past six months.
+
+What would be the BEST way to reduce the potential impact of these attacks in the future?
+A. Use custom route tables to prevent malicious traffic from routing to the instances.
+
+B. Update security groups to deny traffic from the originating source IP addresses.
+
+C. Use network ACLs.
+
+D. Install intrusion prevention software (IPS) on each instance.
+
+Answer: D

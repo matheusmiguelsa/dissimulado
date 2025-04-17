@@ -1,0 +1,23 @@
+47. The Security Engineer created a new AWS Key Management Service (AWS KMS) key with the following
+key policy:
+
+{
+"Effect": "Allow",
+“Principal”: {"AWS": “arn:aws:iam::111122223333:root"),
+“Action": “kms:*";
+“Resource"; "*"
+
+The Security CHYWeeL Liedteu @ lew AWwo Rey Mallayement service (AWS KMS) key with the following key policy:
+What are the effects of the key policy? (Choose two.)
+
+A. The policy allows access for the AWS account 111122223333 to manage key access though IAM policies.
+
+B. The policy allows all IAM users in account 111122223333 to have full access to the KMS key.
+
+C. The policy allows the root user in account 111122223333 to have full access to the KMS key.
+
+D. The policy allows the KMS service-linked role in account 111122223333 to have full access to the KMS key.
+
+E. The policy allows all IAM roles in account 111122223333 to have full access to the KMS key.
+
+Answer: A, B

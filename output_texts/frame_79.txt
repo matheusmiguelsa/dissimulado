@@ -1,0 +1,13 @@
+38. An application has been written that publishes custom metrics to Amazon CloudWatch. Recently,
+IAM changes have been made on the account and the metrics are no longer being reported.
+
+Which of the following is the LEAST permissive solution that will allow the metrics to be delivered?
+
+A. Add a statement to the IAM policy used by the application to allow logs:putLogEvents and
+logs:createLogStream
+
+B. Modify the IAM role used by the application by adding the CloudWatchFullAccess managed policy.
+C. Add a statement to the IAM policy used by the application to allow cloudwatch:putMetricData.
+D. Add a trust relationship to the IAM role used by the application for cloudwatch.amazonaws.com.
+
+Answer: C

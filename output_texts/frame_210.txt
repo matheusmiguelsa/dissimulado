@@ -1,0 +1,15 @@
+103. The AWS Systems Manager Parameter Store is being used to store database passwords used by
+an AWS Lambda function. Because this is sensitive data, the parameters are stored as type
+SecureString and protected by an AWS KMS key that allows access through IAM. When the function
+executes, this parameter cannot be retrieved as the result of an access denied error.
+
+Which of the following actions will resolve the access denied error?
+
+A. Update the ssm.amazonaws.com principal in the KMS key policy to allow kms: Decrypt.
+
+B. Update the Lambda configuration to launch the function in a VPC.
+
+C. Add a policy to the role that the Lambda function uses, allowing kms: Decrypt for the KMS key.
+D. Add lambda.amazonaws.com as a trusted entity on the IAM role that the Lambda function uses.
+
+Answer: C

@@ -1,0 +1,18 @@
+100. A company stores data on an Amazon EBS volume attached to an Amazon EC2 instance. The data
+is asynchronously replicated to an Amazon S3 bucket. Both the EBS volume and the $3 bucket are
+encrypted with the same AWS KMS Customer Master Key (CMK). A former employee scheduled a
+deletion of that CMK before leaving the company.
+
+The company's Developer Operations department learns about this only after the CMK has been
+deleted.
+
+Which steps must be taken to address this situation?
+
+A. Copy the data directly from the EBS encrypted volume before the volume is detached from the EC2
+instance.
+
+B. Recover the data from the EBS encrypted volume using an earlier version of the KMS backing key.
+C. Make a request to AWS Support to recover the S3 encrypted data.
+D. Make a request to AWS Support to restore the deleted CMK, and use it to recover the data.
+
+Answer: A

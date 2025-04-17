@@ -1,0 +1,18 @@
+146. A recent security audit found that AWS CloudTrail logs are insufficiently protected from tampering
+and unauthorized access.
+
+Which actions must the Security Engineer take to access these audit findings? (Choose three.)
+A. Ensure CloudTrail log file validation is turned on.
+
+B. Configure an $3 lifecycle rule to periodically archive CloudTrail logs into Glacier for long-term
+storage.
+
+C. Use an $3 bucket with tight access controls that exists in a separate account.
+D. Use Amazon Inspector to monitor the file integrity of CloudTrail log files.
+
+E. Request a certificate through ACM and use a generated certificate private key to encrypt CloudTrail
+log files.
+
+F. Encrypt the CloudTrail log files with server-side encryption AWS KMS-managed keys (SSE-KMS).
+
+Answer: A, C, F

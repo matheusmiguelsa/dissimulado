@@ -1,0 +1,23 @@
+29. During a recent security audit, it was discovered that multiple teams in a large organization have
+placed restricted data in multiple Amazon $3 buckets, and the data may have been exposed. The
+auditor has requested that the organization identify all possible objects that contain personally
+identifiable information (PII) and then determine whether this information has been accessed.
+
+What solution will allow the Security team to complete this request?
+
+A. Using Amazon Athena, query the impacted S3 buckets by using the Pll query identifier function.
+Then, create a new Amazon CloudWatch metric for Amazon $3 object access to alert when the objects
+are accessed.
+
+B. Enable Amazon Macie on the $3 buckets that were impacted, then perform data classification. For
+identified objects that contain Pll, use the research function for auditing AWS CloudTrail logs and S3
+bucket logs for GET operations. Most Voted
+
+C. Enable Amazon GuardDuty and enable the Pll rule set on the S3 buckets that were impacted, then
+perform data classification. Using the PII findings report from GuardDuty, query the S3 bucket logs by
+using Athena for GET operations.
+
+D. Enable Amazon Inspector on the $3 buckets that were impacted, then perform data classification.
+For identified objects that contain Pll, query the $3 bucket logs by using Athena for GET operations.
+
+Answer: B

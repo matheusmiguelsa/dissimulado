@@ -1,0 +1,15 @@
+7.A company wants to control access to its AWS resources by using identities and groups that are
+defined in its existing Microsoft Active Directory.
+
+What must the company create in its AWS account to map permissions for AWS services to Active
+Directory user attributes?
+
+A. AWS IAM groups
+
+B. AWS IAM users
+
+C. AWS IAM roles
+
+D. AWS IAM access keys
+
+Answer: C

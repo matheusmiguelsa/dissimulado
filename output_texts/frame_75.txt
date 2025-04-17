@@ -1,0 +1,13 @@
+36. A Security Engineer is trying to determine whether the encryption keys used in an AWS service are
+in compliance with certain regulatory standards.
+Which of the following actions should the Engineer perform to get further guidance?
+
+* A. Read the AWS Customer Agreement.
+
+* B. Use AWS Artifact to access AWS compliance reports.
+
+* C. Post the question on the AWS Discussion Forums.
+
+* D. Run AWS Config and evaluate the configuration outputs.
+
+Answer: B

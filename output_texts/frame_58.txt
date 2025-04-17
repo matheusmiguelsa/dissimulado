@@ -1,0 +1,19 @@
+28. A Security Administrator is performing a log analysis as a result of a suspected AWS account
+compromise. The Administrator wants to analyze suspicious AWS
+
+CloudTrail log files but is overwhelmed by the volume of audit logs being generated.
+What approach enables the Administrator to search through the logs MOST efficiently?
+
+A. Implement a €awrite-only€ aCloudTrail event filter to detect any modifications to the AWS account
+resources.
+
+B. Configure Amazon Macie to classify and discover sensitive data in the Amazon S3 bucket that
+contains the CloudTrail audit logs.
+
+C. Configure Amazon Athena to read from the CloudTrail $3 bucket and query the logs to examine
+account activities.
+
+D. Enable Amazon S3 event notifications to trigger an AWS Lambda function that sends an email alarm
+when there are new CloudTrail API entries.
+
+Answer: C

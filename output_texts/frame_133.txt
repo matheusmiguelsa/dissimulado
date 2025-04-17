@@ -1,0 +1,15 @@
+65. Which of the following is the most efficient way to automate the encryption of AWS CloudTrail logs
+using a Customer Master Key (CMK) in AWS KMS?
+
+A. Use the KMS direct encrypt function on the log data every time a CloudTrail log is generated.
+
+B. Use the default Amazon S3 server-side encryption with S3-managed keys to encrypt and decrypt the
+CloudTrail logs.
+
+C. Configure CloudTrail to use server-side encryption using KMS-managed keys to encrypt and decrypt
+CloudTrail logs.
+
+D. Use encrypted API endpoints so that all AWS API calls generate encrypted CloudTrail log entries
+using the TLS certificate from the encrypted API call.
+
+Answer: C

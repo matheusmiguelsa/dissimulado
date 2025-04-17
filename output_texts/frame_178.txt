@@ -1,0 +1,21 @@
+87. A Security Architect is evaluating managed solutions for storage of encryption keys. The
+requirements are:
+
+-Storage is accessible by using only VPCs.
+
+-Service has tamper-evident controls.
+
+-Access logging is enabled.
+
+-Storage has high availability.
+
+Which of the following services meets these requirements?
+A. Amazon $3 with default encryption
+
+B. AWS CloudHSM
+
+C. Amazon DynamoDB with server-side encryption
+
+D. AWS Systems Manager Parameter Store
+
+Answer: B

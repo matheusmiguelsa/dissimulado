@@ -1,0 +1,19 @@
+212. A company is using AWS Organizations to manage multiple AWS accounts. The company has an
+application that allows users to assume the AppUser IAM role to download files from an Amazon S3
+bucket that is encrypted with an AWS KMS CMK. However, when users try to access the files in the S3
+bucket, they get an access denied error.
+
+What should a security engineer do to troubleshoot this error? (Choose three.)
+A. Ensure the KMS policy allows the AppUser role to have permission to decrypt for the CMK.
+
+B. Ensure the S3 bucket policy allows the AppUser role to have permission to get objects for the $3
+bucket.
+
+C. Ensure the CMK was created before the S3 bucket.
+
+D. Ensure the $3 block public access feature is enabled for the $3 bucket.
+E. Ensure that automatic key rotation is disabled for the CMK.
+
+F. Ensure the SCPs within Organizations allow access to the S3 bucket.
+
+Answer: A,B,F

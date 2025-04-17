@@ -1,0 +1,22 @@
+136. A Developer signed in to a new account within an AWS Organizations organizational unit (OU)
+containing multiple accounts. Access to the Amazon S3 service is restricted with the following SCP
+
+How can the Security Engineer provide the Developer with Amazon $3 access without affecting other
+accounts?
+
+A. Move the SCP to the root OU of Organizations to remove the restriction to access Amazon $3.
+B. Add an IAM policy for the Developer, which grants S3 access.
+
+C. Create a new OU without applying the SCP restricting S3 access. Move the Developer account to this new
+OU.
+
+D. Add an allow list for the Developer account for the $3 service.
+"Version": "2012-10-17",
+
+"Statement": [
+{
+"Effect": "Deny",
+"Action": "s3:*",
+"Resource": "*"
+
+Answer: C }

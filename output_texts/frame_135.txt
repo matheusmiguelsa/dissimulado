@@ -1,0 +1,15 @@
+66. An organization is using AWS CloudTrail, Amazon CloudWatch Logs, and Amazon CloudWatch to
+send alerts when new access keys are created. However, the alerts are no longer appearing in the
+Security Operations mail box.
+
+Which of the following actions would resolve this issue?
+
+A. In CloudTrail, verify that the trail logging bucket has a log prefix configured.
+
+B. In Amazon SNS, determine whether the €aAccount spend limit€ ahas been reached for this alert.
+C. In SNS, ensure that the subscription used by these alerts has not been deleted.
+
+D. In CloudWatch, verify that the alarm threshold €aconsecutive periods€ avalue is equal to, or greater
+than 1.
+
+Answer: C

@@ -1,0 +1,25 @@
+143. A company is configuring three Amazon EC2 instances with each instance in a separate Availability
+
+Zone. The EC2 instances will be used as transparent proxies for outbound internet traffic for ports 80 and
+ue so the proxies can block traffic to certain internet destinations as required by the company's security
+policies. A
+
+Security Engineer completed the following:
+Set up the proxy software on the EC2 instances.
+
+Modified the route tables on the private subnets to use the proxy EC2 instances as the default route.
+
+c® Created a security group rule opening inbound port 80 and 443 TCP protocols on the proxy EC2 instance
+security group.
+
+However, the proxy EC2 instances are not successfully forwarding traffic to the internet.
+
+What should the Security Engineer do to make the proxy EC2 instances route traffic to the internet?
+
+A. Put all the proxy EC2 instances in a cluster placement group.
+B. Disable source and destination checks on the proxy EC2 instances.
+C. Open all inbound ports on the proxy EC2 instance security group.
+
+D. Change the VPC's DHCP domain-name-servers options set to the IP addresses of proxy EC2 instances.
+
+Answer: B

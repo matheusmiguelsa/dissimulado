@@ -1,0 +1,18 @@
+44. A Security Engineer has been asked to create an automated process to disable IAM user access
+keys that are more than three months old.
+
+Which of the following options should the Security Engineer use?
+
+A. In the AWS Console, choose the IAM service and select €aUsers .€aReview the €aAccess Key Age€ a
+column.
+
+B. Define an IAM policy that denies access if the key age is more than three months and apply to all
+users.
+
+C. Write a script that uses the GenerateCredentialReport, GetCredentialReport, and UpdateAccessKey
+APIs.
+
+D. Create an Amazon CloudWatch alarm to detect aged access keys and use an AWS Lambda function
+to disable the keys older than 90 days.
+
+Answer:C

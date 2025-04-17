@@ -1,0 +1,14 @@
+178. A company has multiple AWS accounts that are part of AWS Organizations. The company's
+Security team wants to ensure that even those Administrators with full access to the company's AWS
+accounts are unable to access the company’s Amazon S3 buckets.
+
+How should this be accomplished?
+
+A. Use SCPs.
+
+B. Add a permissions boundary to deny access to Amazon S3 and attach it to all roles.
+C. Use an $3 bucket policy.
+
+D. Create a VPC endpoint for Amazon $3 and deny statements for access to Amazon $3.
+
+Answer: A

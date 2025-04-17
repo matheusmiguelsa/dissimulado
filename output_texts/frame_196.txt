@@ -1,0 +1,17 @@
+96. An Amazon EC2 instance is part of an EC2 Auto Scaling group that is behind an Application Load
+Balancer (ALB). It is suspected that the EC2 instance has been compromised.
+
+Which steps should be taken to investigate the suspected compromise? (Choose three.)
+
+A. Detach the elastic network interface from the EC2 instance.
+
+B. Initiate an Amazon Elastic Block Store volume snapshot of all volumes on the EC2 instance.
+C. Disable any Amazon Route 53 health checks associated with the EC2 instance.
+
+D. De-register the EC2 instance from the ALB and detach it from the Auto Scaling group.
+
+E. Attach a security group that has restrictive ingress and egress rules to the EC2 instance.
+
+F. Add a rule to an AWS WAF to block access to the EC2 instance.
+
+Answer: B,D,E

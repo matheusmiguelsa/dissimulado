@@ -1,0 +1,20 @@
+188. A company wants to deploy a distributed web application on a fleet of EC2 instances. The fleet
+will be fronted by a Classic Load Balancer that will be configured to terminate the TLS connection. The
+company wants to make sure that all past and current TLS traffic to the Classic Load Balancer stays
+secure, even if the certificate private key is leaked.
+
+To ensure the company meets these requirements, a Security Engineer can configure a Classic Load
+Balancer with:
+
+A. An HTTPS listener that uses a certificate that is managed by Amazon Certification Manager.
+
+B. An HTTPS listener that uses a custom security policy that allows only perfect forward secrecy cipher
+suites.
+
+C. An HTTPS listener that uses the latest AWS predefined ELBSecurityPolicy-TLS-1-2-2017-01 security
+policy.
+
+D. A TCP listener that uses a custom security policy that allows only perfect forward secrecy cipher
+suites.
+
+Answer: B

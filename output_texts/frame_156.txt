@@ -1,0 +1,18 @@
+76. A Security Analyst attempted to troubleshoot the monitoring of suspicious security group changes.
+The Analyst was told that there is an Amazon CloudWatch alarm in place for these AWS CloudTrail log
+events. The Analyst tested the monitoring setup by making a configuration change to the security
+group but did not receive any alerts.
+
+Which of the following troubleshooting steps should the Analyst perform?
+
+A. Ensure that CloudTrail and $3 bucket access logging is enabled for the Analyst's AWS account. B.
+Verify that a metric filter was created and then mapped to an alarm. Check the alarm notification
+action.
+
+B. Check the CloudWatch dashboards to ensure that there is a metric configured with an appropriate
+dimension for security group changes.
+
+C. Verify that the Analyst's account is mapped to an IAM policy that includes permissions for
+cloudwatch: GetMetricStatistics and Cloudwatch: ListMetrics.
+
+Answer: B

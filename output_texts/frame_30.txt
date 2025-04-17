@@ -1,0 +1,19 @@
+14. An organization is using Amazon CloudWatch Logs with agents deployed on its Linux Amazon EC2
+instances. The agent configuration files have been checked and the application log files to be pushed
+are configured correctly. A review has identified that logging from specific instances is missing.
+Which steps should be taken to troubleshoot the issue? (Choose two.)
+
+A. Use an EC2 run command to confirm that the €aawslogs€ aservice is running on all instances.
+
+B. Verify that the permissions used by the agent allow creation of log groups/streams and to put log
+events.
+
+C. Check whether any application log entries were rejected because of invalid time stamps by
+reviewing /var/cwlogs/rejects.log.
+
+D. Check that the trust relationship grants the service €acwlogs.amazonaws.com€ apermission to write
+objects to the Amazon S3 staging bucket.
+
+E. Verify that the time zone on the application servers is in UTC.
+
+Answer:A, B

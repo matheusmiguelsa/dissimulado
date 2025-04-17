@@ -1,0 +1,16 @@
+177. A Security Engineer accidentally deleted the imported key material in an AWS KMS CMK.
+What should the Security Engineer do to restore the deleted key material?
+
+A. Create a new CMK. Download a new wrapping key and a new import token to import the original key
+material.
+
+B. Create a new CMK. Use the original wrapping key and import token to import the original key
+material.
+
+C. Download a new wrapping key and a new import token. Import the original key material into the
+existing CMK.
+
+D. Use the original wrapping key and import token. Import the original key material into the existing
+CMK.
+
+Answer: C

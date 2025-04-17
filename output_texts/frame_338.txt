@@ -1,0 +1,19 @@
+167. Authorized Administrators are unable to connect to an Amazon EC2 Linux bastion host using SSH
+over the Internet. The connection either fails to respond or generates the following error message:
+
+Network error: Connection timed out.
+
+What could be responsible for the connection failure? (Choose three.)
+
+A. The NAT gateway in the subnet where the EC2 instance is deployed has been misconfigured.
+B. The internet gateway of the VPC has been misconfigured.
+
+C. The security group denies outbound traffic on ephemeral ports.
+
+D. The route table is missing a route to the internet gateway.
+
+E. The NACL denies outbound traffic on ephemeral ports.
+
+F. The host-based firewall is denying SSH traffic.
+
+Answer: D, E,F

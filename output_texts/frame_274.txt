@@ -1,0 +1,19 @@
+135. A Developer is creating an AWS Lambda function that requires environment variables to store
+connection information and logging settings. The Developer is required to use an AWS KMS Customer
+Master Key (CMK) supplied by the Information Security department in order to adhere to company
+standards for securing
+
+Lambda environment variables.
+Which of the following are required for this configuration to work? (Choose two.)
+A. The Developer must configure Lambda access to the VPC using the -vpc-config parameter.
+
+B. The Lambda function execution role must have the kms:Decrypt permission added in the AWS IAM
+policy.
+C. The KMS key policy must allow permissions for the Developer to use the KMS key.
+
+D. The AWS IAM policy assigned to the Developer must have the kms:GenerateDataKey permission
+added.
+
+E. The Lambda execution role must have the kms:Encrypt permission added in the AWS IAM policy.
+
+Answer: B, C

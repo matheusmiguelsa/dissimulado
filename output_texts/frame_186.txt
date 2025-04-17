@@ -1,0 +1,18 @@
+91. Some highly sensitive analytics workloads are to be moved to Amazon EC2 hosts. Threat modeling
+has found that a risk exists where a subnet could be maliciously or accidentally exposed to the
+internet.
+
+Which of the following mitigations should be recommended?
+
+A. Use AWS Config to detect whether an Internet Gateway is added and use an AWS Lambda function
+to provide auto-remediation.
+
+B. Within the Amazon VPC configuration, mark the VPC as private and disable Elastic IP addresses.
+
+C. Use IPv6 addressing exclusively on the EC2 hosts, as this prevents the hosts from being accessed
+from the internet.
+
+D. Move the workload to a Dedicated Host, as this provides additional network security controls and
+monitoring.
+
+Answer: A

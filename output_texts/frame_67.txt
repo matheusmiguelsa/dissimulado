@@ -1,0 +1,13 @@
+32. An organization policy states that all encryption keys must be automatically rotated every 12
+months.
+
+Which AWS Key Management Service (KMS) key type should be used to meet this requirement?
+A. AWS managed Customer Master Key (CMK)
+
+B. Customer managed CMK with AWS generated key material
+
+C. Customer managed CMK with imported key material
+
+D. AWS managed data key
+
+Answer: A

@@ -1,0 +1,14 @@
+95. A Development team has asked for help configuring the IAM roles and policies in a new AWS
+account. The team using the account expects to have hundreds of master keys and therefore does not
+want to manage access control for customer master keys (CMKs).
+
+Which of the following will allow the team to manage AWS KMS permissions in [AM without the
+complexity of editing individual key policies?
+
+A. The account's CMK key policy must allow the account's IAM roles to perform KMS EnableKey.
+
+B. Newly created CMKs must have a key policy that allows the root principal to perform all actions.
+C. Newly created CMKs must allow the root principal to perform the kms CreateGrant API operation.
+D. Newly created CMKs must mirror the IAM policy of the KMS key administrator.
+
+Answer: B

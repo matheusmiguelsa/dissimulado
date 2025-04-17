@@ -1,0 +1,19 @@
+3.An application is currently secured using network access control lists and security groups. Web
+servers are located in public subnets behind an Application Load
+
+Balancer (ALB); application servers are located in private subnets.
+
+How can edge security be enhanced to safeguard the Amazon EC2 instances against attack? (Choose
+two.)
+
+A. Configure the application's EC2 instances to use NAT gateways for all inbound traffic.
+B. Move the web servers to private subnets without public IP addresses.
+
+C. Configure AWS WAF to provide DDoS attack protection for the ALB.
+
+D. Require all inbound network traffic to route through a bastion host in the private subnet.
+
+E. Require all inbound and outbound network traffic to route through an AWS Direct Connect
+connection.
+
+Answer: B,C

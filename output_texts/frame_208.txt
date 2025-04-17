@@ -1,0 +1,18 @@
+102. A company has Windows Amazon EC2 instances in a VPC that are joined to on-premises Active
+Directory servers for domain services. The security team has enabled Amazon GuardDuty on the AWS
+account to alert on issues with the instances.
+
+During a weekly audit of network traffic, the Security Engineer notices that one of the EC2 instances is
+attempting to communicate with a known command-and- control server but failing. This alert does not
+show up in GuardDuty.
+
+Why did GuardDuty fail to alert to this behavior?
+
+A. GuardDuty did not have the appropriate alerts activated.
+
+B. GuardDuty does not see these DNS requests.
+
+C. GuardDuty only monitors active network traffic flow for command-and-control activity.
+D. GuardDuty does not report on command-and-control activity.
+
+Answer: B

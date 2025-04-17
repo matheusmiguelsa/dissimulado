@@ -1,0 +1,19 @@
+206. A security engineer is designing an incident response plan to address the risk of a compromised
+Amazon EC2 instance. The plan must recommend a solution to meet the following requirements:
+
+c® A trusted forensic environment must be provisioned.
+
+c® Automated response processes must be orchestrated.
+
+Which AWS services should be included in the plan? (Choose two.)
+A. AWS CloudFormation
+
+B. Amazon GuardDuty
+
+C. Amazon Inspector
+
+D. Amazon Macie
+
+E. AWS Step Functions
+
+Answer: A, E

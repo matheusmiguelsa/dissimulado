@@ -1,0 +1,28 @@
+10. A company will store sensitive documents in three Amazon $3 buckets based on a data
+classification scheme of “Sensitive, “Confidential, and “Restricted. The security solution must meet
+all of the following requirements:
+
+c® Each object must be encrypted using a unique key.
+
+c® Items that are stored in the Restricted’ bucket require two-factor authentication for decryption.
+ce AWS KMS must automatically rotate encryption keys annually.
+
+Which of the following meets these requirements?
+
+A. Create a Customer Master Key (CMK) for each data classification type, and enable the rotation of it
+annually. For the €aRestricted€ aCMK, define the MFA policy within the key policy. Use S3 SSE-KMS to
+encrypt the objects.
+
+B. Create a CMK grant for each data classification type with EnableKeyRotation and
+MultiFactorAuthPresent set to true. S3 can then use the grants to encrypt each object with a unique
+CMK.
+
+C. Create a CMK for each data classification type, and within the CMK policy, enable rotation of it
+annually, and define the MFA policy. S3 can then create DEK grants to uniquely encrypt each object
+within the $3 bucket.
+
+D. Create a CMK with unique imported key material for each data classification type, and rotate them
+annually. For the €aRestricted€ akey material, define the MFA policy in the key policy. Use S3 SSE-KMS
+to encrypt the objects.
+
+Answer: A

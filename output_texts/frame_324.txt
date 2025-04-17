@@ -1,0 +1,18 @@
+160. A company's Security Engineer has been tasked with restricting a contractor's IAM account
+access to the company's Amazon EC2 console without providing access to any other AWS services.
+The contractor's [AM account must not be able to gain access to any other AWS service, even if the
+IAM account is assigned additional permissions based on [AM group membership.
+
+What should the Security Engineer do to meet these requirements?
+A. Create an Inline IAM user policy that allows for Amazon EC2 access for the contractor's IAM user.
+
+B. Create an IAM permissions boundary policy that allows Amazon EC2 access. Associate the
+contractor's IAM account with the IAM permissions boundary policy.
+
+C. Create an IAM group with an attached policy that allows for Amazon EC2 access. Associate the
+contractor's IAM account with the IAM group.
+
+D. Create an IAM role that allows for EC2 and explicitly denies all other services. Instruct the contractor
+to always assume this role.
+
+Answer: B

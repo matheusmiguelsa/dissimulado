@@ -1,0 +1,18 @@
+83. The Security Engineer is managing a traditional three-tier web application that is running on
+Amazon EC2 instances. The application has become the target of increasing numbers of malicious
+attacks from the Internet.
+
+What steps should the Security Engineer take to check for known vulnerabilities and limit the attack
+surface? (Choose two.)
+
+A. Use AWS Certificate Manager to encrypt all traffic between the client and application servers.
+B. Review the application security groups to ensure that only the necessary ports are open.
+
+C. Use Elastic Load Balancing to offload Secure Sockets Layer encryption.
+
+D. Use Amazon Inspector to periodically scan the backend instances.
+
+E. Use AWS Key Management Services to encrypt all the traffic between the client and application
+servers.
+
+Answer: B, D

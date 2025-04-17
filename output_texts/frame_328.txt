@@ -1,0 +1,20 @@
+162. A Security Engineer is asked to update an AWS CloudTrail log file prefix for an existing trail. When
+attempting to save the change in the CloudTrail console, the
+
+Security Engineer receives the following error message: ‘There is a problem with the bucket policy.”
+What will enable the Security Engineer to save the change?
+
+A. Create a new trail with the updated log file prefix, and then delete the original trail. Update the
+existing bucket policy in the Amazon $3 console with the new log file prefix, and then update the log
+file prefix in the CloudTrail console.
+
+B. Update the existing bucket policy in the Amazon S3 console to allow the Security Engineer's
+Principal to perform PutBucketPolicy, and then update the log file prefix in the CloudTrail console.
+
+C. Update the existing bucket policy in the Amazon $3 console with the new log file prefix, and then
+update the log file prefix in the CloudTrail console.
+
+D. Update the existing bucket policy in the Amazon S3 console to allow the Security Engineer's
+Principal to perform GetBucketPolicy, and then update the log file prefix in the CloudTrail console.
+
+Answer: C

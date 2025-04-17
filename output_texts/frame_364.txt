@@ -1,0 +1,25 @@
+180. A company has decided to use encryption in its AWS account to secure the objects in Amazon S3
+using server-side encryption. Object sizes range from 16,000 B to 5 MB. The requirements are as
+follows:
+
+c® The key material must be generated and stored in a certified Federal Information Processing
+Standard (FIPS) 140-2 Level 3 machine.
+
+c® The key material must be available in multiple Regions.
+
+Which option meets these requirements?
+
+A. Use an AWS KMS customer managed key and store the key material in AWS with replication across
+Regions.
+
+B. Use an AWS customer managed key, import the key material into AWS KMS using in-house AWS
+CloudHSM, and store the key material securely in Amazon $3.
+
+C. Use an AWS KMS custom key store backed by AWS CloudHSM clusters, and copy backups across
+Regions.
+
+D. Use AWS CloudHSM to generate the key material and backup keys across Regions. Use the Java
+Cryptography Extension (JCE) and Public Key Cryptography Standards #11 (PKCS #11) encryption
+libraries to encrypt and decrypt the data.
+
+Answer: C

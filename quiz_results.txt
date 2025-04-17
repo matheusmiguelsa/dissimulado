@@ -1,0 +1,30 @@
+Question: 4.A Security Administrator is restricting the capabilities of company root user accounts. The
+company uses AWS Organizations and has enabled it for all feature sets, including
+consolidated billing. The top-level account is used for billing and administrative purposes, not
+for operational AWS resource purposes.
+
+How can the Administrator restrict usage of member root user accounts across the
+organization?
+
+Options: A. Disable the use of the root user account at the organizational root. Enable multi-factor authentication of the root user account for each organizational member account.  | B. Configure IAM user policies to restrict root account capabilities for each Organizations member account.  | C. Create an organizational unit (OU) in Organizations with a service control policy that controls usage of the root user. Add all operational accounts to the new OU.  | D. Configure AWS CloudTrail to integrate with Amazon CloudWatch Logs and then create a metric filter for RootAccountUsage.
+Correct Answer: C
+Your Answer: B
+Result: Incorrect
+--------------------------------------------------
+Question: 49. A Solutions Architect is designing a web application that uses Amazon CloudFront, an Elastic Load
+Balancing Application Load Balancer, and an Auto Scaling group of Amazon EC2 instances. The load
+balancer and EC2 instances are in the US West (Oregon) region. It has been decided that encryption in
+transit is necessary by using a customer-branded domain name from the client to CloudFront and from
+CloudFront to the load balancer.
+
+Assuming that AWS Certificate Manager is used, how many certificates will need to be generated?
+Options: A. One in the US West (Oregon) region and one in the US East (Virginia) region.  | B. Two in the US West (Oregon) region and none in the US East (Virginia) region.  | C. One in the US West (Oregon) region and none in the US East (Virginia) region.  | D. Two in the US East (Virginia) region and none in the US West (Oregon) region.
+Correct Answer: A
+Your Answer: D
+Result: Incorrect
+--------------------------------------------------
+Question: 4
+Correct Answer: C
+Your Answer: C
+Result: Correct
+--------------------------------------------------

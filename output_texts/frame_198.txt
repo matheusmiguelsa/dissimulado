@@ -1,0 +1,23 @@
+97. A company has five AWS accounts and wants to use AWS CloudTrail to log API calls. The log files must
+be stored in an Amazon $3 bucket that resides in a new account specifically built for centralized services
+with a unique top-level prefix for each trail. The configuration must also enable detection of any modification
+to the logs.
+
+Which of the following steps will implement these requirements? (Choose three.)
+
+A. Create a new S3 bucket in a separate AWS account for centralized storage of CloudTrail logs, and enable
+€aLog File Validation€ aon all trails.
+
+B. Use an existing $3 bucket in one of the accounts, apply a bucket policy to the new centralized $3 bucket
+that permits the CloudTrail service to use the "s3: PutObject" action and the "s3 GetBucketACL" action, and
+specify the appropriate resource ARNs for the CloudTrail trails.
+
+C. Apply a bucket policy to the new centralized S3 bucket that permits the CloudTrail service to use the "s3
+PutCbject action and the "s3 GelBucketACL" action, and specify the appropriate resource ARNs for the
+CloudTrail trails.
+
+D. Use unique log file prefixes for trails in each AWS account.
+E. Configure CloudTrail in the centralized account to log all accounts to the new centralized S3 bucket.
+F. Enable encryption of the log files by using AWS Key Management Service
+
+Answer: A,C,D

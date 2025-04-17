@@ -1,0 +1,19 @@
+80. Due to new compliance requirements, a Security Engineer must enable encryption with customer-
+provided keys on corporate data that is stored in DynamoDB.
+
+The company wants to retain full control of the encryption keys.
+Which DynamoDB feature should the Engineer use to achieve compliance’?
+
+A. Use AWS Certificate Manager to request a certificate. Use that certificate to encrypt data prior to
+uploading it to DynamoDB.
+
+B. Enable $3 server-side encryption with the customer-provided keys. Upload the data to Amazon $3,
+and then use S3Copy to move all data to DynamoDB
+
+C. Create a KMS master key. Generate per-record data keys and use them to encrypt data prior to
+uploading it to DynamoDS. Dispose of the cleartext and encrypted data keys after encryption without
+storing.
+
+D. Use the DynamoDB Java encryption client to encrypt data prior to uploading it to DynamoDB.
+
+Answer:D

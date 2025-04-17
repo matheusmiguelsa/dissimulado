@@ -1,0 +1,18 @@
+168. After multiple compromises of its Amazon EC2 instances, a company's Security Officer is
+mandating that memory dumps of compromised instances be captured for further analysis. A Security
+Engineer just received an EC2 abuse notification report from AWS stating that an EC2 instance running
+the most recent Windows
+
+Server 2019 Base AMI is compromised.
+How should the Security Engineer collect a memory dump of the EC2 instance for forensic analysis?
+
+A. Give consent to the AWS Security team to dump the memory core on the compromised instance and
+provide it to AWS Support for analysis.
+
+B. Review memory dump data that the AWS Systems Manager Agent sent to Amazon CloudWatch
+Logs.
+
+C. Download and run the EC2Rescue for Windows Server utility from AWS.
+D. Reboot the EC2 Windows Server, enter safe mode, and select memory dump.
+
+Answer: C

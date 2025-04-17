@@ -1,0 +1,34 @@
+17. An IAM user with fill EC2 permissions could bot start an Amazon EC2 instance after it was stopped fora
+maintenance task. Upon starting the instance, the instance state would change to Pending, but after a few
+seconds, it would switch back to “Stopped”. ;
+
+An inspection revealed that the instance has attached Amazon EBS volumes that were encrypted by using a
+Customer Master Key (CMK). When these encrypted volumes were detached, the IAM user was able to start the EC2
+instances.
+
+The IAM user policy is as follows:
+
+"Version": "2012-10-17",
+"Statement": [
+{
+“Effect": "Allow",
+“Action": [
+<Action>
+],
+“Resource”: [
+“arn: aws : kms :us-east-1:012345678910: key/ebs-encryption-key"
+
+<CONDITION>
+
+What additional items need to be added to the IAM user policy? }
+
+A. kms:GenerateDataKey
+
+B. kms:Decrypt
+
+C. kms:CreateGrant
+
+D. €aCondition€a } :€aBool€a } :€akms:ViaService€a :€aec2.us-west-2.amazonaws.com{ {€ a
+E. €aCondition€a } :€aBool€a } -€akms:GrantlsForAWSResource :€atrue } }
+
+Answer: C, E

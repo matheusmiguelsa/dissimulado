@@ -1,0 +1,20 @@
+186. A company has an AWS account and allows a third-party contractor, who uses another AWS
+account, to assume certain IAM roles. The company wants to ensure that IAM roles can be assumed by
+the contractor only if the contractor has multi-factor authentication enabled on their IAM user
+accounts.
+
+What should the company do to accomplish this?
+
+A. Add the following condition to the IAM policy attached to all IAM roles: "Effect": "Deny", "Condition" :
+{ "BoolltExists" : {"aws:MultiFactorAuthPresent' : false } }
+
+B. Add the following condition to the IAM policy attached to all IAM roles: "Effect": "Deny", "Condition" :
+{ "Bool" : { "aws:MultiFactorAuthPresent' : false } }
+
+C. Add the following condition to the IAM policy attached to all IAM roles: "Effect": "Allow", "Condition"
+:{ "Null" : (“aws:MultiFactorAuthPresent" : false } }
+
+D. Add the following condition to the IAM policy attached to all IAM roles: "Effect": "Allow", "Condition"
+:{"BoolltExists" : { "aws:MultiFactorAuthPresent' : false } }
+
+Answer: A

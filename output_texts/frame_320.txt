@@ -1,0 +1,17 @@
+158. A company uses Microsoft Active Directory for access management for on-premises resources,
+and wants to use the same mechanism for accessing its AWS accounts. Additionally, the Development
+team plans to launch a public-facing application for which they need a separate authentication
+solution.
+
+Which combination of the following would satisfy these requirements? (Choose two.)
+
+A. Set up domain controllers on Amazon EC2 to extend the on-premises directory to AWS.
+B. Establish network connectivity between on-premises and the user's VPC.
+
+C. Use Amazon Cognito user pools for application authentication.
+
+D. Use AD Connector for application authentication.
+
+E. Set up federated sign-in to AWS through ADFS and SAML.
+
+Answer: C,E

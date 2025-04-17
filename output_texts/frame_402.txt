@@ -1,0 +1,28 @@
+199. A company has a serverless application for internal users deployed on AWS. The application uses AWS
+Lambda for the front end and for business logic. The
+
+Lambda function accesses an Amazon RDS database inside a VPC. The company uses AWS Systems
+Manager Parameter Store for storing database credentials.
+
+A recent security review highlighted the following issues:
+
+c® The Lambda function has internet access.
+
+c® The relational database is publicly accessible.
+
+c® The database credentials are not stored in an encrypted state.
+
+Which combination of steps should the company take to resolve these security issues? (Choose three.)
+A. Disable public access to the RDS database inside the VPC.
+
+B. Move all the Lambda functions inside the VPC.
+
+C. Edit the IAM role used by Lambda to restrict internet access.
+
+D. Create a VPC endpoint for Systems Manager. Store the credentials as a string parameter. Change the
+parameter type to an advanced parameter.
+
+E. Edit the IAM role used by RDS to restrict internet access.
+F. Create a VPC endpoint for Systems Manager. Store the credentials as a SecureString parameter.
+
+Answer: A,B, F

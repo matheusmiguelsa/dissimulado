@@ -1,0 +1,18 @@
+109. A company maintains sensitive data in an Amazon S3 bucket that must be protected using an
+AWS KMS CMK. The company requires that keys be rotated automatically every year.
+
+How should the bucket be configured?
+
+A. Select server-side encryption with Amazon S$3-managed keys (SSE-S3) and select an AWS-managed
+CMK.
+
+B. Select Amazon $3-AWS KMS managed encryption keys (S3-KMS) and select a customer-managed
+CMK with key rotation enabled.
+
+C. Select server-side encryption with Amazon S3-managed keys (SSE-S3) and select a customer-
+managed CMK that has imported key material.
+
+D. Select server-side encryption with AWS KMS-managed keys (SSE-KMS) and select an alias to an
+AWS-managed CMK.
+
+Answer: D
