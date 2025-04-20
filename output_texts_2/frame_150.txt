@@ -1,0 +1,18 @@
+The security engineer recently discovered that IAM roles other than the InfrastructureDeployment role used this
+key (or other services.
+
+Which change to the policy should the security engineer make to resolve these issues?
+
+A.In the statement block that contains the Sid "Allow use of the key”, under the "Condition" block,
+change StringEquals to StringLike.
+
+B.In the policy document, remove the statement Dlock that contains the Sid "Enable IAM User
+Permissions’. Add key management policies to the KMS policy.
+
+C.In the statement block that contains the Sid "Allow use of the Key", under the "Condition" block,
+change the Kms:ViaService value to ec2.us-east-1 .amazonlAM com.
+
+D.In the policy document, add a new statement block that grants the kms:Disable’ permission to the
+security engineer's IAM role.
+
+Answer: C

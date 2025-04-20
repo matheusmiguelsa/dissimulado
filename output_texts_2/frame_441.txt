@@ -1,0 +1,29 @@
+430) A company is implementing a customized notification solution to detect repeated unauthorized authentication
+attempts to bastion hosts. The company's security engineer needs to implement a solution that will provide notification
+when 5 failed attempts occur within a 5-minute period. The solution must use native AWS services and must notify only the
+designated system administrator who is assigned to the specific bastion host.
+
+Which solution will meet these requirements?
+
+to Amazon Simple Notification Service (Amazon S
+ilters to control who receives notifications.
+
+fc)
+fr)
+
+Use the Amazon CloudWatch agent to collect operati
+
+ano o
+a
+A oO
+
+messaging filters to control who receives notificati
+
+2oO0
+
+ert to Amazon Simple Notification Service (Amazon $
+o determine which SNS topics receive notifications.
+
++
+
+Answer: C

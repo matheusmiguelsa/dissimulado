@@ -1,0 +1,14 @@
+6
+A company is expanding its operations and setting up new teams in different regions around the world. The company is using AWS for its development environment. There’s a strict policy that only approved software can be used when launching EC2 instances.
+
+In addition to enforcing the policy, the company also wants to ensure that the solution is cost-effective, does not significantly increase the launch time of the EC2 instances, and is easy to manage and maintain. The company also wants to ensure that the solution is scalable and can easily accommodate the addition of new software to the approved list or the removal of software from it.
+
+Which of the following solutions would be the most effective considering all the requirements?
+
+A. Use a portfolio in the AWS Service Catalog that includes EC2 products with the right AMIs, each containing only the approved software. Ensure that developers have access only to this Service Catalog portfolio when they need to launch a product in the software development account.
+B. Set up an Amazon EventBridge rule that triggers whenever any EC2 RunInstances API event occurs in the software development account. Specify AWS Systems Manager Run Command as a target of the rule. Configure Run Command to run a script that installs all approved software onto the instances that the developers launch.
+C. Use AWS Systems Manager State Manager to create an association that specifies the approved software. The association will automatically install the software when an EC2 instance is launched.
+D. Use AWS Config to monitor the EC2 instances and send alerts when unapproved software is detected. The alerts can then be used to manually remove the software.
+Answer: A
+
+

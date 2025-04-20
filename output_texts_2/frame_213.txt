@@ -1,0 +1,23 @@
+327) A company has two teams, and each team needs to access its respective Amazon $3 buckets. The company anticipates
+adding more teams that also will have their own S3 buckets.
+
+When the company adds these teams, team members will need the ability to be assigned to multiple teams. Team members
+also will need the ability to change teams. Additional S3 buckets can be created or deleted.
+
+An IAM administrator must design a solution to accomplish these goals. The solution also must be scalable and must require
+the least possible operational overhead.
+
+Which solution meets these requirements?
+
+A.Add users to groups that represent the teams. Create a policy for each team that allows the team to access its
+respective S3 buckets only. Attach the policy to the corresponding group.
+
+B.Create an IAM role for each team. Create a policy for each team that allows the team to access its respective $3
+buckets only. Attach the policy to the corresponding role.
+
+C.Create IAM roles that are labeled with an access tag value of a team. Create one policy that allows dynamic
+access to $3 buckets with the same tag. Attach the policy to the IAM roles. Tag the $3 buckets accordingly.
+D.Implement a role-based access control (RBAC) authorization model. Create the corresponding policies, and attach
+them to the IAM users.
+
+Answer: A

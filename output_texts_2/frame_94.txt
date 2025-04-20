@@ -1,0 +1,13 @@
+275) A Security Engineer receives alerts that an Amazon EC2 instance on a public subnet is under an SFTP
+
+brute force attack from a specific IP address, which is a known malicious bot.
+What should the Security Engineer do to block the malicious bot?
+
+A.Add a deny rule to the public VPC security group to block the malicious IP
+
+B.Add the malicious IP to [IAM WAF backhsted IPs.
+
+C.Configure Linux iptables or Windows Firewall to block any traffic from the malicious IP
+D.Modify the hosted zone in Amazon Route 53 and create a DNS sinkhole for the malicious IP
+
+Answer: D

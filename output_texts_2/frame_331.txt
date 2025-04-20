@@ -1,0 +1,19 @@
+382) An IAM user receives an Access Denied message when the user attempts to access objects in an Amazon $3 bucket.
+The user and the $3 bucket are in the same AWS account. The S3 bucket is configured to use server-side encryption with
+AWS KMS keys (SSE-KMS) to encrypt all of its objects at rest by using a customer managed key from the same AWS
+account. The $3 bucket has no bucket policy defined. The IAM user has been granted permissions through an IAM policy
+that allows the kms:Decrypt permission to the customer managed key. The IAM policy also allows the s3:List* and s3:Get*
+permissions for the $3 bucket and its objects.
+
+Which of the following is a possible reason that the IAM user cannot access the objects in the $3 bucket?
+
+A. The KMS key policy has been edited to remove the ability for the AWS account to have full access to the
+key.
+
+B. The IAM policy needs to allow the kms:DescribeKey permission.
+
+C. An S3 bucket policy needs to be added to allow the IAM user to access the objects.
+
+D. The S3 bucket has been changed to use the AWS managed key to encrypt objects at rest.
+
+Correct Answer: A

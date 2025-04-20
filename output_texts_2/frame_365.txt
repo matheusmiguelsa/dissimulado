@@ -1,0 +1,20 @@
+396) A company's security engineer is developing an incident response plan to detect suspicious activity in an AWS
+
+account for VPC hosted resources. The security engineer needs to provide visibility for as many AWS Regions as
+possible.
+
+Which combination of steps will meet these requirements MOST cost-effectively? (Choose two.)
+
+A. Turn on VPC Flow Logs for all VPCs in the account.
+
+B. Activate Amazon GuardDuty across all AWS Regions.
+
+C. Activate Amazon Detective across all AWS Regions.
+
+D. Create an Amazon Simple Notification Service (Amazon SNS) topic. Create an Amazon
+EventBridge rule that responds to findings and publishes the findings to the SNS topic.
+
+E. Create an AWS Lambda function. Create an Amazon EventBridge rule that invokes the Lambda
+function to publish findings to Amazon Simple Email Service (Amazon SES).
+
+Answer: BD

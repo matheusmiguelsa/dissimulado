@@ -1,0 +1,30 @@
+306) A company is using IAM Organizations to develop a multi-account secure networking strategy. The company plans to use
+separate centrally managed accounts for shared services, auditing, and security inspection. The company plans to provide
+dozens of additional accounts to application owners for production and development environments.
+Company security policy requires that all internet traffic be routed through a centrally managed security inspection layer in the
+security inspection account. A security engineer must recommend a solution that minimizes administrative overhead and
+complexity.
+Which solution meets these requirements?
+A.Use IAM Control Tower. Modify the default Account Factory networking template to automatically associate new accounts
+with a centrally managed VPC through a VPC peering connection and to create a default route to the VPC peer in the default
+route table. Create an SCP that denies the CreatelnternetGateway action. Attach the SCP to all accounts except the security
+inspection account.
+B.Create a centrally managed VPC in the security inspection account. Establish VPC peering connections between the security
+
+inspection account and other accounts. Instruct account owners to create default routes in their account route tables that point
+
+to the VPC peer. Create an SCP that denies the.
+
+Attach InternetGateway action. Attach the SCP to all accounts except the security inspection account.
+
+C.Use IAM Control Tower. Modify the default Account Factory networking template to automatically associate new accounts
+with a centrally managed transit gateway and to create a default route to the transit gateway in the default route table. Create
+an SCP that denies the AttachInternetGateway action. Attach the SCP to all accounts except the security inspection account.
+D.Enable IAM Resource Access Manager (IAM RAM) for IAM Organizations. Create a shared transit gateway, and make it
+available by using an IAM RAM resource share. Create an SCP that denies the CreatelnternetGateway action. Attach the SCP to
+all accounts except the security inspection account.
+
+Create routes in the route tables of all accounts that point to the shared transit gateway.
+
+
+Answer: C ping

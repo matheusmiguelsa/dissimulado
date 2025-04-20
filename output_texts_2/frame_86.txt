@@ -1,0 +1,36 @@
+272) An Incident Response team is investigating an IAM access key leak that resulted in Amazon EC2 instances being launched. The
+company did not discover the incident until many months later The Director of Information Security wants to implement new controls
+that will alert when similar incidents happen in the future.
+
+Which controls should the company implement to achieve this? {Select TWO.)
+
+A.Enable VPC Flow Logs in all VPCs Create a scheduled IAM Lambda function that downloads and parses the logs, and
+sends an Amazon SNS notification for violations.
+
+B.Use IAM CloudTrail to make a trail, and apply it to all Regions Specify an Amazon S3 bucket to receive all the
+CloudTrail log files.
+
+C.Add the following bucket policy to the company's [AM CloudTrail bucket to prevent log tampering {
+
+"Version": "2012-10-17-,
+
+"Statement": {
+
+"Effect": "Deny’,
+
+"Action": "s3:PutObject",
+
+“Principal”: "=",
+
+"Resource": "arn:|AM:s3:::cloudtrail/L[AMLogs/111122223333/*" }
+
+}
+
+Create an Amazon S3 data event for an PutObject attempts, which sends notifications to an Amazon SNS topic.
+D.Create a Security Auditor role with permissions to access Amazon CloudWatch Logs m all Regions Ship the logs to an
+Amazon S3 bucket and make a lifecycle policy to ship the logs to Amazon S3 Glacier.
+
+E.Verify that Amazon GuardDuty is enabled in all Regions, and create an Amazon CloudWatch Events rule for Amazon
+GuardDuty findings Add an Amazon SNS topic as the rule's target.
+
+Answer: AE 

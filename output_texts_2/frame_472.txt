@@ -1,0 +1,21 @@
+443) A company has multiple accounts in the AWS Cloud. Users in the developer account
+need to have access to specific resources in the production account.
+
+What is the MOST secure way to provide this access?
+
+A. Create one IAM user in the production account. Grant the appropriate permissions to the resources
+that are needed. Share the password only with the users that need access.
+
+B. Create cross-account access with an IAM role in the developer account. Grant the appropriate
+permissions to this role. Allow users in the developer account to assume this role to access the
+production resources.
+
+C. Create cross-account access with an IAM user account in the production account. Grant the
+appropriate permissions to this user account. Allow users in the developer account to use this user
+account to access the production resources.
+
+D. Create cross-account access with an IAM role in the production account. Grant the appropriate
+permissions to this role. Allow users in the developer account to assume this role to access the
+production resources.
+
+Answer: D

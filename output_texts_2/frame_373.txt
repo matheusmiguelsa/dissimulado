@@ -1,0 +1,18 @@
+400) A company is running its workloads in a single AWS Region and uses AWS Organizations. A security engineer must
+implement a solution to prevent users from launching resources in other Regions.
+
+Which solution will meet these requirements with the LEAST operational overhead?
+
+A. Create an IAM policy that has an aws:RequestedRegion condition that allows actions only in the designated
+Region. Attach the policy to all users.
+
+B. Create an IAM policy that has an aws:RequestedRegion condition that denies actions that are not in the
+designated Region. Attach the policy to the AWS account in AWS Organizations.
+
+C. Create an IAM policy that has an aws:RequestedRegion condition that allows the desired actions. Attach the
+policy only to the users who are in the designated Region.
+
+D. Create an SCP that has an aws:RequestedRegion condition that denies actions that are not in the designated
+Region. Attach the SCP to the AWS account in AWS Organizations.
+
+Answer: D

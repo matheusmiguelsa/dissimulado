@@ -1,0 +1,19 @@
+A.Qutbound SG configuration on database servers Inbound SG configuration on application servers inbound and outbound
+network ACL configuration on the database subnet Inbound and outbound network ACL configuration on the application server
+subnet.
+
+B.Inbound SG configuration on database servers.
+
+Outbound SG configuration on application servers.
+
+Inbound and outbound network ACL configuration on the database subnet Inbound and outbound network ACL configuration on
+the application server subnet.
+
+C.Inbound and outbound SG configuration on database servers Inbound and outbound SG configuration on application servers
+Inbound network ACL configuration on the database subnet Outbound network ACL configuration on the application server
+subnet.
+
+D.Inbound SG configuration on database servers Outbound SG configuration on application servers Inbound network ACL
+configuration on the database subnet Outbound network ACL configuration on the application server subnet.
+
+Answer: A

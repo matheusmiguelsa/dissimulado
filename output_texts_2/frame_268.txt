@@ -1,0 +1,16 @@
+353) A systems engineer deployed containers from several custom-built images that an application team provided through a QA
+workflow The systems engineer used Amazon Elastic Container Service (Amazon ECS) with the Fargate launch type as the target
+platform The system engineer now needs to collect logs from all containers into an existing Amazon CloudWatch log group.
+
+Which solution will meet this requirement?
+
+A.Turn on the awslogs log driver by specifying parameters for awslogs-group and awslogs-region m the
+LogConfiguration property.
+
+B.Download and configure the CloudWatch agent on the container instances.
+
+C.Set up Fluent Bit and FluentO as a DaemonSet to send logs to Amazon CloudWatch Logs.
+
+D.Configure an 1AM policy that includes the togs CreateLogGroup action Assign the policy to the container instances.
+
+Answer: A

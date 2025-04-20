@@ -1,0 +1,13 @@
+A. Use a CloudFormation template in the member accounts to launch workloads. Configure the template to use
+the Fn::ImportValue function to obtain the subnet ID values.
+
+B. Use a transit gateway in the VPC within Account-A. Configure the member accounts to use the transit gateway
+to access the subnets in Account-A to launch workloads.
+
+C. Use AWS Resource Access Manager (AWS RAM) to share Account-A's VPC subnets with the remaining member
+accounts. Configure the member accounts to use the shared subnets to launch workloads.
+
+D. Create a peering connection between Account-A and the remaining member accounts. Configure the member
+accounts to use the subnets in Account-A through the VPC peering connection to launch workloads.
+
+Answer: C

@@ -1,0 +1,22 @@
+425) A company needs a solution to protect critical data from being permanently deleted. The data is stored in Amazon $3
+buckets.
+
+The company needs to replicate the $3 objects from the company's primary AWS Region to a secondary Region to meet
+disaster recovery requirements. The company must also ensure that users who have administrator access cannot
+permanently delete the data in the secondary Region.
+
+Which solution will meet these requirements?
+
+A. Configure AWS Backup to perform cross-Region S3 backups. Select a backup vault in the secondary Region.
+Enable AWS Backup Vault Lock in governance mode for the backups in the secondary Region
+
+B. Implement $3 Object Lock in compliance mode in the primary Region. Configure $3 replication to replicate the
+objects to an $3 bucket in the secondary Region.
+
+C. Configure S3 replication to replicate the objects to an S3 bucket in the secondary Region. Create an S3 bucket
+policy to deny the s3:ReplicateDelete action on the S3 bucket in the secondary Region
+
+D. Configure S3 replication to replicate the objects to an S3 bucket in the secondary Region. Configure S3 object
+versioning on the S3 bucket in the secondary Region.
+
+Answer: B

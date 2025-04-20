@@ -1,0 +1,19 @@
+311) A company wants to ensure that its IAM resources can be launched only in the us-east-1 and us-west- 2 Regions.
+
+What is the MOST operationally efficient solution that will prevent developers from launching Amazon EC2 instances in
+other Regions?
+
+A.Enable Amazon GuardDuty in all Regions. Create alerts to detect unauthorized activity outside us- east-1 and
+us-west-2.
+
+B.Use an organization in IAM Organizations. Attach an SCP that allows all actions when the IAM:
+
+Requested Region condition key is either us-east-1 or us-west-2. Delete the FulllAMAccess policy.
+
+C.Provision EC2 resources by using IAM Cloud Formation templates through IAM CodePipeline.
+
+Allow only the values of us-east-1 and us-west-2 in the IAM CloudFormation template's parameters.
+
+D.Create an IAM Config rule to prevent unauthorized activity outside us-east-1 and us-west-2.
+
+Answer: C

@@ -28,3 +28,13 @@ Correct Answer: C
 Your Answer: C
 Result: Correct
 --------------------------------------------------
+Question: 4
+Correct Answer: C
+Your Answer: B
+Result: Incorrect
+--------------------------------------------------
+Question: 49
+Correct Answer: A
+Your Answer: C
+Result: Incorrect
+--------------------------------------------------

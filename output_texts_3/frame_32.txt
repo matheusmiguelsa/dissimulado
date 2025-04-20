@@ -1,0 +1,13 @@
+3
+For data privacy, a healthcare company has been asked to comply with the Health Insurance Portability and Accountability Act (HIPAA) in handling static user documents. They instructed their Security Engineer to ensure that all of the data being backed up or stored on Amazon S3 are durably stored and encrypted.
+
+Which combination of actions should the Engineer implement to meet the above requirement? (Select TWO.)
+
+A. Encrypt the data locally first using your own encryption keys before sending the data to Amazon S3. Send the data over HTTPS.
+B. Instead of using an S3 bucket, move and store the data on Amazon EBS volumes in two AZs with encryption enabled.
+C. Instead of using an S3 bucket, migrate and securely store the data in an encrypted RDS database.
+D. Enable Server-Side Encryption with Amazon S3-Managed Keys (SSE-S3) on the S3 bucket with AES-256 encryption.
+E. Enable Server-Side Encryption with Amazon S3-Managed Keys (SSE-S3) on the S3 bucket with AES-128 encryption.
+Answer: A,D
+
+

@@ -1,0 +1,23 @@
+329) A company is hosting a static website on Amazon S3 The company has configured an Amazon CloudFront distribution
+to serve the website contents The company has associated an [AM WAF web ACL with the CloudFront distribution. The web
+ACL ensures that requests originate from the United States to address compliance restrictions.
+
+THE company is worried that the S3 URL might still be accessible directly and that requests can bypass the CloudFront
+distribution.
+
+Which combination of steps should the company take to remove direct access to the S3 URL? (Select TWO. )
+
+A.Select "Restrict Bucket Access’ in the origin settings of the CloudFront distribution.
+
+B.Create an origin access identity (OAl) for the S3 origin.
+
+C.Update the S3 bucket policy to allow s3 GetObject with a condition that the IAM Referer key matches the secret
+value Deny all other requests.
+
+D.Configure the $3 bucket poky so that only the origin access identity (OAl) has read permission for objects in the
+bucket.
+
+E.Add an origin custom header that has the name Referer to the CloudFront distribution Give the header a secret
+value.
+
+Answer: A,D

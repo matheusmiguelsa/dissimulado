@@ -1,0 +1,15 @@
+#18Topic 1
+A Security Administrator has a website hosted in Amazon S3. The Administrator has been given the following requirements:
+✑ Users may access the website by using an Amazon CloudFront distribution.
+✑ Users may not access the website directly by using an Amazon S3 URL.
+Which configurations will support these requirements? (Choose two.)
+
+A. Associate an origin access identity with the CloudFront distribution. Most Voted
+B. Implement a ג€Principalג€: ג€cloudfront.amazonaws.comג€ condition in the S3 bucket policy.
+C. Modify the S3 bucket permissions so that only the origin access identity can access the bucket contents. Most Voted
+D. Implement security groups so that the S3 bucket can be accessed only by using the intended CloudFront distribution.
+E. Configure the S3 bucket policy so that it is accessible only through VPC endpoints, and place the CloudFront distribution into the specified VPC.
+ 
+Answer: A,C
+AC (100%)
+

@@ -1,0 +1,19 @@
+330) A company's security team is building a solution for logging and visualization. The solution will assist the company with
+the large variety and velocity of data that it receives from IAM across multiple accounts. The security team has enabled IAM
+CloudTrail and VPC Flow Logs in all of its accounts. In addition, the company has an organization in IAM Organizations and
+has an IAM Security Hub master account.
+
+The security team wants to use Amazon Detective However the security team cannot enable Detective and is unsure why.
+
+What must the security team do to enable Detective?
+
+A.Enable Amazon Macie so that Secunty H jb will allow Detective to process findings from Macie.
+
+B.Disable IAM Key Management Service (IAM KMS) encryption on CtoudTrail logs in every member account of
+the organization.
+
+C.Enable Amazon GuardDuty on all member accounts Try to enable Detective in 48 hours.
+
+D.Ensure that the principal that launches Detective has the organizations ListAccounts permission.
+
+Answer: D

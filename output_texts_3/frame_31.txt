@@ -1,0 +1,11 @@
+2
+An enterprise monitoring application collects data and generates audit logs of all operational activities of the company’s AWS Cloud infrastructure. The IT Security team requires that the application retain the logs for 5 years before the data can be deleted.
+
+How can the Security Engineer meet the above requirement?
+
+A. Use Amazon S3 Glacier to store the audit logs and apply a Vault Lock policy.
+B. Use Amazon EBS Volumes to store the audit logs and take automated EBS snapshots every month using Amazon Data Lifecycle Manager.
+C. Use Amazon S3 to store the audit logs and enable Multi-Factor Authentication Delete (MFA Delete) for additional protection.
+D. Use Amazon EFS to store the audit logs and enable Network File System version 4 (NFSv4) file-locking mechanism.
+Answer: A
+

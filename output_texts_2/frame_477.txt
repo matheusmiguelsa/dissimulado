@@ -1,0 +1,23 @@
+445) An ecommerce company is developing new architecture for an application release. The company needs to
+implement TLS for incoming traffic to the application. Traffic for the application will originate from the internet. TLS does
+not have to be implemented in an end-to-end configuration because the company is concerned about impacts on
+performance The incoming traffic types will be HTTP and HTTPS The application uses ports 80 and 443.
+
+What should a security engineer do to meet these requirements?
+
+A. Create a public Application Load Balancer. Create two listeners: one listener on port 80 and one listener on port 443.
+Create one target group. Create a rule to forward traffic from port 80 to the listener on port 443. Provision a public TLS
+certificate in AWS Certificate Manager (ACM). Attach the certificate to the listener on port 443.
+
+B. Create a public Application Load Balancer. Create two listeners one listener on port 80 and one listener on port 443.
+Create one target group. Create a rule to forward traffic from port 80 to the listener on port 443. Provision a public TLS
+certificate in AWS Certificate Manager (ACM). Attach the certificate to the listener on port 80.
+
+C. Create a public Network Load Balancer. Create two listeners one listener on port 80 and one listener on port 443.
+Create one target group. Create a rule to forward traffic from port 80 to the listener on port 443. Set the protocol for the
+listener on port 443 to TLS.
+
+D. Create a public Network Load Balancer. Create a listener on port 443. Create one target group. Create a rule to forward
+traffic from port 443 to the target group. Set the protocol for the listener on port 443 to TLS.
+
+Answer: A

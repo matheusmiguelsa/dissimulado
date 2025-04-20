@@ -1,0 +1,22 @@
+361) A medical company recently completed an acquisition and inherited an existing AWS environment. The company
+has an upcoming audit and is concerned about the compliance posture of its acquisition.
+
+The company must identify personal health information inside Amazon S3 buckets and must identify S3 buckets that
+are publicly accessible. The company needs to prepare for the audit by collecting evidence in the environment.
+
+Which combination of steps will meet these requirements with the LEAST operational overhead? (Select THREE.)
+
+A. Use AWS Glue with the Detect Pll transform to identify sensitive data and to mask the sensitive data.
+
+B. Enable AWS Security Hub. Use the AWS Foundational Security Best Practices standard. Review the controls dashboard for
+evidence of failed $3 Block Public Access controls.
+
+C. Enable AWS Config Set up the s3-bucket-public-write-prohibited AWS Config managed rule.
+D. Enable Amazon GuardDuty S3 Protection Document any findings that are related to suspicious access of $3 buckets.
+
+E. Enable Amazon Macie. Run an on-demand sensitive data discovery job that uses the PERSONALJNFORMATION managed
+data identifier.
+
+F. Enable AWS Audit Manager. Create an assessment by using a supported framework.
+
+Correct Answer: B,C,E

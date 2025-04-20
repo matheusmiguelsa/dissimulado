@@ -1,0 +1,19 @@
+294) A company's on-premises networks are connected to VPCs using an IAM Direct Connect gateway. The company's on-
+premises application needs to stream data using an existing Amazon Kinesis Data Firehose delivery stream. The
+company's security policy requires that data be encrypted in transit using a private network.
+
+How should the company meet these requirements?
+
+A.Create a VPC endpoint tor Kinesis Data Firehose. Configure the application to connect to the VPC endpoint.
+B.Configure an IAM policy to restrict access to Kinesis Data Firehose using a source IP condition.
+
+Configure the application to connect to the existing Firehose delivery stream.
+
+C.Create a new TLS certificate in IAM Certificate Manager (ACM). Create a public-facing Network Load Balancer (NLB)
+and select the newly created TLS certificate. Configure the NLB to forward all traffic to Kinesis Data Firehose. Configure
+the application to connect to the NLB.
+
+D.Peer the on-premises network with the Kinesis Data Firehose VPC using Direct Connect. Configure the application to
+connect to the existing Firehose delivery stream.
+
+Answer: A

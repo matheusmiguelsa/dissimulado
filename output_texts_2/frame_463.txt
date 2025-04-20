@@ -1,0 +1,17 @@
+A. Edit the rules in the web ACL to include rules with Count actions. Review the logs to determine which rule is
+blocking the request. Modify the IAM policy of all AWS WAF administrators so that they cannot remove the
+logging configuration for any AWS WAF web ACLs.
+
+B. Edit the rules in the web ACL to include rules with Count actions. Review the logs to determine which rule is
+blocking the request. Modify the AWS WAF resource policy so that AWS WAF administrators cannot remove the
+logging configuration for any AWS WAF web ACLs.
+
+C. Edit the rules in the web ACL to include rules with Count and Challenge actions. Review the logs to determine
+which rule is blocking the request. Modify the AWS WAF resource policy so that AWS WAF administrators cannot
+remove the logging configuration for any AWS WAF web ACLs.
+
+D. Edit the rules in the web ACL to include rules with Count and Challenge actions. Review the logs to determine
+which rule is blocking the request. Modify the IAM policy of all AWS WAF administrators so that they cannot
+remove the logging configuration for any AWS WAF web ACLs.
+
+Answer: A

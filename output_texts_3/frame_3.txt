@@ -1,0 +1,16 @@
+#4Topic 1
+A company has contracted with a third party to audit several AWS accounts. To enable the audit, cross-account IAM roles have been created in each account targeted for audit. The Auditor is having trouble accessing some of the accounts.
+Which of the following may be causing this problem? (Choose three.)
+
+A. The external ID used by the Auditor is missing or incorrect. Most Voted
+B. The Auditor is using the incorrect password.
+C. The Auditor has not been granted sts:AssumeRole for the role in the destination account. Most Voted
+D. The Amazon EC2 role used by the Auditor must be set to the destination account role.
+E. The secret key used by the Auditor is missing or incorrect.
+F. The role ARN used by the Auditor is missing or incorrect. Most Voted
+ 
+Answer: A,C,F
+ACF (80%)
+13%
+7%
+

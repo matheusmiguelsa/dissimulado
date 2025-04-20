@@ -1,0 +1,13 @@
+302) A developer at a company uses an SSH key to access multiple Amazon EC2 instances. The company discovers that the
+SSH key has been posted on a public GitHub repository. A security engineer verifies that the key has not been used recently.
+
+How should the security engineer prevent unauthorized access to the EC2 instances?
+
+A.Delete the key pair from the EC2 console. Create a new key pair.
+
+B.Use the ModifylnstanceAttribute AP! operation to change the key on any EC2 instance that is using the key.
+C.Restrict SSH access in the security group to only known corporate IP addresses.
+
+D.Update the key pair in any AMI that is used to launch the EC2 instances. Restart the EC2 instances.
+
+Answer: C

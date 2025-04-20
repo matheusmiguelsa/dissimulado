@@ -1,0 +1,20 @@
+301) A company maintains an open-source application that is hosted on a public GitHub repository.
+While creating a new commit to the repository, an engineer uploaded their [AM access key and secret access key. The engineer
+reported the mistake to a manager, and the manager immediately disabled the access key.
+
+The company needs to assess the impact of the exposed access key. A security engineer must recommend a solution that
+requires the least possible managerial overhead.
+
+Which solution meets these requirements?
+
+A.Analyze an IAM Identity and Access Management (IAM) use report from IAM Trusted Advisor to see when the
+access key was last used.
+
+B.Analyze Amazon CloudWatch Logs for activity by searching for the access key.
+
+C.Analyze VPC flow logs for activity by searching for the access key.
+
+D.Analyze a credential report in [AM Identity and Access Management (IAM) to see when the access key was last
+used.
+
+Answer: A

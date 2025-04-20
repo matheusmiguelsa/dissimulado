@@ -1,0 +1,11 @@
+237) Your company has just set up a new central server in a VPC. There is a requirement for other teams who have their
+servers located in different VPC's in the same region to connect to the central server.
+Which of the below options is best suited to achieve this requirement.
+
+A.Set up VPC peering between the central server VPC and each of the teams VPCs.
+
+B.Set up IAM DirectConnect between the central server VPC and each of the teams VPCs.
+C.Set up an IPSec Tunnel between the central server VPC and each of the teams VPCs.
+D.None of the above options will work.
+
+Answer: A

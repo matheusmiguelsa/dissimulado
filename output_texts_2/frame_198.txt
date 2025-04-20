@@ -1,0 +1,22 @@
+320) A company's application team wants to replace an internal application with a new IAM architecture that consists of
+Amazon EC2 instances, an IAM Lambda function, and an Amazon S3 bucket in a single [AM Region. After an architecture
+review, the security team mandates that no application network traffic can traverse the public internet at any point. The
+security team already has an SCP in place for the company's organization in IAM Organizations to restrict the creation of
+internet gateways. NAT gateways, and egress-only gateways.
+
+Which combination of steps should the application team take to meet these requirements? (Select THREE.)
+
+A.Create an $3 endpoint that has a full-access policy for the application's VPC.
+
+B.Create an S3 access point for the $3 bucket. Include a policy that restricts the network origin to VPCs.
+C.Launch the Lambda function. Enable the block public access configuration.
+
+D.Create a security group that has an outbound rule over port 443 with a destination of the $3 endpomt.
+Associate the security group with the EC2 instances.
+
+E.Create a security group that has an outbound rule over port 443 with a destination of the S3 access point.
+Associate the security group with the EC2 instances.
+
+F.Launch the Lambda function in a VPC.
+
+Answer: A,D,F

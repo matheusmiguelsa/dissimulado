@@ -1,0 +1,12 @@
+243) Your company uses IAM to host its resources. They have the following requirements.
+1) Record all API calls and Transitions.
+2) Help in understanding what resources are there in the account.
+
+3) Facility to allow auditing credentials and logins Which services would suffice the above requirements.
+
+A.IAM Inspector, CloudTrail, [AM Credential Reports.
+B.CloudTrail. IAM Credential Reports, IAM SNS
+C.CloudTrail, |AM Config, IAM Credential Reports.
+D.IAM SQS, IAM Credential Reports, CloudTrail.
+
+Answer: C

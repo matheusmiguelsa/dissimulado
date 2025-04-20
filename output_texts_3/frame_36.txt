@@ -1,0 +1,12 @@
+7
+After migrating the DNS records of a domain to Route 53, a company configured logging of public DNS queries. After a week, the company realized that log data were accumulating quickly. The company is worried that this might incur high storage fees in the long run, so they wanted logs older than 1 month to be deleted.
+
+Which action will resolve the problem most cost-effectively?
+
+Free AWS Courses
+A. Configure a retention policy in CloudWatch Logs to delete logs older than 1 month.
+B. Change the destination of the DNS query logs to S3 Glacier Deep Archive.
+C. Configure CloudWatch Logs to export log data to an S3 bucket. Set an S3 lifecycle policy that deletes objects older than 1 month.
+D. Create a scheduled job using a Lambda function to export logs from CloudWatch Logs to an S3 bucket. Set an S3 lifecycle policy that deletes objects older than 1 month.
+Answer: A
+

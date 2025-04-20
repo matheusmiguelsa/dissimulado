@@ -1,0 +1,19 @@
+255) For compliance reasons a Security Engineer must produce a weekly report that lists any instance that does not have
+the latest approved patches applied. The Engineer must also ensure that no system goes more than 30 days without the
+latest approved updates being applied.
+
+What would the MOST efficient way to achieve these goals?
+
+A.Use Amazon inspector to determine which systems do not have the latest patches applied, and after 30
+days, redeploy those instances with the latest AMI version
+
+B.Configure Amazon EC2 Systems Manager to report on instance patch compliance and enforce updates
+during the defined maintenance windows.
+
+C.Examine IAM CloudTrail togs to determine whether any instances have not restarted in the last 30 days,
+and redeploy those instances.
+
+D.Update the AMls with the latest approved patches and redeploy each instance during the defined
+maintenance window.
+
+Answer: B

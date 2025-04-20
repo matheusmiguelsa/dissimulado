@@ -1,0 +1,18 @@
+438) A company purchased a subscription to a third-party cloud security scanning solution that integrates with AWS
+Security Hub. A security engineer needs to implement a solution that will remediate the findings from the third-party
+scanning solution automatically.
+
+Which solution will meet this requirement?
+
+A. Set up an Amazon EventBridge rule that reacts to new Security Hub findings. Configure an AWS Lambda
+function as the target for the rule to remediate the findings.
+
+B. Set up a custom action in Security Hub. Configure the custom action to call AWS Systems Manager Automation
+runbooks to remediate the findings.
+
+C. Set up a custom action in Security Hub. Configure an AWS Lambda function as the target for the custom action
+to remediate the findings.
+
+D. Set up AWS Config rules to use AWS Systems Manager Automation runbooks to remediate the findings.
+
+Answer: A

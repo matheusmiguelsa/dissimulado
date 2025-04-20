@@ -1,0 +1,26 @@
+322) A company has an application that uses an Amazon RDS PostgreSQL database. The company is developing an
+application feature that will store sensitive information for an individual in the database.
+
+During a security review of the environment, the company discovers that the RDS DB instance is not encrypting data at rest.
+The company needs a solution that will provide encryption at rest for all the existing data and for any new data that is entered
+for an individual.
+
+Which combination of options can the company use to meet these requirements? (Select TWO.)
+
+A.Create a snapshot of the DB instance. Copy the snapshot to a new snapshot, and enable encryption for the
+copy process. Use the new snapshot to restore the DB instance.
+
+B.Modify the configuration of the DB instance by enabling encryption. Create a snapshot of the DB instance.
+Use the snapshot to restore the DB instance.
+
+C.Use IAM Key Management Service (IAM KMS) to create a new default IAM managed awa/rds key.
+
+Select this key as the encryption key for operations with Amazon RDS.
+
+D.Use IAM Key Management Service (IAM KMS] to create a new CMK. Select this key as the encryption key
+for operations with Amazon RDS.
+
+E.Create a snapshot of the DB instance. Enable encryption on the snapshoVUse the snapshot to restore the
+DB instance.
+
+Answer: C,E

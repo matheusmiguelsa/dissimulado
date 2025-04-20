@@ -1,0 +1,20 @@
+376) A company uses AWS Organizations. The company wants to implement short-term cre-dentials for third-party AWS
+accounts to use to access accounts within the com-pany's organization. Access is for the AWS Management Console and
+third-party software-as-a-service (SaaS) applications. Trust must be enhanced to prevent two external accounts from using
+the same credentials. The solution must require the least possible operational effort.
+
+Which solution will meet these requirements?
+
+A. Use a bearer token authentication with OAuth or SAML to manage and share a central Amazon Cognito user
+pool across multiple Amazon API Gateway APIs.
+
+B. Create a unique IAM role for each external account. Create a trust policy that includes a condition that uses
+the sts:Externalld condition key.
+
+C. Create a unique IAM role for each external account. Create a trust policy. Use AWS Secrets Manager to create
+a random external key.
+
+D. Implement AWS IAM Identity Center (AWS Single Sign-On), and use an identi-ty source of choice. Grant
+access to users and groups from other accounts by using permission sets that are assigned by account.
+
+Correct Answer: B

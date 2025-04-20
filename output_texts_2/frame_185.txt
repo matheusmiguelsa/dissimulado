@@ -1,0 +1,15 @@
+315) A company is undergoing a layer 3 and layer 4 DDoS attack on its web servers running on IAM.
+
+Which combination of IAM services and features will provide protection in this scenario? (Select THREE).
+
+A.Amazon Route 53
+
+B.IAM Certificate Manager (ACM)
+C.Amazon S3
+
+D.IAM Shield.
+
+E.Elastic Load Balancer.
+F.Amazon GuardDuty.
+
+Answer: D,E,F

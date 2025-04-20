@@ -1,0 +1,16 @@
+A. Configure Amazon Macie to identify any objects in DOC-EXAMPLE-BUCKET1 that contain Pll and that were
+available to the access key.
+
+B. Use Amazon CloudWatch Logs Insights to identify any objects in DOC-EXAMPLE-BUCKET1 that contain Pll and
+that were available to the access key.
+
+C. Use Amazon OpenSearch Service (Amazon Elasticsearch Service) to query the CloudTrail logs in DOC-EXAMPLE-
+BUCKET2 for API calls that used the access key to access an object that contained PIl.
+
+D. Use Amazon Athena to query the CloudTrail logs in DOC-EXAMPLE-BUCKET2 for any API calls that used the
+access key to access an object that contained PIl.
+
+E. Use AWS Identity and Access Management Access Analyzer to identify any API calls that used the access key to
+access objects that contained Pll in DOC-EXAMPLE-BUCKET1.
+
+Answer: AD

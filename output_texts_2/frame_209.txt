@@ -1,0 +1,16 @@
+325) A Network Load Balancer (NLB) target instance is not entering the InService state. A security engineer determines
+that health checks are failing.
+
+Which factors could cause the health check failures? (Select THREE.)
+
+A.The target instance's security group does not allow traffic from the NLB.
+B.The target instance's security group is not attached to the NL
+
+C.The NLB's security group is not attached to the target instance.
+
+D.The target instance’s subnet network ACL does not allow traffic from the NLB.
+
+E.The target instance's security group is not using IP addresses to allow traffic from the NLB.
+F.The target network ACL is not attached to the NLB.
+
+Answer: A,C,D

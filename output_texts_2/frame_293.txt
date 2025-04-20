@@ -1,0 +1,22 @@
+364) A company has a web-based application that runs behind an Application Load Balancer (ALB). The application is
+experiencing a credential stuffing attack that is producing many failed login attempts. The attack is coming from many
+IP addresses. The login attempts are using a user agent string of a known mobile device emulator.
+
+A security engineer needs to implement a solution to mitigate the credential stuffing attack. The solution must still
+allow legitimate logins to the application.
+
+Which solution will meet these requirements?
+
+A. Create an AWS WAF web ACL for the ALB Create a custom rule that allows requests from legitimate
+user agent strings
+
+B. Create an Amazon CloudWatch alarm that reacts to login attempts that contain the specified user
+agent string. Add an Amazon Simple Notification Service (Amazon SNS) topic to the alarm.
+
+C. Create an AWS WAF web ACL for the ALB. Create a custom rule that blocks requests that contain the
+user agent string of the device emulator.
+
+D. Modify the inbound security group on the ALB to deny traffic from the IP addresses that are involved
+in the attack.
+
+Correct Answer: C

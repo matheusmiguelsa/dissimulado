@@ -1,0 +1,16 @@
+319) A company deploys a distributed web application on a fleet of Amazon EC2 instances. The fleet is behind an
+Application Load Balancer (ALB) that will be configured to terminate the TLS connection. All TLS traffic to the ALB must
+stay secure, even if the certificate private key is compromised.
+
+How can a security engineer meet this requirement?
+
+A.Create an HTTPS listener that uses a certificate that is managed by IAM Certificate Manager (ACM).
+B.Create an HTTPS listener that uses a security policy that uses a cipher suite with perfect toward secrecy
+(PFS).
+
+C.Create an HTTPS listener that uses the Server Order Preference security feature.
+
+D.Create a TCP listener that uses a custom security policy that allows only cipher suites with perfect forward
+secrecy (PFS).
+
+Answer: A

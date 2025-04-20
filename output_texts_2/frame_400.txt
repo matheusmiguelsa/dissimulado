@@ -1,0 +1,21 @@
+412) A security team is using Amazon EC2 Image Builder to build a hardened AMI with forensic capabilities. An AWS Key
+Management Service (AWS KMS) key will encrypt the forensic AMI. EC2 Image Builder successfully installs the required
+patches and packages in the security team’s AWS account. The security team uses a federated IAM role in the same AWS
+account to sign in to the AWS Management Console and attempts to launch the forensic AMI. The EC2 instance launches
+and immediately terminates.
+
+What should the security team do to launch the EC2 instance successfully?
+
+A. Update the policy that is associated with the federated IAM role to allow the ec2:Describelmages action for the
+forensic AML.
+
+B. Update the policy that is associated with the federated IAM role to allow the ec2:StartInstances action in the
+security team's AWS account.
+
+C. Update the policy that is associated with the KMS key that is used to encrypt the forensic AMI. Configure the
+policy to allow the kms:Encrypt and kms:Decrypt actions for the federated IAM role.
+
+D. Update the policy that is associated with the federated IAM role to allow the kms:DescribeKey action for the
+KMS key that is used to encrypt the forensic AMI.
+
+Answer: C

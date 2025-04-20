@@ -1,0 +1,29 @@
+345) A company usesAWS Organizations to run workloads in multiple AWS accounts Currently the individual team
+members at the company access all Amazon EC2 instances remotely by using SSH or Remote Desktop Protocol (RDP)
+The company does not have any audit trails and security groups are occasionally open The company must secure
+access management and implement a centralized togging solution.
+
+Which solution will meet these requirements MOST securely?
+
+A.Configure trusted access for AWS System Manager in Organizations Configure a bastion host from the management
+account Replace SSH and RDP by using Systems Manager Session Manager from the management account Configure
+Session Manager logging to Amazon CloudWatch Logs.
+
+B.Replace SSH and RDP with AWS Systems Manager Session Manager Install Systems Manager Agent (SSM Agent) on
+the instances Attach the.
+
+C.AmazonSSMManagedInstanceCore role to the instances Configure session data streaming to Amazon CloudWatch
+Logs Create a separate logging account that has appropriate cross-account permissions to audit the log data.
+
+D.Install a bastion host in the management account Reconfigure all SSH and RDP to allow access only from the bastion
+host Install AWS Systems Manager Agent (SSM Agent) on the bastion host Attach the AmazonSSMManagedinstanceCore
+role to the bastion host Configure session data streaming to Amazon CloudWatch Logs in a separate logging account to
+audit log data.
+
+E.Replace SSH and RDP with AWS Systems Manager State Manager Install Systems Manager Agent (SSM Agent) on the
+instances Attach the.
+
+AmazonSSMManagedInstanceCore role to the instances Configure session data streaming to Amazon CloudTrail Use
+CloudTrail Insights to analyze the trail data.
+
+Answer: C 

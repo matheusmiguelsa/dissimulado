@@ -1,0 +1,17 @@
+238) There is a requirement for a company to transfer large amounts of data between IAM and an on- premise
+location. There is an additional requirement for low latency and high consistency traffic to [AM. Given these
+requirements how would you design a hybrid architecture?
+
+Choose the correct answer from the options below.
+
+A.Provision a Direct Connect connection to an IAM region using a Direct Connect partner.
+
+B.Create a VPN tunnel for private connectivity, which increases network consistency and reduces
+latency.
+
+C.Create an iPSec tunnel for private connectivity, which increases network consistency and reduces
+latency.
+
+D.Create a VPC peering connection between IAM and the Customer gateway.
+
+Answer: A

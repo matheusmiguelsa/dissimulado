@@ -1,0 +1,13 @@
+235) You have an S3 bucket defined in [AM. You want to ensure that you encrypt the data before sending it across
+the wire.
+What is the best way to achieve this.
+
+A.Enable server side encryption for the S3 bucket. This request will ensure that the data
+is encrypted first.
+
+B.Use the IAM Encryption CLI to encrypt the data first.
+
+C.Use a Lambda function to encrypt the data before sending it to the S3 bucket.
+D.Enable client encryption for the bucket.
+
+Answer: B

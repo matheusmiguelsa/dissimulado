@@ -1,0 +1,19 @@
+256) A Security Engineer has been tasked with enabling IAM Security Hub to monitor Amazon EC2 instances
+fix CVE in a single IAM account The Engineer has already enabled IAM Security Hub and Amazon Inspector m
+the IAM Management Console and has installed me Amazon Inspector agent on an EC2 instances that need
+to be monitored.
+
+Which additional steps should the Security Engineer lake 10 meet this requirement?
+
+A.Configure the Amazon inspector agent to use the CVE rule package.
+
+B.Configure the Amazon Inspector agent to use the CVE rule package Configure Security Hub to ingest from
+IAM inspector by writing a custom resource policy.
+
+C.Configure the Security Hub agent to use the CVE rule package Configure IAM Inspector lo ingest from
+Security Hub by writing a custom resource policy.
+
+D.Configure the Amazon Inspector agent to use the CVE rule package Install an additional Integration library
+Allow the Amazon Inspector agent to communicate with Security Hub
+
+Answer: D

@@ -1,0 +1,24 @@
+457) A security engineer needs to run an AWS CloudFormation script. The CloudFormation script builds AWS infrastructure
+to support a stack that includes web servers and a MySQL database. The stack has been deployed in pre-production
+environments and is ready for production.
+
+The production script must comply with the principle of least privilege. Additionally, separation of duties must exist
+between the security engineer’s IAM account and CloudFormation.
+
+Which solution will meet these requirements?
+
+A. Use IAM Access Analyzer policy generation to generate a policy that allows the CloudFormation script to run and
+manage the stack. Attach the policy to a new IAM role. Modify the security engineer's [AM permissions to be able to
+pass the new role to CloudFormation.
+
+B. Create an IAM policy that allows ec2:* and rds:* permissions. Attach the policy to a new IAM role. Modify the
+security engineer's IAM permissions to be able to assume the new role.
+
+C. Use IAM Access Analyzer policy generation to generate a policy that allows the CloudFormation script to run and
+manage the stack. Modify the security engineer's [AM permissions to be able to run the CloudFormation script.
+
+D. Create an IAM policy that allows ec2:* and rds:* permissions. Attach the policy to a new IAM role. Use the [AM
+policy simulator to confirm that the policy allows the AWS API calls that are necessary to build the stack. Modify the
+security engineer's [AM permissions to be able to pass the new role to CloudFormation.
+
+Answer: A

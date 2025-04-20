@@ -1,0 +1,16 @@
+338) A company uses Amazon API Gateway to present REST APIs to users. An API developer wants to analyze API
+access patterns without the need to parse the log files.
+
+Which combination of steps will meet these requirements with the LEAST effort? (Select TWO.)
+
+A.Configure access logging for the required API stage.
+B.Configure an AWS CloudTrail trail destination for AP! Gateway events. Configure filters on the
+userldentity, userAgent, and sourcelPAddress fields.
+
+C.Configure an Amazon $3 destination for API Gateway logs. Run Amazon Athena queries to analyze
+API access information.
+
+D.Use Amazon CloudWatch Logs Insights to analyze API access information.
+E.Select the Enable Detailed CloudWatch Metrics option on the required API stage.
+
+Answer: C,D

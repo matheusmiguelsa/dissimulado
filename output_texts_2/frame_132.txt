@@ -1,0 +1,15 @@
+291) A company deployed IAM Organizations to help manage its increasing number of IAM accounts. A security engineer
+wants to ensure only principals in the Organization structure can access a specific Amazon S3 bucket. The solution must
+also minimize operational overhead.
+
+Which solution will meet these requirements?
+
+A.1 Put all users into an IAM group with an access policy granting access to the J bucket.
+B.Have the account creation trigger an IAM Lambda function that manages the bucket policy,
+allowing access to accounts listed in the policy only.
+
+C.Add an SCP to the Organizations master account, allowing all principals access to the bucket.
+D.Specify the organization ID in the global key condition element of a bucket policy, allowing all
+principals access.
+
+Answer: D

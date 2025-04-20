@@ -1,0 +1,30 @@
+348) A company wants to remove all SSH keys permanently from a specific subset of its Amazon Linux 2 Amazon EC2 instances
+that are using the same 1AM instance profile However three individuals who have IAM user accounts will need to access these
+instances by using an SSH session to perform critical duties.
+
+How can a security engineer provide the access to meet these requirements’?
+
+A.Assign an 1AM policy to the instance profile to allow the EC2 instances to be managed by AWS Systems Manager
+
+Provide the 1AM user accounts with permission to use Systems Manager Remove the SSH keys from the EC2
+
+instances Use Systems Manager Inventory to select the EC2 instance and connect.
+
+B.Assign an 1AM policy to the 1AM user accounts to provide permission to use AWS Systems Manager Run
+
+Command Remove the SSH keys from the EC2 instances Use Run Command to open an SSH connection to the EC2
+
+instance.
+
+C.Assign an 1AM policy to the instance profile to allow the EC2 instances to be managed by AWS Systems Manager
+
+Provide the 1AM user accounts with permission to use Systems Manager Remove the SSH keys from the EC2
+
+instances Use Systems Manager Session Manager to select the EC2 instance and connect.
+
+D.Assign an 1AM policy to the 1AM user accounts to provide permission to use the EC2 service in the AWS
+
+Management Console Remove the SSH keys from the EC2 instances Connect to the EC2 instance as the ec2-user
+
+through the AWS Management Console’s EC2 SSH client method.
+Answer: C

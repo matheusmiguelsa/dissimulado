@@ -1,0 +1,19 @@
+392) A company has an AWS account that includes an Amazon $3 bucket. The S3 bucket uses server-side encryption with
+AWS KMS keys (SSE-KMS) to encrypt all the objects at rest by using a customer managed key. The $3 bucket does not have a
+bucket policy.
+
+An |AM role in the same account has an IAM policy that allows s3 List* and s3 Get' permissions for the S3 bucket. When the
+IAM role attempts to access an object in the $3 bucket the role receives an access denied message.
+
+Why does the IAM rote not have access to the objects that are in the S3 bucket?
+
+A. The IAM rote does not have permission to use the KMS CreateKey operation.
+
+B. The S3 bucket lacks a policy that allows access to the customer managed key that encrypts the objects.
+
+C. The IAM rote does not have permission to use the customer managed key that encrypts the objects that are in the S3
+bucket.
+
+D. The ACL of the $3 objects does not allow read access for the objects when the objects ace encrypted at rest.
+
+Correct Answer: C

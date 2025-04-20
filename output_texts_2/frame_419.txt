@@ -1,0 +1,10 @@
+Which buckets can user "alice" access?
+A. bucketl only
+
+B. bucket2 only
+
+C. Both bucketl and bucket2
+
+D. Neither bucket! nor bucket2
+
+Correct Answer: C

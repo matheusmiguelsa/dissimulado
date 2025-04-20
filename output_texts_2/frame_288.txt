@@ -1,0 +1,18 @@
+A. In each account, configure Amazon GuardDuty to scan the ECS containers and the ECR registry. Configure
+GuardDuty to forward vulnerability findings to AWS Security Hub in a central security account. Provide access for the
+audit team to use Security Hub to review the findings.
+
+B. In each account, update the ECR registry to use Amazon Inspector instead of the default scanning service.
+Configure Amazon Inspector to forward vulnerability findings to AWS Security Hub in a central security account.
+Provide access for the audit team to use Security Hub to review the findings.
+
+C. In each account, configure AWS Audit Manager to scan the ECS containers and the ECR registry. Configure Audit
+Manager to forward vulnerability findings to AWS Security Hub in a central security account. Provide access for the
+audit team to use Security Hub to review the findings.
+
+D. In each account, configure AWS Config to monitor the configuration of the ECS containers and the ECR registry.
+Configure AWS Config conformance packs for vulnerability scanning. Create an AWS Config aggregator in a central
+account to collect configuration and compliance details from all accounts. Provide the audit team with access to AWS
+Config in the account where the aggregator is configured.
+
+Correct Answer: D

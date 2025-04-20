@@ -1,0 +1,20 @@
+283) A security engineer has enabled |AM Security Hub in their [AM account, and has enabled the Center for internet Security
+(CIS) IAM Foundations compliance standard. No evaluation results on compliance are returned in the Security Hub console
+after several hours. The engineer wants to ensure that Security Hub can evaluate their resources for CIS [AM Foundations
+compliance.
+
+Which steps should the security engineer take to meet these requirements?
+
+A.Add full Amazon Inspector IAM permissions to the Security Hub service role to allow it to perform the CIS
+compliance evaluation.
+
+B.Ensure that IAM Trusted Advisor Is enabled in the account and that the Security Hub service role has
+permissions to retrieve the Trusted Advisor security-related recommended actions.
+
+C.Ensure that IAM Config. is enabled in the account, and that the required [AM Config rules have been created for
+the CIS compliance evaluation.
+
+D.Ensure that the correct trail in [AM CloudTrail has been configured for monitoring by Security Hub and that the
+Security Hub service role has permissions to perform the GetObject operation on CloudTrails Amazon $3 bucket.
+
+Answer: C

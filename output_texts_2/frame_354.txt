@@ -1,0 +1,12 @@
+391) A security engineer is configuring a new website that is named example.com. The security engineer wants to
+secure communications with the website by requiring users to connect to example.com through HTTPS.
+Which of the following is a valid option for storing SSL/TLS certificates?
+
+A. Custom SSL certificate that is stored in AWS Key Management Service (AWS KMS)
+B. Default SSL certificate that is stored in Amazon CloudFront.
+
+C. Custom SSL certificate that is stored in AWS Certificate Manager (ACM)
+
+D. Default SSL certificate that is stored in Amazon S3
+
+Correct Answer: C

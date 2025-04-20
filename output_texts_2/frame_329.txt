@@ -1,0 +1,20 @@
+381) A company's data scientists want to create artificial intelligence and machine learning (Al/ML) training models by using
+Amazon SageMaker. The training models will use large datasets in an Amazon S3 bucket. The datasets contain sensitive
+information.
+
+On average. the data scientists need 30 days to train models. The S3 bucket has been secured appropriately The companfs
+data retention policy states that all data that is older than 45 days must be removed from the S3 bucket.
+
+Which action should a security engineer take to enforce this data retention policy?
+
+A. Create an AWS Lambda function to check the last-modified date of the S3 objects and delete objects that are older than
+45 days. Create an S3 event notification to invoke the Lambda function for each PutObject operation.
+
+B. Configure an S3 Lifecycle rule on the S3 bucket to delete objects after 45 days.
+
+C. Create an AWS Lambda function to check the last-modified date of the S3 objects and delete objects that are older than
+45 days. Create an Amazon EventBridge rule to invoke the Lambda function each month.
+
+D. Configure $3 Intelligent-Ttering on the S3 bucket to automatically transition objects to another storage class.
+
+Correct Answer: B

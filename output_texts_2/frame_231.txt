@@ -1,0 +1,16 @@
+335) A development team is attempting to encrypt and decode a secure string parameter from the IAM Systems Manager
+Parameter Store using an IAM Key Management Service (IAM KMS) CMK. However, each attempt results in an error message
+being sent to the development team.
+
+Which CMK-related problems possibly account for the error? (Select two.)
+
+A.The CMK is used in the attempt does not exist.
+
+B.The CMK is used in the attempt needs to be rotated.
+
+C.The CMK is used in the attempt is using the CMK TMs key ID instead of the CMK ARN.
+D.The CMK is used in the attempt is not enabled.
+
+E.The CMK is used in the attempt is using an alias.
+
+Answer: A,D

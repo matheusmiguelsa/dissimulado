@@ -1,0 +1,24 @@
+449) A company is testing its incident response plan for compromised credentials. The company runs a database on an
+Amazon EC2 instance and stores the sensitive database credentials as a secret in AWS Secrets Manager. The secret has
+rotation configured with an AWS Lambda function that uses the generic rotation function template. The EC2 instance and the
+Lambda function are deployed in the same private subnet. The VPC has a Secrets Manager VPC endpoint.
+
+A security engineer discovers that the secret cannot rotate. The security engineer determines that the VPC endpoint is working
+as intended. The Amazon CloudWatch logs contain the following error: "setSecret: Unable to log into database”.
+
+Which solution will resolve this error?
+
+A. Use the AWS Management Console to edit the JSON structure of the secret in Secrets Manager so that the secret
+automatically conforms with the structure that the database requires.
+
+B. Ensure that the security group that is attached to the Lambda function allows outbound connections to the EC2
+instance. Ensure that the security group that is attached to the EC2 instance allows inbound connections from the
+security group that is attached to the Lambda function.
+
+C. Use the Secrets Manager list-secrets command in the AWS CLI to list the secret. Identify the database credentials.
+Use the Secrets Manager rotate-secret command in the AWS CLI to force the immediate rotation of the secret.
+
+D. Add an internet gateway to the VPC. Create a NAT gateway in a public subnet. Update the VPC route tables so that
+traffic from the Lambda function and traffic from the EC2 instance can reach the Secrets Manager public endpoint.
+
+Answer: 8

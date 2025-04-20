@@ -1,0 +1,19 @@
+A.Add an outbound rule to the security group that is attached to the compromised EC2 instance to deny traffic to
+0.0.0.0/0 and port 587.
+
+B.Add an outbound rule to the network ACL for the subnet that contains the compromised EC2 instance to deny
+traffic to 0.0.0.0/0 and port 587.
+
+C.Gather volatile memory from the compromised EC2 instance. Suspend the compromised EC2 instance from the
+Auto Scaling group. Then take a snapshot of the compromised EC2 instance.
+
+D.Take a snapshot of the compromised EC2 instance. Suspend the compromised EC2 instance from the Auto
+Scaling group. Then gather volatile memory from the compromised EC2 instance.
+
+E.Move the compromised EC2 instance to an isolated subnet that has a network ACL that has no inbound rules or
+outbound rules.
+
+F.Replace the existing security group that is attached to the compromised EC2 instance with a new security group
+that has no inbound rules or outbound rules.
+
+Answer: A,C,E

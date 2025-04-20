@@ -1,0 +1,17 @@
+409) A security engineer recently rotated the host keys for an Amazon EC2 instance. The security engineer is trying to
+access the EC2 instance by using the EC2 Instance. Connect feature. However, the security engineer receives an error (or
+failed host key validation. Before the rotation of the host keys EC2 Instance Connect worked correctly with this EC2
+instance.
+
+What should the security engineer do to resolve this error?
+
+A. Import the key material into AWS Key Management Service (AWS KMS).
+
+B. Manually upload the new host key to the AWS trusted host keys database.
+
+C. Ensure that the AmazonSSMManagedInstanceCore policy is attached to the EC2 instance
+profile.
+
+D. Create a new SSH key pair for the EC2 instance.
+
+Correct Answer: B

@@ -1,0 +1,20 @@
+A. Activate Amazon GuardDuty in each production account. In a dedicated logging account. aggregate all GuardDuty logs
+from each production account.
+
+Remediate incidents by configuring GuardDuty to directly invoke an AWS Lambda function. Configure the Lambda function
+to also publish notifications to the SNS topic.
+
+B. Activate AWS security Hub in each production account. In a dedicated logging account. aggregate all security Hub
+findings from each production account. Remediate incidents by ustng AWS Config and AWS Systems Manager. Configure
+Systems Manager to also pub11Sh notifications to the SNS topic.
+
+C. Activate AWS Security Hub in each production account. In a dedicated logging account. aggregate all Security Hub
+findings from each production account. Remediate incidents by using Amazon EventBridge to invoke a custom AWS
+Lambda function from the Security Hub findings. Configure the Lambda function to also publish notifications to the SNS
+topic.
+
+D. Activate Amazon GuardDuty in each production account. In a dedicated logging account. aggregate all GuardDuty logs
+from each production account Remediate incidents by using Amazon EventBridge to invoke a custom AWS Lambda
+function from the GuardDuty findings. Configure the Lambda function to also publish notifications to the SNS topic.
+
+Correct Answer: C

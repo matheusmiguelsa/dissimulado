@@ -1,0 +1,8 @@
+312) A company stores sensitive documents in Amazon $3 by using server-side encryption with an IAM Key Management
+Service (IAM KMS) CMK. A new requirement mandates that the CMK that is used for these documents can be used only
+
+for $3 actions.
+
+Which statement should the company add to the key policy to meet this requirement?
+
+Answer: A

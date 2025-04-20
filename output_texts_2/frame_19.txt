@@ -1,0 +1,14 @@
+240) A company's IAM account consists of approximately 300 IAM users. Now there is a mandate that an access change
+is required for 100 IAM users to have unlimited privileges to S3.As a system administrator, how can you implement this
+effectively so that there is no need to apply the policy at the individual user level?
+
+A.Create a new role and add each user to the IAM role.
+
+B.Use the IAM groups and add users, based upon their role, to different groups and apply the
+policy to group.
+
+C.Create a policy and apply it to multiple users using a JSON script.
+
+D.Create an S3 bucket policy with unlimited access which includes each user's [AM account ID
+
+Answer: B

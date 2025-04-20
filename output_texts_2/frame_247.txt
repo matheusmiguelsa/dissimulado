@@ -1,0 +1,23 @@
+343) A company has launched an Amazon EC2 instance with an Amazon Elastic Block Store (Amazon EBS) volume in the us-
+east-1 Region The volume is encrypted with an AWS Key Management Service (AWS KMS) customer managed key that the
+company's security team created The security team has created an 1AM key policy and has assigned the policy to the key
+The security team has also created an 1AM instance profile and has assigned the profile to the instance.
+
+The EC2 instance will not start and transitions from the pending state to the shutting-down state to the terminated state.
+
+Which combination of steps should a security engineer take to troubleshoot this issue? (Select TWO )
+
+A.Verify that the KMS key policy specifies a deny statement that prevents access to the key by using the aws
+SourcelP condition key Check that the range includes the EC2 instance IP address that is associated with the EBS
+volume.
+
+B.Verify that the KMS key that is associated with the EBS volume is set to the Symmetric key type.
+
+C.Verify that the KMS key that is associated with the EBS volume is in the Enabled state.
+
+D.Verify that the EC2 role that is associated with the instance profile has the correct 1AM instance policy to
+launch an EC2 instance with the EBS volume.
+
+E.Verify that the key that is associated with the EBS volume has not expired and needs to be rotated.
+
+Answer: C,D

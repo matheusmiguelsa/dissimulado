@@ -1,0 +1,27 @@
+458) A company that uses AWS Organizations is migrating workloads to AWS. The company's application team determines
+that the workloads will use Amazon EC2 instances, Amazon S3 buckets, Amazon DynamoDB tables, and Application Load
+Balancers. For each resource type, the company mandates that deployments must comply with the following requirements:
+
++ All EC2 instances must be launched from approved AWS accounts.
++ All DynamoDB tables must be provisioned with a standardized naming convention.
+
++ All infrastructure that is provisioned in any accounts in the organization must be deployed by AWS CloudFormation
+templates.
+
+Which combination of steps should the application team take to meet these requirements? (Choose two.)
+
+A. Create CloudFormation templates in an administrator AWS account. Share the stack sets with an application AWS
+account. Restrict the template to be used specifically by the application AWS account.
+
+B. Create CloudFormation templates in an application AWS account. Share the output with an administrator AWS
+account ta review compliant resources. Restrict output to only the administrator AWS account.
+
+C. Use permissions boundaries to prevent the application AWS account from provisioning specific resources unless
+conditions for the internal compliance requirements are met.
+
+D. Use SCPs to prevent the application AWS account from provisioning specific resources unless conditions for the
+internal compliance requirements are met.
+
+E. Activate AWS Config managed rules for each service in the application AWS account.
+
+Answer: AD

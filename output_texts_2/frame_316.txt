@@ -1,0 +1,17 @@
+375) A security engineer is designing an IAM policy to protect AWS API operations. The policy must enforce multi-factor
+authentication (MFA) for IAM users to access certain services in the AWS production account. Each session must remain
+valid for only 2 hours. The current version of the IAM policy is as follows:
+
+Which combination of conditions must the security engineer add to the IAM policy to meet these requirements? (Choose
+two.)
+
+A. "Bool": " aws : Multi FactorAuthPresent': "true" }
+
+B. "NumericLessThan" : { "MaxSessionDuration " : "7200"}
+
+C. "NumericGreaterThan" : {" aws : MultiFactorAuthAge " : "7200"
+D."B001":" aws : MultiFactorAuthPresent’: "false" }
+
+E. "NumericLessThan" : {" aws : Multi FactorAuthAge" : "7200"}
+
+Correct Answer: A,E

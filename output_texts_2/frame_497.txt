@@ -1,0 +1,19 @@
+453) A company finds that one of its Amazon EC2 instances suddenly has a high CPU usage. The company does
+not know whether the EC2 instance is compromised or whether the operating system is performing
+background cleanup. Which combination of steps should a security engineer take before investigating the
+issue? (Select THREE.)
+
+A. Disable termination protection for the EC2 instance if termination protection has not been disabled.
+
+B. Enable termination protection for the EC2 instance if termination protection has not been enabled.
+
+C. Take snapshots of the Amazon Elastic Block Store (Amazon EBS) data volumes that are attached to the
+EC2 instance.
+
+D. Remove all snapshots of the Amazon Elastic Block Store (Amazon EBS) data volumes that are attached to
+the EC2 instance.
+
+E. Capture the EC2 instance metadata, and then tag the EC2 instance as under quarantine.
+F. Immediately remove any entries in the EC2 instance metadata that contain sensitive information.
+
+Answer: BCE

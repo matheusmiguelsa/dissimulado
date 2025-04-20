@@ -1,0 +1,13 @@
+A. Add a NAT gateway to the VPC. Configure only the Lambda function's subnet with a default route
+through the NAT gateway.
+
+B. Add an egress-only internet gateway to the VPC. Allow only the Lambda function's subnet to route
+traffic through the egress-only internet gateway.
+
+C. Configure a VPC peering connection to the default VPC for Secrets Manager. Configure the Lambda
+function's subnet to use the peering connection for routes.
+
+D. Configure a Secrets Manager interface VPC endpoint. Include the Lambda function's private subnet
+during the configuration process.
+
+Correct Answer: D

@@ -1,0 +1,14 @@
+C) "Version’:"2012-10-17". D) ’version":"201 2-10-17",
+"\d""PutObj", "d""Putoby",
+"Statement: [{ *Statement':[{
+"Sid":"DenyUploads", "Sid":"DenyUploads".
+“effect":"Deny", "Effect":"Deny",
+"Principal'."*", "Principal’s"*",
+"Action":"s3:PutObject", "Action":"s3:PutObjectEncrypted",
+"Resource™."arn:aws:s3:::demo/*" "Resource’:"arn:aws:s3:.:demo/*"
+} }
+} }
+] i
+} }
+
+Answer: A

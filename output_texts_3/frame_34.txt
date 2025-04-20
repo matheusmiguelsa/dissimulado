@@ -1,0 +1,12 @@
+5
+A company is looking to store its confidential financial files in AWS, which are accessed every week. A Security Engineer was instructed to set up the storage system, which uses envelope encryption and automates key rotation. It should also provide an audit trail that shows who used the encryption key and by whom for security purposes.
+
+Which of the following should the Engineer implement to satisfy the requirement with the LEAST amount of cost? (Select TWO.)
+
+A. Store the confidential financial files in Amazon S3.
+B. Store the confidential financial files in the Amazon S3 Glacier Deep Archive.
+C. Enable Server-Side Encryption with Customer-Provided Keys (SSE-C).
+D. Enable Server-Side Encryption with Amazon S3-Managed Keys (SSE-S3).
+E. Enable Server-Side Encryption with AWS KMS Keys (SSE-KMS).
+Answer: A,E
+

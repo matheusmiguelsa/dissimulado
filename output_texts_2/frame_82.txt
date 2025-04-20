@@ -1,0 +1,21 @@
+270) A company has two IAM accounts within IAM Organizations. In Account-1. Amazon EC2 Auto Scaling is launched
+using a service-linked role. In Account-2. Amazon EBS volumes are encrypted with an IAM KMS key A Security Engineer
+needs to ensure that the service-linked role can launch instances with these encrypted volumes.
+
+Which combination of steps should the Security Engineer take in both accounts? (Select TWO.)
+
+A.Allow Account-1 to access the KMS key in Account-2 using a key policy.
+
+B.Attach an IAM policy to the service-linked role in Account-1 that allows these actions CreateGrant.
+DescnbeKey, Encrypt, GenerateDataKey, Decrypt, and ReEncrypt.
+
+C.Create a KMS grant for the service-linked role with these actions CreateGrant, DescnbeKey Encrypt
+GenerateDataKey Decrypt, and ReEncrypt.
+
+D.Attach an IAM policy to the role attached to the EC2 instances with KMS actions and then allow
+Account-1 in the KMS key policy.
+
+E.Attach an IAM policy to the user who is launching EC2 instances and allow the user to access the KMS
+key policy of Account-2.
+
+Answer: C,D

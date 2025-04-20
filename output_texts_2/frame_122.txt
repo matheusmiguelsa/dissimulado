@@ -1,0 +1,24 @@
+286) A company Is planning to use Amazon Elastic File System (Amazon EFS) with its on-premises servers. The company has
+an existing IAM Direct Connect connection established between its on-premises data center and an IAM Region Security policy
+states that the company's on-premises firewall should only have specific IP addresses added to the allow list and not a CIDR
+range. The company also wants to restrict access so that only certain data center-based servers have access to Amazon EFS
+
+How should a security engineer implement this solution"
+
+A.Add the file-system-id efs |AM-region amazonlAM com URL to the allow list for the data center firewall Install the [AM
+CLI on the data center-based servers to mount the EFS file system in the EFS security group add the data center IP range
+to the allow list Mount the EFS using the EFS file system name.
+
+B.Assign an Elastic IP address to Amazon EFS and add the Elastic IP address to the allow list for the data center firewall
+Install the IAM CLI on the data center-based servers to mount the EFS file system In the EFS security group, add the IP
+addresses of the data center servers to the allow list Mount the EFS using the Elastic IP address.
+
+C.Add the EFS file system mount target IP addresses to the allow list for the data center firewall In the EFS security
+group, add the data center server IP addresses to the allow list Use the Linux terminal to mount the EFS file system using
+the IP address of one of the mount targets.
+
+D.Assign a static range of IP addresses for the EFS file system by contacting [AM Support In the EFS security group add
+the data center server IP addresses to the allow list Use the Linux terminal to mount the EFS file system using one of the
+static IP addresses.
+
+Answer: B

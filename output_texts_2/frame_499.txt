@@ -1,0 +1,17 @@
+454) A company has a relational database workload that runs on Amazon Aurora MySQL. According to new compliance
+standards the company must rotate all database credentials every 30 days. The company needs a solution that
+maximizes security and minimizes development effort.
+
+Which solution will meet these requirements?
+
+A. Store the database credentials in AWS Secrets Manager. Configure automatic credential rotation tor every 30 days.
+
+B. Store the database credentials in AWS Systems Manager Parameter Store. Create an AWS Lambda function to rotate the
+credentials every 30 days.
+
+C. Store the database credentials in an environment file or in a configuration file. Modify the credentials every 30 days.
+
+D. Store the database credentials in an environment file or in a configuration file. Create an AWS Lambda function to rotate
+the credentials every 30 days.
+
+Answer: A

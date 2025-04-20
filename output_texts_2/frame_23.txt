@@ -1,0 +1,14 @@
+242) Your company is planning on using bastion hosts for administering the servers in IAM.
+Which of the following is the best description of a bastion host from a security perspective?
+
+A.A Bastion host should be on a private subnet and never a public subnet due to security concerns.
+B.A Bastion host sits on the outside of an internal network and is used as a gateway into the private
+network and is considered the critical strong point of the network.
+
+C.Bastion hosts allow users to log in using RDP or SSH and use that session to S5H into internal
+network to access private subnet resources.
+
+D.A Bastion host should maintain extremely tight security and monitoring as it is available to the
+public.
+
+Answer: C

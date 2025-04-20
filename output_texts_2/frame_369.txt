@@ -1,0 +1,27 @@
+398) A company's security engineer is designing an isolation procedure for Amazon EC2 instances as part of an incident
+response plan. The security engineer needs to isolate a target instance to block any traffic to and from the target instance,
+except for traffic from the company's forensics team. Each of the company's EC2 instances has its own dedicated security
+group. The EC2 instances are deployed in subnets of a VPC. A subnet can contain multiple instances.
+
+The security engineer is testing the procedure for EC2 isolation and opens an SSH session to the target instance. The
+procedure starts to simulate access to the target instance by an attacker. The security engineer removes the existing security
+group rules and adds security group rules to give the forensics team access to the target instance on port 22.
+
+After these changes, the security engineer notices that the SSH connection is still active and usable. When the security
+engineer runs a ping command to the public IP address of the target instance, the ping command is blocked.
+
+What should the security engineer do to isolate the target instance?
+
+A. Add an inbound rule to the security group to allow traffic from 0.0.0.0/0 for all ports. Add an outbound rule to the
+security group to allow traffic to 0.0.0.0/0 for all ports. Then immediately delete these rules.
+
+B. Remove the port 22 security group rule. Attach an instance role policy that allows AWS Systems Manager Session
+Manager connections so that the forensics team can access the target instance.
+
+C. Create a network ACL that is associated with the target instance's subnet. Add a rule at the top of the inbound rule
+set to deny all traffic from 0.0.0.0/0. Add a rule at the top of the outbound rule set to deny all traffic to 0.0.0.0/0.
+
+D. Create an AWS Systems Manager document that adds a host-level firewall rule to block all inbound traffic and
+outbound traffic. Run the document on the target instance.
+
+Answer: B

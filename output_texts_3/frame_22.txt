@@ -1,0 +1,12 @@
+#23Topic 1
+A Security Engineer must enforce the use of only Amazon EC2, Amazon S3, Amazon RDS, Amazon DynamoDB, and AWS STS in specific accounts.
+What is a scalable and efficient approach to meet this requirement?
+
+A. Set up an AWS Organizations hierarchy, and replace the FullAWSAccess policy with the following Service Control Policy for the governed organization units:  Most Voted
+B. Create multiple IAM users for the regulated accounts, and attach the following policy statement to restrict services as required: 
+C. Set up an Organizations hierarchy, replace the global FullAWSAccess with the following Service Control Policy at the top level: 
+D. Set up all users in the Active Directory for federated access to all accounts in the company. Associate Active Directory groups with IAM groups, and attach the following policy statement to restrict services as required: 
+ 
+Answer: A
+A (100%)
+

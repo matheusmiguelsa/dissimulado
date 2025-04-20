@@ -1,0 +1,12 @@
+8
+A data security company is experimenting on various security features that they can implement on their Elastic Load Balancers such as Server Order Preference, Predefined Security Policy, Perfect Forward Secrecy, and many others. The company is planning to use the Perfect Forward Secrecy feature to provide additional safeguards to their architecture against the eavesdropping of encrypted data through the use of a unique random session key. This feature also prevents the decoding of captured data, even if the secret long-term key is compromised.
+
+Which AWS services can offer SSL/TLS cipher suites for Perfect Forward Secrecy?
+
+A. Amazon EC2 and Amazon S3
+B. AWS CloudTrail and Amazon CloudWatch
+C. Amazon CloudFront and Elastic Load Balancers
+D. Amazon API Gateway and AWS Lambda
+Answer: C
+
+

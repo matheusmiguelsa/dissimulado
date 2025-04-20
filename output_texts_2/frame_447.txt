@@ -1,0 +1,24 @@
+433) A company plans to use AWS Key Management Service (AWS KMS) to implement an encryption strategy to protect
+data at rest. The company requires client-side encryption for company projects. The company is currently conducting
+multiple projects to test the company's use of AWS KMS. These tests have led to a sudden increase in the company's AWS
+resource consumption. The test projects include applications that issue multiple requests each second to KMS endpoints
+for encryption activities.
+
+The company needs to develop a solution that does not throttle the company's ability to use AWS KMS. The solution must
+improve key usage for client-side encryption and must be cost optimized.
+
+Which solution will meet these requirements?
+
+A. Use keyrings with the AWS Encryption SDK. Use each keyring individually or combine keyrings into a multi-keyring.
+Decrypt the data by using a keyring that has the primary key in the multi-keyring.
+
+B. Use data key caching. Use the local cache that the AWS Encryption SDK provides with a caching cryptographic
+materials manager.
+
+C. Use KMS key rotation. Use a local cache in the AWS Encryption SDK with a caching cryptographic materials
+manager.
+
+D. Use keyrings with the AWS Encryption SDK. Use each keyring individually or combine keyrings into a multi-keyring.
+Use any of the wrapping keys in the multi-keyring to decrypt the data.
+
+Answer: B

@@ -1,0 +1,19 @@
+257) A company's Security Team received an email notification from the Amazon EC2 Abuse team that one or more of
+the company's Amazon EC2 instances may have been compromised.
+
+Which combination of actions should the Security team take to respond to (be current modem? (Select TWO.)
+
+A.Open a support case with the IAM Security team and ask them to remove the malicious code from the
+affected instance.
+
+B.Respond to the notification and list the actions that have been taken to address the incident.
+
+C.Delete all IAM users and resources in the account.
+
+D.Detach the internet gateway from the VPC remove aft rules that contain 0.0.0.0V0 from the security
+groups, and create a NACL rule to deny all traffic Inbound from the internet.
+
+E.Delete the identified compromised instances and delete any associated resources that the Security team
+did not create.
+
+Answer: D,E

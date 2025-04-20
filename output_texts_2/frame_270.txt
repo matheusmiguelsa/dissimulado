@@ -1,0 +1,30 @@
+354) A company receives a notification from the AWS Abuse team about an AWS account The notification indicates that a
+resource in the account is compromised The company determines that the compromised resource is an Amazon EC2 instance
+that hosts a web application The compromised EC2 instance is part of an EC2 Auto Scaling group.
+
+The EC2 instance accesses Amazon S3 and Amazon DynamoDB resources by using an 1AM access key and secret key The 1AM
+access key and secret key are stored inside the AMI that is specified in the Auto Scaling group's launch configuration The
+company is concerned that the credentials that are stored in the AMI might also have been exposed.
+
+The company must implement a solution that remediates the security concerns without causing downtime for the application
+The solution must comply with security best practices.
+
+Which solution will meet these requirements’?
+
+A.Rotate the potentially compromised access key that the EC2 instance uses Create a new AM | without the potentially
+compromised credentials Perform an EC2 Auto Scaling instance refresh.
+
+B.Delete or deactivate the potentially compromised access key Create an EC2 Auto Scaling linked 1AM role that includes a
+custom policy that matches the potentially compromised access key permission Associate the new 1AM role with the Auto
+Scaling group Perform an EC2 Auto Scaling instance refresh.
+
+C.Delete or deactivate the potentially compromised access key Create a new AMI without the potentially compromised
+credentials Create an 1AM role that includes the correct permissions Create a launch template for the Auto Scaling group to
+reference the new AMI and 1AM role Perform an EC2 Auto Scaling instance refresh.
+
+D.Rotate the potentially compromised access key Create a new AMI without the potentially compromised access key Use a user
+data script to supply the new access key as environmental variables in the Auto Scaling group's launch configuration Perform an
+
+EC2 Auto Scaling instance refresh.
+
+Answer: C

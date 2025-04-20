@@ -1,0 +1,16 @@
+374) A company has configured an organization in AWS Organizations for its AWS accounts. AWS CloudTrail is enabled
+
+in all AWS Regions. A security engineer must implement a solution to prevent CloudTrail from being disabled. Which
+solution will meet this requirement?
+
+A. Enable CloudTrail log file integrity validation from the organization's management account.
+B. Create 1AM policies for all the company's users to prevent the users from performing the DescribeTrails
+action and the GetTrailStatus action.
+
+C. Enable server-side encryption with AWS KMS keys (SSE-KMS) for CloudTrail logs. Create a KMS key Attach a
+policy to the key to prevent decryption of the logs
+
+D. Create an SCP that includes an explicit Deny rule for the StopLogging action and the DeleteTrail action. Attach
+the SCP to the root OU.
+
+Correct Answer: D

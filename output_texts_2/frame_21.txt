@@ -1,0 +1,11 @@
+241) You need to create a policy and apply it for just an individual user. How could you
+accomplish this in the right way?
+
+A.Add an [AM managed policy for the user.
+B.Add a service policy for the user.
+
+C.Add an IAM role for the user.
+
+D.Add an inline policy for the user.
+
+Answer: D

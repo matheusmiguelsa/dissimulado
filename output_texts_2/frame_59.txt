@@ -1,0 +1,25 @@
+260) A Development team has built an experimental environment to test a simple stale web application It has built an isolated
+VPC with a private and a public subnet. The public subnet holds only an Application Load Balancer a NAT gateway, and an
+internet gateway. The private subnet holds ail of the Amazon EC2 instances.
+
+There are 3 different types of servers Each server type has its own Security Group that limits access lo only required
+connectivity. The Security Groups nave both inbound and outbound rules applied Each subnet has both inbound and outbound
+network ACls applied to limit access to only required connectivity.
+
+Which of the following should the team check if a server cannot establish an outbound connection to the internet? (Select
+
+THREE.)
+A.The route tables and the outbound rules on the appropriate private subnet security group.
+
+B.The outbound network ACL rules on the private subnet and the Inbound network ACL rules on the public subnet.
+
+C.The outbound network ACL rules on the private subnet and both the inbound and outbound rules on the public
+
+subnet.
+
+D.The rules on any host-based firewall that may be applied on the Amazon EC2 instances.
+
+E.The Security Group applied to the Application Load Balancer and NAT gateway.
+
+F.That the 0.0.0./0 route in the private subnet route table points to the internet gateway in the public subnet.
+Answer: C,E,F

@@ -1,0 +1,14 @@
+344) Which of the following are valid configurations for using SSL certificates with Amazon CloudFront? (Select
+THREE )
+
+A.Default AWS Certificate Manager certificate.
+
+B.Custom SSL certificate stored in AWS KMS
+
+C.Default CloudFront certificate.
+
+D.Custom SSL certificate stored in AWS Certificate Manager.
+E.Default SSL certificate stored in AWS Secrets Manager.
+F.Custom SSL certificate stored in AWS IAM
+
+Answer: A,B,C

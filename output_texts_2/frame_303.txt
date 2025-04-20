@@ -1,0 +1,16 @@
+369) A company needs to log object-level activity in its Amazon $3 buckets. The company also needs to validate the
+integrity of the log file by using a digital signature.
+
+A. Create an AWS CloudTrail trail with log file validation enabled. Enable data events. Specify Amazon S3 as the
+data event type.
+
+B. Create a new S3 bucket for S3 server access logs. Configure the existing S3 buckets to send their S3 server
+access logs to the new $3 bucket.
+
+C. Create a new S3 bucket for $3 server access logs with log file validation enabled. Enable data events. Specify
+Amazon $3 as the data event type.
+
+D. Create an Amazon CloudWatch Logs log group. Configure the existing S3 buckets to send their S3 server
+access logs to the log group.
+
+Correct Answer: A

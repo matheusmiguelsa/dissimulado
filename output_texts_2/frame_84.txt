@@ -1,0 +1,22 @@
+271) A large corporation is creating a multi-account strategy and needs to determine how its employees should access
+the IAM infrastructure.
+Which of the following solutions would provide the MOST scalable solution?
+
+A.Create dedicated IAM users within each IAM account that employees can assume through federation
+
+based upon group membership in their existing identity provider.
+
+B.Use a centralized account with IAM roles that employees can assume through federation with their existing
+
+identity provider Use cross-account roles to allow the federated users to assume their target role in the
+
+resource accounts.
+
+C.Configure the [AM Security Token Service to use Kerberos tokens so that users can use their existing
+
+corporate user names and passwords to access IAM resources directly.
+
+D.Configure the [AM trust policies within each account's role to set up a trust back to the corporation's
+
+existing identity provider allowing users to assume the role based off their SAML token.
+Answer: B

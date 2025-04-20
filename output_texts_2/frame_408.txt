@@ -1,0 +1,21 @@
+416) A company wants to receive an email notification about critical findings in AWS Security Hub. The company does
+not have an existing architecture that supports this functionality.
+Which solution will meet the requirement?
+
+A. Create an AWS Lambda function to identify critical Security Hub findings. Create an Amazon Simple Notification
+Service (Amazon SNS) topic as the target of the Lambda function. Subscribe an email endpoint to the SNS topic to
+receive published messages.
+
+B. Create an Amazon Kinesis Data Firehose delivery stream. Integrate the delivery stream with Amazon
+EventBridge. Create an EventBridge rule that has a filter to detect critical Security Hub findings. Configure the
+delivery stream to send the findings to an email address.
+
+C. Create an Amazon EventBridge rule to detect critical Security Hub findings. Create an Amazon Simple
+Notification Service (Amazon SNS) topic as the target of the EventBridge rule. Subscribe an email endpoint to the
+SNS topic to receive published messages.
+
+D. Create an Amazon EventBridge rule to detect critical Security Hub findings. Create an Amazon Simple Email
+Service (Amazon SES) topic as the target of the EventBridge rule. Use the Amazon SES API to format the message.
+Choose an email address to be the recipient of the message.
+
+Answer: C

@@ -1,0 +1,5 @@
+C  Apermission boundary is attached to the System Administrator role with the following permission statement:
+
+BD An SCP is attached to the account with the following statement:
+
+Answer: B

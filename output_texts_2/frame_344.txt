@@ -1,0 +1,25 @@
+A. Set up GuardDuty to send notifications to an Amazon CloudWatch alarm with two targets in CloudWatch. From CloudWatch,
+stream the findings through Amazon Kinesis Data Streams into an Amazon Open Search Service domain as the first target for
+delivery. Use Amazon QuickSight to visualize the findings. Use OpenSearch queries for further analysis. Deliver email alerts to
+the security team by configuring an SNS topic as a second target for the CloudWatch alarm. Use event pattern matching with
+an Amazon EventBridge event rule to send only High severity findings in the alerts.
+
+B. Set up GuardDuty to send notifications to AWS CloudTrail with two targets in CloudTrail. From CloudTrail, stream the
+findings through Amazon Kinesis Data Firehose into an Amazon OpenSearch Service domain as the first target for delivery.
+Use OpenSearch Dashboards to visualize the findings. Use OpenSearch queries for further analysis. Deliver email alerts to the
+security team by configuring an SNS topic as a second target for CloudTrail. Use event pattern matching with a CloudTrail
+event rule to send only High severity findings in the alerts.
+
+C. Set up GuardDuty to send notifications to Amazon EventBridge with two targets. From EventBridge, stream the findings
+through Amazon Kinesis Data Firehose into an Amazon OpenSearch Service domain as the first target for delivery. Use
+OpenSearch Dashboards to visualize the findings. Use OpenSearch queries for further analysis. Deliver email alerts to the
+security team by configuring an SNS topic as a second target for EventBridge. Use event pattern matching with an EventBridge
+event rule to send only High severity findings in the alerts.
+
+D. Set up GuardDuty to send notifications to Amazon EventBridge with two targets. From EventBridge, stream the findings
+through Amazon Kinesis Data Streams into an Amazon OpenSearch Service domain as the first target for delivery. Use
+Amazon QuickSight to visualize the findings. Use OpenSearch queries for further analysis. Deliver email alerts to the security
+team by configuring an SNS topic as a second target for EventBridge. Use event pattern matching with an EventBridge event
+rule to send only High severity findings in the alerts.
+
+Answer: C

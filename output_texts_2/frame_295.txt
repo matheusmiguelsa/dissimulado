@@ -1,0 +1,18 @@
+365) A company is using AWS Organizations to manage multiple accounts. The company needs to allow an IAM user to
+use a role to access resources that are in another organization's AWS account.
+Which combination of steps must the company perform to meet this requirement? (Select TWO.)
+
+A. Create a role in the IAM user's AWS account. Create an identity policy that allows the sts: AssumeRole
+action. Attach the identity policy to the role.
+
+B. Create a role in the AWS account that contains the resources. Create an entry in the role's trust policy
+that allows the IAM user to assume the role. Attach the trust policy to the role.
+
+C. Create an identity policy that allows the sts: AssumeRole action in the AWS account that contains the
+resources. Attach the identity policy to the IAM user.
+
+D. Establish a trust relationship between the IAM user and the AWS account that contains the resources.
+E. Ensure that the sts: AssumeRole action is allowed by the SCPs of the organization that owns the
+resources that the IAM user needs to access.
+
+Correct Answer: B,E

@@ -1,0 +1,19 @@
+297) A company is building an application on IAM that will store sensitive Information. The company has a support team with
+access to the IT infrastructure, including databases. The company's security engineer must introduce measures to protect the
+sensitive data against any data breach while minimizing management overhead. The credentials must be regularly rotated.
+
+What should the security engineer recommend?
+
+A.Enable Amazon RDS encryption to encrypt the database and snapshots. Enable Amazon Elastic Block Store (Amazon
+EBS) encryption on Amazon EC2 instances. Include the database credential in the EC2 user data field. Use an IAM
+Lambda function to rotate database credentials. Set up TLS for the connection to the database.
+B.Install a database on an Amazon EC2 Instance. Enable third-party disk encryption to encrypt the Amazon Elastic Block
+Store (Amazon EBS) volume. Store the database credentials in IAM CloudHSM with automatic rotation. Set up TLS for the
+connection to the database.
+C.Enable Amazon RDS encryption to encrypt the database and snapshots. Enable Amazon Elastic Block Store (Amazon
+EBS) encryption on Amazon EC2 instances. Store the database credentials in IAM Secrets Manager with automatic
+rotation. Set up TLS for the connection to the RDS hosted database.
+D.Set up an IAM CloudHSM cluster with IAM Key Management Service (IAM KMS) to store KMS keys.
+Set up Amazon RDS encryption using [AM KMS to encrypt the database. Store database credentials in the IAM Systems
+Manager Parameter Store with automatic rotation. Set up TLS for the connection to the RDS hosted database.
+Answer: C

@@ -1,0 +1,26 @@
+424) A company used AWS Organizations to set up an environment with multiple AWS accounts. The company's organization
+currently has two AWS accounts, and the company expects to add more than 50 AWS accounts during the next 12 months The
+company will require all existing and future AWS accounts to use Amazon GuardDuty. Each existing AWS account has
+GuardDuty active. The company reviews GuardDuty findings by logging into each AWS account individually.
+
+The company wants a centralized view of the GuardDuty findings for the existing AWS accounts and any future AWS accounts.
+The company also must ensure that any new AWS account has GuardDuty automatically turned on.
+
+Which solution will meet these requirements?
+
+A. Enable AWS Security Hub in the organization's management account. Configure GuardDuty within the management
+account to send all GuardDuty findings to Security Hub.
+
+B. Create a new AWS account in the organization. Enable GuardDuty in the new account. Designate the new account as the
+delegated administrator account for GuardDuty. Configure GuardDuty to add existing accounts as member accounts. Select
+the option to automatically add new AWS accounts to the organization
+
+C. Create a new AWS account in the organization. Enable GuardDuty in the new account. Enable AWS Security Hub in each
+account. Select the option to automatically add new AWS accounts to the organization.
+
+D. Enable AWS Security Hub in the organization's management account. Designate the management account as the
+delegated administrator account for Security Hub. Add existing accounts as member accounts. Select the option to
+automatically add new AWS accounts to the organization. Send all Security Hub findings to the organization's GuardDuty
+account.
+
+Answer: B

@@ -1,0 +1,22 @@
+397) A company uses infrastructure as code (laC) to create AWS infrastructure. The company writes the code as AWS
+CloudFormation templates to deploy the infrastructure. The company has an existing CI/CD pipeline that the company can
+use to deploy these templates.
+
+After a recent security audit, the company decides to adopt a policy-as-code approach to improve the company's security
+posture on AWS. The company must prevent the deployment of any infrastructure that would violate a security policy, such
+as an unencrypted Amazon Elastic Block Store (Amazon EBS) volume.
+
+Which solution will meet these requirements?
+
+A. Turn on AWS Trusted Advisor. Configure security notifications as webhooks in the preferences section of the
+CI/CD pipeline.
+
+B. Turn on AWS Config. Use the prebuilt rules or customized rules. Subscribe tile Cl/CD pipeline to an Amazon
+Simple Notification Service (Amazon SNS) topic that receives notifications from AWS Config.
+
+C. Create rule sets in AWS CloudFormation Guard. Run validation checks for CloudFormation templates as a
+phase of the CI/CD process.
+
+D. Create rule sets as SCPs. Integrate the SCPs as a part of validation control in a phase of the CI/CD process.
+
+Answer: C

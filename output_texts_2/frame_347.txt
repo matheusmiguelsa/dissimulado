@@ -1,0 +1,8 @@
+How should the security engineer correct the error?
+
+A. Move the logs:CreateLogGroup action to the second Allow statement.
+B. Add the logs:PutDestination action to the second Allow statement.
+C. Add the logs:GetLogEvents action to the second Allow statement.
+D. Add the logs:CreateLogStream action to the second Allow statement.
+
+Correct Answer: D

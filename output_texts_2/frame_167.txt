@@ -1,0 +1,20 @@
+307) A company plans to create individual child accounts within an existing organization in IAM Organizations for each of its
+DevOps teams. IAM CloudTrail has been enabled and configured on all accounts to write audit logs to an Amazon $3 bucket
+in a centralized IAM account. A security engineer needs to ensure that DevOps team members are unable to modify or disable
+this configuration.
+
+How can the security engineer meet these requirements?
+
+A.Create an IAM policy that prohibits changes to the specific CloudTrail trail and apply the policy to the IAM
+account root user.
+
+B.Create an S3 bucket policy in the specified destination account for the CloudTrail trail that prohibits
+configuration changes from the IAM account root user in the source account.
+
+C.Create an SCP that prohibits changes to the specific CloudTrail trail and apply the SCP to the appropriate
+organizational unit or account in Organizations.
+
+D.Create an IAM policy that prohibits changes to the specific CloudTrail trail and apply the policy to a new IAM
+group. Have team members use individual IAM accounts that are members of the new IAM group.
+
+Answer: D

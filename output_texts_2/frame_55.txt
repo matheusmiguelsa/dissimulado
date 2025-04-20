@@ -1,0 +1,18 @@
+258) A company is deploying an Amazon EC2-based application. The application will include a custom health-checking
+component that produces health status data in JSON format. A Security Engineer must implement a secure solution to
+monitor application availability in near-real time by analyzing the hearth status data.
+
+Which approach should the Security Engineer use?
+
+A.Use Amazon CloudWatch monitoring to capture Amazon EC2 and networking metrics Visualize metrics
+using Amazon CloudWatch dashboards.
+B.Run the Amazon Kinesis Agent to write the status data to Amazon Kinesis Data Firehose Store the
+streaming data from Kinesis Data Firehose in Amazon Redshift. (hen run a script on the pool data and analyze
+the data in Amazon Redshift.
+C.Write the status data directly to a public Amazon S3 bucket from the health-checking component Configure
+S3 events to invoke an [AM Lambda function that analyzes the data.
+D.Generate events from the health-checking component and send them to Amazon CloudWatch Events.
+Include the status data as event payloads. Use CloudWatch Events rules to invoke an IAM Lambda function
+that analyzes the data.
+
+Answer: A

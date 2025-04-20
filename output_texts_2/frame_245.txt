@@ -1,0 +1,19 @@
+342) A company is building a data processing application mat uses AWS Lambda functions. The application's Lambda
+functions need to communicate with an Amazon RDS OB instance that is deployed within a VPC in the same AWS
+account.
+
+Which solution meets these requirements in the MOST secure way?
+
+A.Configure the DB instance to allow public access Update the DB instance security group to allow access
+from the Lambda public address space for the AWS Region.
+
+B.Deploy the Lambda functions inside the VPC Attach a network ACL to the Lambda subnet Provide outbound
+rule access to the VPC CIDR range only Update the DB instance security group to allow traffic from 0.0.0.0/0
+C.Deploy the Lambda functions inside the VPC Attach a security group to the Lambda functions Provide
+outbound rule access to the VPC CIDR range only Update the DB instance security group to allow traffic from
+the Lambda security group.
+
+D.Peer the Lambda default VPC with the VPC that hosts the DB instance to allow direct network access
+without the need for security groups.
+
+Answer: C

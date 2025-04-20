@@ -1,0 +1,17 @@
+371) A developer operations team uses AWS Identity and Access Management (1AM) to manage user permissions The
+team created an Amazon EC2 instance profile role that uses an AWS managed Readonly Access policy. When an
+application that is running on Amazon EC2 tries to read a file from an encrypted Amazon S3 bucket, the application
+receives an AccessDenied error.
+
+The team administrator has verified that the S3 bucket policy allows everyone in the account to access the S3 bucket.
+There is no object ACL that is attached to the file.
+
+What should the administrator do to fix the 1AM access issue?
+
+A. Attach an inline policy with kms Decrypt permissions to the 1AM role
+B. Add the EC2 1AM role as the authorized Principal to the S3 bucket policy.
+
+C. Edit the ReadOnlyAccess policy to add kms:Decrypt actions.
+D. Attach an inline policy with $3: * permissions to the 1AM role.
+
+Correct Answer: A

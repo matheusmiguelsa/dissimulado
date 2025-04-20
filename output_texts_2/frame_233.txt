@@ -1,0 +1,18 @@
+336) A company has multiple departments. Each department has its own IAM account. All these accounts belong to the same
+organization in [AM Organizations.
+
+A large .csv file is stored in an Amazon S3 bucket in the sales department's [AM account. The company wants to allow users
+from the other accounts to access the .csv file's content through the combination of [AM Glue and Amazon Athen.
+
+A.However, the company does not want to allow users from the other accounts to access other files in the same folder.
+Which solution will meet these requirements?
+
+B.Apply a user policy in the other accounts to allow IAM Glue and Athena lo access the .csv We.
+
+C.Use S3 Select to restrict access to the .csv lie. In IAM Glue Data Catalog, use S3 Select as the source of the IAM Glue
+database.
+
+D.Define an IAM Glue Data Catalog resource policy in IAM Glue to grant cross-account $3 object access to the .csv file.
+E.Grant IAM Glue access to Amazon S3 in a resource-based policy that specifies the organization as the principal.
+
+Answer: A

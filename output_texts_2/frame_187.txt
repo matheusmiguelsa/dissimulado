@@ -1,0 +1,16 @@
+316) A security engineer needs to build a solution to turn IAM CloudTrail back on in multiple IAM Regions in case it is ever
+turned off.
+
+What is the MOST efficient way to implement this solution?
+
+A.Use IAM Config with a managed rule to trigger the |AM-EnableCloudTrail remediation.
+
+B.Create an Amazon EventBridge (Amazon CloudWatch Events) event with a cloudtrail.amazonlAM.com event
+source and a StartLogging event name to trigger an IAM Lambda function to call the StartLogging API.
+
+C.Create an Amazon CloudWatch alarm with a cloudtrail.amazonlIAM.com event source and a StopLogging event
+name to trigger an IAM Lambda function to call the StartLogging API.
+
+D.Monitor IAM Trusted Advisor to ensure CloudTrail logging is enabled.
+
+Answer: B

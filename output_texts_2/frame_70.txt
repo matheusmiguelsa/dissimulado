@@ -1,0 +1,17 @@
+265) A company is using [AM Secrets Manager to store secrets for its production Amazon RDS database. The
+Security Officer has asked that secrets be rotated every 3 months.
+Which solution would allow the company to securely rotate the secrets? (Select TWO.)
+
+A.Place the RDS instance in a public subnet and an IAM Lambda function outside the VPC. Schedule the Lambda
+function to run every 3 months to rotate the secrets.
+B.Place the RDS instance in a private subnet and an IAM Lambda function inside the VPC in the private subnet.
+Configure the private subnet to use a NAT gateway. Schedule the Lambda function to run every 3 months to rotate
+the secrets.
+C.Place the RDS instance in a private subnet and an [AM Lambda function outside the VP Configure the private
+subnet to use an internet gateway. Schedule the Lambda function to run every 3 months lo rotate the secrets.
+D.Place the RDS instance in a private subnet and an [AM Lambda function inside the VPC in the private subnet.
+Schedule the Lambda function to run quarterly to rotate the secrets.
+E.Place the RDS instance in a private subnet and an IAM Lambda function inside the VPC in the private subnet.
+Configure a Secrets Manager interface endpoint. Schedule the Lambda function to run every 3 months to rotate the
+secrets.
+Answer: B,E

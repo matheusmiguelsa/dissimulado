@@ -1,0 +1,25 @@
+372) A company is using AWS to run a long-running analysis process on data that is stored in Amazon $3 buckets.
+The process runs on a fleet of Amazon EC2 instances that are in an Auto Scaling group. The EC2 instances are
+deployed in a private subnet Of a VPC that does not have internet access. The EC2 instances and the S3 buckets
+are in the same AWS account The EC2 instances access the S3 buckets through an S3 gateway endpoint that has
+the default access policy. Each EC2 instance is associated With an instance profile role that has a policy that
+explicitly allows the s3:GetObject action and the s3:PutObject action for only the required S3 buckets.
+
+The company learns that one or more of the EC2 instances are compromised and are exfiltrating data to an S3
+bucket that is outside the companys organization in AWS Organizations. A security engtneer must implement a
+solution to stop this exfiltration of data and to keep the EC2 processing job functional.
+
+Which solution will meet these requirements?
+
+A. Update the policy on the $3 gateway endpoint to allow the S3 actions CY11y if the values of the aws:ResourceOrgID
+and aws:PrincipalOrglD condition keys match the companys values.
+
+B. Update the policy on the instance profile role to allow the S3 actions only if the value of the aws:ResourceOrglD
+condition key matches the company's value.
+
+C. Add a network ACL rule to the subnet of the EC2 instances to block outgoing connections on port 443.
+
+D. Apply an SCP on the AWS account to allow the $3 actions only if the values of the aws:ResourceOrglD and
+aws:PrincipalOrgID condition keys match the company's values.
+
+Correct Answer: D

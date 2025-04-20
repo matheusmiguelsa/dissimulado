@@ -1,0 +1,13 @@
+#15Topic 1
+A Security Engineer must design a solution that enables the incident Response team to audit for changes to a user's IAM permissions in the case of a security incident.
+How can this be accomplished?
+
+A. Use AWS Config to review the IAM policy assigned to users before and after the incident. Most Voted
+B. Run the GenerateCredentialReport via the AWS CLI, and copy the output to Amazon S3 daily for auditing purposes.
+C. Copy AWS CloudFormation templates to S3, and audit for changes from the template.
+D. Use Amazon EC2 Systems Manager to deploy images, and review AWS CloudTrail logs for changes.
+ 
+Answer: A
+A (86%)
+14%
+

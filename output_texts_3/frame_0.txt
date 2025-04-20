@@ -1,0 +1,12 @@
+The Security team believes that a former employee may have gained unauthorized access to AWS resources sometime in the past 3 months by using an identified access key.
+What approach would enable the Security team to find out what the former employee may have done within AWS?
+
+A. Use the AWS CloudTrail console to search for user activity. Most Voted
+B. Use the Amazon CloudWatch Logs console to filter CloudTrail data by user.
+C. Use AWS Config to see what actions were taken by the user.
+D. Use Amazon Athena to query CloudTrail logs stored in Amazon S3.
+ 
+Answer: A
+A (85%)
+D (15%)
+

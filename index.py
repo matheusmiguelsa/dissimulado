@@ -34,7 +34,7 @@ def process_video(video_path, output_folder, frame_interval):
         duration = 0
     print(f"FPS do vídeo: {frame_rate}, Total de quadros: {total_frames}, Duração: {duration:.2f} segundos")
 
-    current_time = 40  # Inicializa o tempo atual no vídeo
+    current_time = 140_40  # Inicializa o tempo atual no vídeo
     frame_count = 1   # Contador de quadros processados
     text = ''
     while current_time < duration:
@@ -46,7 +46,7 @@ def process_video(video_path, output_folder, frame_interval):
             break  # Sai do loop se todos os quadros forem processados ou ocorrer um erro
         
         frame_count += 1
-        if text != extract_text_from_frame(frame) and 'Answer:' in extract_text_from_frame(frame) or extract_text_from_frame(frame) and 'Answer :' in extract_text_from_frame(frame):
+        if text != extract_text_from_frame(frame) and 'Answer:' in extract_text_from_frame(frame) or extract_text_from_frame(frame) and 'Answer :' in extract_text_from_frame(frame) or extract_text_from_frame(frame) and 'Answer(s):' in extract_text_from_frame(frame):
         # Extraia texto do quadro
 
 
@@ -54,7 +54,7 @@ def process_video(video_path, output_folder, frame_interval):
             text = text.replace("www.shapingpixel.com", "")
             text = text.replace("www. shapingpixel.com", "")
             text = text.replace("Answer :", "Answer:")
-            
+            text = text.replace("Answer(s):", "Answer:")
             # Divida o texto em linhas
             lines = text.split("\n")
             
@@ -67,6 +67,7 @@ def process_video(video_path, output_folder, frame_interval):
             
             # Combine novamente as linhas em um único texto formatado
             formatted_text = "\n".join(trimmed_lines)
+            print(formatted_text)
             # Salve o texto em um arquivo
             output_file = os.path.join(output_folder, f"frame_{frame_count}.txt")
             with open(output_file, "w", encoding="utf-8") as f:
@@ -81,7 +82,7 @@ def process_video(video_path, output_folder, frame_interval):
 
 # Caminho do vídeo e pasta de saída
 video_path = r"videoplayback.mp4"  # Substitua pelo caminho do vídeo
-output_folder = "output_texts"
+output_folder = "output_texts_2"
 
 # Intervalo de tempo (em segundos) entre quadros processados - neste caso, 1 minuto
 frame_interval = 30  # 60 segundos

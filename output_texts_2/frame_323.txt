@@ -1,0 +1,24 @@
+378) A company has hundreds of AWS accounts in an organization in AWS Organizations. The company operates out of a
+single AWS Region. The company has a dedicated security tooling AWS account in the organization. The security tooling
+account is configured as the organization's delegated administrator for Amazon GuardDuty and AWS Security Hub. The
+company has configured the environment to automatically enable GuardDuty and Security Hub for existing AWS accounts and
+new AWS accounts.
+
+The company is performing control tests on specific GuardDuty findings to make sure that the company's security team can
+detect and respond to security events. The security team launched an Amazon EC2 instance and attempted to run DNS
+requests against a test domain, example.com, to generate a DNS finding. However, the GuardDuty finding was never created in
+the Security Hub delegated administrator account.
+
+Why was the finding was not created in the Security Hub delegated administrator account?
+
+A. Cross-Region aggregation in Security Hub was not configured.
+
+B. VPC flow logs were not turned on for the VPC where the EC2 instance was launched.
+
+C. The GuardDuty integration with Security Hub was never activated in the AWS account where the finding was
+generated.
+
+D. The VPC where the EC2 instance was launched had the DHCP option configured for a custom OpenDNS
+resolver.
+
+Correct Answer: C

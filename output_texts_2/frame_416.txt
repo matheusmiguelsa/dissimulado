@@ -1,0 +1,23 @@
+420) A company has created a set of AWS Lambda functions to automate incident response steps for incidents that occur on
+Amazon EC2 instances. The Lambda functions need to collect relevant artifacts, such as instance ID and security group
+configuration. The Lambda functions must then write a summary to an Amazon S3 bucket.
+
+The company runs its workloads in a VPC that uses public subnets and private subnets. The public subnets use an internet
+gateway to access the internet. The private subnets use a NAT gateway to access the internet.
+
+All network traffic to Amazon S3 that is related to the incident response process must use the AWS network. This traffic must
+not travel across the internet.
+
+Which solution will meet these requirements?
+
+A. Deploy the Lambda functions to a private subnet in the VPC. Configure the Lambda functions to access the S3 service
+through the NAT gateway.
+
+B. Deploy the Lambda functions to a private subnet in the VPC. Create an S3 gateway endpoint to access the S3 service.
+C. Deploy the $3 bucket and the Lambda functions in the same private subnet. Configure the Lambda functions to use the
+default endpoint for the S3 service.
+
+D. Deploy an Amazon Simple Queue Service (Amazon SOS) queue and the Lambda functions in the same private subnet.
+Configure the Lambda functions to send data to the SQS queue. Configure the SOS queue to send data to the S3 bucket.
+
+Correct Answer: B

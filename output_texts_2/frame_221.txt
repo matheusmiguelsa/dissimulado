@@ -1,0 +1,24 @@
+331) An application team wants to use IAM Certificate Manager (ACM) to request public certificates to ensure that data is
+secured in transit. The domains that are being used are not currently hosted on Amazon Route 53
+
+The application team wants to use an IAM managed distribution and caching solution to optimize requests to its systems and
+provide better points of presence to customers The distribution solution will use a primary domain name that is customized
+The distribution solution also will use several alternative domain names The certificates must renew automatically over an
+indefinite period of time.
+
+Which combination of steps should the application team take to deploy this architecture? (Select THREE.)
+
+A.Request a certificate (torn ACM in the us-west-2 Region Add the domain names that the certificate will secure.
+B.Send an email message to the domain administrators to request vacation of the domains for ACM
+
+C.Request validation of the domains for ACM through DNS Insert CNAME records into each domain's DNS zone.
+D.Create an Application Load Balancer for me caching solution Select the newly requested certificate from ACM to be
+used for secure connections.
+
+E.Create an Amazon CloudFront distribution for the caching solution Enter the main CNAME record as the Origin
+Name Enter the subdomain names or alternate names in the Alternate Domain Names Distribution Settings Select the
+newly requested certificate from ACM to be used for secure connections.
+
+F.Request a certificate from ACM in the us-east-1 Region Add the domain names that the certificate wil secure.
+
+Answer: C,D,F

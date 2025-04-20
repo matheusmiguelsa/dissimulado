@@ -1,0 +1,12 @@
+252) A company needs a forensic-logging solution for hundreds of applications running in Docker on Amazon EC2 The
+solution must perform real-time analytics on the togs must support the replay of messages and must persist the logs.
+
+Which IAM services should be used to meet these requirements? (Select TWO)
+
+A.Amazon Athena.
+B.Amazon Kinesis.
+C.Amazon SQS
+D.Amazon Elasticsearch.
+E.Amazon EMR
+
+Answer: B,D

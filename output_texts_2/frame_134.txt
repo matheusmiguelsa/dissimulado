@@ -1,0 +1,19 @@
+292) A company's engineering team is developing a new application that creates IAM Key Management Service (IAM KMS)
+CMK grants for users immediately after a grant IS created users must be able to use the CMK tu encrypt a 512-byte payload.
+
+During load testing, a bug appears |intermittently where AccessDeniedExceptions are occasionally triggered when a user first
+attempts to encrypt using the CMK
+
+Which solution should the cOmpany’s security specialist recommend’?
+
+A.Instruct users to implement a retry mechanism every 2 minutes until the call succeeds.
+
+B.Instruct the engineering team to consume a random grant token from users, and to call the CreateGrant
+operation, passing it the grant token. Instruct use to use that grant token in their call to encrypt.
+
+C.Instruct the engineering team to create a random name for the grant when calling the CreateGrant operation.
+Return the name to the users and instruct them to provide the name as the grant token in the call to encrypt.
+D.Instruct the engineering team to pass the grant token returned in the CreateGrant response to users. Instruct
+users to use that grant token in their call to encrypt.
+
+Answer: D

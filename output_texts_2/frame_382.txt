@@ -1,0 +1,25 @@
+404) A company has two AWS accounts. One account is for development workloads. The other account is for production
+workloads. For compliance reasons the production account contains all the AWS Key Management. Service (AWS KMS) keys
+that the company uses for encryption.
+
+The company applies an IAM role to an AWS Lambda function in the development account to allow secure access to AWS
+resources. The Lambda function must access a specific KMS customer managed key that exists in the production account to
+encrypt the Lambda function's data.
+
+Which combination of steps should a security engineer take to meet these requirements? (Select TWO.)
+
+A. Configure the key policy for the customer managed key in the production account to allow access to the Lambda service.
+
+B. Configure the key policy for the customer managed key in the production account to allow access to the IAM role of the Lambda
+function in the development account.
+
+C. Configure a new IAM policy in the production account with permissions to use the customer managed key. Apply the IAM policy to
+the IAM role that the Lambda function in the development account uses.
+
+D. Configure a new key policy in the development account with permissions to use the customer managed key. Apply the key policy to
+the IAM role that the Lambda function in the development account uses.
+
+E. Configure the IAM role for the Lambda function in the development account by attaching an IAM policy that allows access to the
+customer managed key in the production account.
+
+Answer: B, E

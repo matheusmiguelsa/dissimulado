@@ -1,0 +1,17 @@
+356) A security engineer needs to implement a write-once-read-many (WORM) model for data that a company will store in
+Amazon S3 buckets. The company uses the S3 Standard storage class for all of its S3 buckets. The security engineer must
+en-sure that objects cannot be overwritten or deleted by any user, including the AWS account root user.
+
+Which solution will meet these requirements?
+
+A. Create new $3 buckets with $3 Object Lock enabled in governance mode. Place objects in the $3 buckets.
+
+B. Create new S3 buckets with $3 Object Lock enabled in compliance mode. Place objects in the $3 buckets.
+
+C. Use $3 Glacier Vault Lock to attach a Vault Lock policy to new $3 buckets. Wait 24 hours to complete the Vault
+Lock process. Place objects in the $3 buckets.
+
+D. Create new S3 buckets with S3 Object Lock enabled in governance mode. Add a legal hold to the S3 buckets.
+Place objects in the S3 buckets.
+
+Correct Answer: B

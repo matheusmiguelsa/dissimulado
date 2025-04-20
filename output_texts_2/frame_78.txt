@@ -1,0 +1,18 @@
+268) An organization wants to log all IAM API calls made within all of its IAM accounts, and
+must have a central place to analyze these logs.
+
+What steps should be taken to meet these requirements in the MOST secure manner?
+(Select TWO)
+
+A.Turn on IAM CloudTrail in each IAM account.
+
+B.Turn on CloudTrail in only the account that will be storing the logs.
+
+C.Update the bucket ACL of the bucket in the account that will be storing the logs so that other
+accounts can log to it.
+
+D.Create a service-based role for CloudTrail and associate it with CloudTrail in each account.
+E.Update the bucket policy of the bucket in the account that will be storing the logs so that other
+accounts can log to it.
+
+Answer: A,E

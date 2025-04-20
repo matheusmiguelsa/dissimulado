@@ -1,0 +1,21 @@
+352) A company has retail stores The company is designing a solution to store scanned copies of customer receipts on
+Amazon $3 Files will be between 100 KB and 5 MB in PDF format Each retail store must have a unique encryption key Each
+object must be encrypted with a unique key.
+
+Which solution will meet these requirements?
+
+A.Create a dedicated AWS Key Management Service (AWS KMS) customer managed key for each retail store Use
+the $3 Put operation to upload the objects to Amazon S3 Specify server-side encryption with AWS KMS keys (SSE-
+KMS) and the key ID of the store's key.
+
+B.Create a new AWS Key Management Service (AWS KMS) customer managed key every day for each retail store
+Use the KMS Encrypt operation to encrypt objects Then upload the objects to Amazon S3
+
+C.Run the AWS Key Management Service (AWS KMS) GenerateDataKey operation every day for each retail store
+Use the data key and client-side encryption to encrypt the objects Then upload the objects to Amazon $3
+
+D.Use the AWS Key Management Service (AWS KMS) ImportKeyMaterial operation to import new key material to
+AWS KMS every day for each retail store Use a customer managed key and the KMS Encrypt operation to encrypt
+the objects Then upload the objects to Amazon $3
+
+Answer: A

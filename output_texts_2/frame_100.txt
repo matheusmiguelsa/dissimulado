@@ -1,0 +1,24 @@
+277) A company is operating a website using Amazon CloudFornt. CloudFront servers some content from Amazon S3 and
+other from web servers running EC2 instances behind an Application. Load Balancer (ALB). Amazon DynamoDB is used as the
+data store. The company already uses IAM Certificate Manager (ACM) to store a public TLS certificate that can optionally
+secure connections between the website users and CloudFront. The company has a new requirement to enforce end-to-end
+encryption in transit.
+
+Which combination of steps should the company take to meet this requirement? (Select THREE.)
+
+A.Update the CloudFront distribution. configuring it to optionally use HTTPS when connecting to origins on Amazon $3
+B.Update the web application configuration on the web servers to use HTTPS instead of HTTP when connecting to
+DynamoDB
+
+C.Update the CloudFront distribution to redirect HTTP corrections to HTTPS
+
+D.Configure the web servers on the EC2 instances to listen using HTTPS using the public ACM TLS certificate Update the
+ALB to connect to the target group using HTTPS
+
+E.Update the ALB listen to listen using HTTPS using the public ACM TLS certificate. Update the CloudFront distribution to
+connect to the HTTPS listener.
+
+F.Create a TLS certificate Configure the web servers on the EC2 instances to use HTTPS only with that certificate. Update
+the ALB to connect to the target group using HTTPS.
+
+Answer: B,C,E

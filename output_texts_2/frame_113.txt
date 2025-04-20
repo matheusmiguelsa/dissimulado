@@ -1,0 +1,19 @@
+282) A company needs to encrypt all of its data stored in Amazon $3. The company wants to use IAM Key Management
+Service (IAM KMS) to create and manage its encryption keys. The company's security policies require the ability to Import
+the company's own key material for the keys, set an expiration date on the keys, and delete keys immediately, if needed.
+
+How should a security engineer set up IAM KMS to meet these requirements?
+
+A.Configure IAM KMS and use a custom key store. Create a customer managed CMK with no key material Import
+the company's keys and key material into the CMK
+
+B.Configure [AM KMS and use the default Key store Create an [AM managed CMK with no key material Import
+the company's key material into the CMK
+
+C.Configure IAM KMS and use the default key store Create a customer managed CMK with no key material
+import the company's key material into the CMK
+
+D.Configure IAM KMS and use a custom key store. Create an IAM managed CMK with no key material. Import the
+company's key material into the CMK.
+
+Answer: A

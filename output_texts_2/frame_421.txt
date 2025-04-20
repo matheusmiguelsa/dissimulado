@@ -1,0 +1,22 @@
+422) A company is investigating an increase in its AWS monthly bill. The company discovers that bad actors compromised
+some Amazon EC2 instances and served webpages for a large email phishing campaign.
+
+A security engineer must implement a solution to monitor for cost increases in the future to help detect malicious activity.
+
+Which solution will offer the company the EARLIEST detection of cost increases?
+
+A. Create an Amazon EventBridge rule that invokes an AWS Lambda function hourly. Program the Lambda
+function to download an AWS usage report from AWS Data Exports about usage of all services. Program the
+Lambda function to analyze the report and to send a notification when anomalies are detected.
+
+B. Create a cost monitor in AWS Cost Anomaly Detection. Configure an individual alert to notify an Amazon
+Simple Notification Service (Amazon SNS) topic when the percentage above the expected cost exceeds a
+threshold.
+
+C. Review AWS Cost Explorer daily to detect anomalies in cost from prior months Review the usage of any
+services that experience a significant cost increase from prior months.
+
+D. Capture VPC flow logs from the VPC where the EC2 instances run. Use a third-party network analysis tool to
+analyze the flow logs and to detect anomalies in network traffic that might increase cost.
+
+Correct Answer: B

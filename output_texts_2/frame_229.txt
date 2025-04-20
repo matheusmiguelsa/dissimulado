@@ -1,0 +1,21 @@
+334) Within a VPC, a corporation runs an Amazon RDS Multi-AZ DB instance. The database instance is connected to the internet
+through a NAT gateway via two subnets.
+
+Additionally, the organization has application servers that are hosted on Amazon EC2 instances and use the RDS database.
+These EC2 instances have been deployed onto two more private subnets inside the same VPC. These EC2 instances connect to
+the internet through a default route via the same NAT gateway. Each VPC subnet has its own route table.
+
+The organization implemented a new security requirement after a recent security examination. Never allow the database
+instance to connect to the internet. A security engineer must perform this update promptly without interfering with the network
+traffic of the application servers.
+
+How will the security engineer be able to comply with these requirements?
+
+A.Remove the existing NAT gateway. Create a new NAT gateway that only the application server subnets can use.
+B.Configure the DB instance TMs inbound network ACL to deny traffic from the security group ID of the NAT
+gateway.
+
+C.Modify the route tables of the DB instance subnets to remove the default route to the NAT gateway.
+D.Configure the route table of the NAT gateway to deny connections to the DB instance subnets.
+
+Answer: C

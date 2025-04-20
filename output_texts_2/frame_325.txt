@@ -1,0 +1,19 @@
+379) A security engineer needs to see up an Amazon CloudFront distribution for an Amazon $3 bucket that hosts a static
+website. The security engineer must allow only specified IP addresses to access the website. The security engineer also
+must prevent users from accessing the website directly by using $3 URLs.
+
+Which solution will meet these requirements?
+
+A. Implement security groups to allow only the specified IP addresses access and to restrict $3 bucket access by using
+the CloudFront distribution.
+
+B. Generate an $3 bucket policy. Specify cloudfront amazonaws com as the principal. Use the aws Sourcelp condition
+key to allow access only if the request conies from the specified IP addresses.
+
+C. Create a CloudFront origin access identity (OAl). Create the S3 bucket policy so that only the OAl has access. Create
+an AWS WAF web ACL and add an IP set rule. Associate the web ACL with the CloudFront distribution.
+
+D. Create an S3 bucket access point to allow access from only the CloudFront distribution. Create an AWS WAF web ACL
+and add an IP set rule. Associate the web ACL with the CloudFront distribution.
+
+Correct Answer: C

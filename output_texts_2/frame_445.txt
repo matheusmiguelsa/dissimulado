@@ -1,0 +1,24 @@
+432) A company developed an application by using AWS Lambda, Amazon $3, Amazon Simple Notification Service (Amazon
+SNS), and Amazon DynamoDB. An external application puts objects into the company's $3 bucket and tags the objects with
+date and time. A Lambda function periodically pulls data from the company's S3 bucket based on date and time tags and
+inserts specific values into a DynamoDB table for further processing.
+
+The data includes personally identifiable information (PII). The company must remove data that is older than 30 days from
+the S3 bucket and the DynamoDB table.
+
+Which solution will meet this requirement with the MOST operational efficiency?
+
+A. Update the Lambda function to add a TTL S3 flag to S3 objects. Create an S3 Lifecycle policy to expire objects
+that are older than 30 days by using the TTL $3 flag.
+
+B. Create an $3 Lifecycle policy to expire objects that are older than 30 days. Update the Lambda function to add
+the TTL attribute in the DynamoDB table. Enable TTL on the DynamoDB table to expire entries that are older than 30
+days based on the TTL attribute.
+
+C. Create an S3 Lifecycle policy to expire objects that are older than 30 days and to add all prefixes to the $3
+bucket. Update the Lambda function to delete entries that are older than 30 days.
+
+D. Create an $3 Lifecycle policy to expire objects that are older than 30 days by using object tags. Update the
+Lambda function to delete entries that are older than 30 days.
+
+Answer: B

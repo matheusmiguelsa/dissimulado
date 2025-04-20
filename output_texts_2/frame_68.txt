@@ -1,0 +1,21 @@
+264) A company hosts multiple externally facing applications, each isolated in its own IAM account The company'B
+Security team has enabled IAM WAF. IAM Config. and Amazon GuardDuty on all accounts. The company's Operations team
+has also joined all of the accounts to IAM Organizations and established centralized logging for CloudTrail. [AM Config,
+and GuardDuty. The company wants the Security team to take a reactive remediation in one account, and automate
+implementing this remediation as proactive prevention in all the other accounts.
+
+How should the Security team accomplish this?
+
+A.Update the [AM WAF rules in the affected account and use IAM Firewall Manager to push updated IAM WAF
+rules across all other accounts.
+
+B.Use GuardDuty centralized logging and Amazon SNS to set up alerts to notify all application teams of
+security incidents.
+
+C.Use GuardDuty alerts to write an IAM Lambda function that updates all accounts by adding additional
+NACLs on the Amazon EC2 instances to block known malicious IP addresses.
+
+D.Use IAM Shield Advanced to identify threats in each individual account and then apply the account-based
+protections to all other accounts through Organizations.
+
+Answer: C

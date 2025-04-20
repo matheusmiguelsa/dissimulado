@@ -1,0 +1,20 @@
+359) A security engineer wants to evaluate configuration changes to a specific AWS resource to ensure that the resource
+meets compliance standards. However, the security engineer is concerned about a situation in which several configuration
+changes are made to the resource in quick succession. The security engineer wants to record only the latest configuration of
+that resource to indicate the cumulative impact of the set of changes.
+
+Which solution will meet this requirement in the MOST operationally efficient way?
+
+A. Use AWS Config to detect the configuration changes and to record the latest configuration in case of
+multiple configuration changes.
+
+B. Use AWS CloudTrail to detect the configuration changes by filtering API calls to monitor the changes. Use
+the most recent API call to indicate the cumulative impact of multiple calls
+
+C. Use AWS Cloud Map to detect the configuration changes. Generate a report of configuration changes from
+AWS Cloud Map to track the latest state by using a sliding time window.
+
+D. Use Amazon CloudWatch to detect the configuration changes by filtering API calls to monitor the changes.
+Use the most recent API call to indicate the cumulative impact of multiple calls.
+
+Correct Answer: A

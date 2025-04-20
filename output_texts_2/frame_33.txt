@@ -1,0 +1,12 @@
+247) You work at a company that makes use of IAM resources. One of the key security policies is to ensure that
+all data i encrypted both at rest and in transit.
+Which of the following is one of the right ways to implement this.
+
+A.Use $3 SSE and use SSL for data in transit.
+
+B.SSL termination on the ELB
+
+C.Enabling Proxy Protocol.
+
+D.Enabling sticky sessions on your load balancer.
+Answer: A

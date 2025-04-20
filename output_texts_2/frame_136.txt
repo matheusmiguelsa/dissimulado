@@ -1,0 +1,19 @@
+293) A website currently runs on Amazon EC2, wan mostly statics content on the site. Recently the site was subjected to a
+DDoS attack a security engineer was (asked was redesigning the edge security to help.
+
+Mitigate this risk in the future.
+
+What are some ways the engineer could achieve this (Select THREE)?
+
+A.Use IAM X-Ray to inspect the traffic going to the EC2 instances.
+
+B.Move the static content to Amazon $3, and front this with an Amazon Cloud Front distribution.
+C.Change the security group configuration to block the source of the attack traffic.
+
+D.Use IAM WAF security rules to inspect the inbound traffic.
+
+E.Use Amazon Inspector assessment templates to inspect the inbound traffic.
+
+F.Use Amazon Route 53 to distribute traffic.
+
+Answer: B,D,F

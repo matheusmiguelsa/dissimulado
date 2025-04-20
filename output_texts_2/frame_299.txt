@@ -1,0 +1,24 @@
+367) A company has an organization in AWS Organizations that includes dedicated accounts for each of its business units.
+The company is collecting all AWS CloudTrail logs from the accounts in a single Amazon S3 bucket in the top-level
+account. The company's IT governance team has access to the top-level account. A security engineer needs to allow each
+business unit to access its own CloudTrail logs.
+
+The security engineer creates an IAM role in the top-level account for each of the other accounts. For each role the
+security engineer creates an IAM policy to allow read-only permissions to objects in the S3 bucket with the prefix of the
+respective logs.
+
+Which action must the security engineer take in each business unit account to allow an IAM user in that account to read
+the logs?
+
+A. Create an SCP that grants permissions to the top-level account.
+
+B. Forward the credentials of the IAM role in the top-level account to the IAM user in the business
+unit account.
+
+C. Attach a policy to the IAM user to allow the user to assume the role that was created in the top-
+level account. Specify the role's ARN in the policy.
+
+D. Use the root account of the business unit account to assume the role that was created in the top-
+level account. Specify the role's ARN in the policy.
+
+Correct Answer: C

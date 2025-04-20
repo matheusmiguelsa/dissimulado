@@ -1,0 +1,4 @@
+D Tag each IAM role with the Team key, and use the team name in the tag value. Create an IAM policy similar to the one that follows, and it to all the
+IAM roles used by developers
+
+Answer: A

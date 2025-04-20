@@ -1,0 +1,14 @@
+261) A company uses a third-party application to store encrypted data in Amazon $3. The company uses another third-party
+application trial decrypts the data from Amazon S3 to ensure separation of duties Between the applications A Security
+
+Engineer warns to separate the permissions using IAM roles attached to Amazon EC2 instances. The company prefers to use
+native IAM services.
+
+Which encryption method will meet these requirements?
+A.Use encrypted Amazon EBS volumes with Amazon default keys (IAM EBS)
+B.Use server-side encryption with customer-provided keys (SSE-C)
+
+C.Use server-side encryption with IAM KMS managed keys (SSE-KMS)
+D.Use server-side encryption with Amazon S3 managed keys (SSE-S3)
+
+Answer: C

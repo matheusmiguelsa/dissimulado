@@ -1,0 +1,12 @@
+249) A company has a set of EC2 Instances hosted in IAM. The EC2 Instances have EBS volumes which is used to
+store critical information. There is a business continuity requirement to ensure high availability for the EBS volumes.
+How can you achieve this?
+
+A.Use lifecycle policies for the EBS volumes.
+B.Use EBS Snapshots.
+
+C.Use EBS volume replication.
+
+D.Use EBS volume encryption.
+
+Answer: B

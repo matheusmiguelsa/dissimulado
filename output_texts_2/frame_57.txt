@@ -1,0 +1,15 @@
+259) An Application team has requested a new IAM KMS master key for use with Amazon S3, but the organizational
+security policy requires separate master keys for different IAM services to limit blast radius.
+
+How can an IAM KMS customer master key (CMK) be constrained to work with only Amazon $3?
+
+A.Configure the CMK key policy to allow only the Amazon S3 service to use the kms Encrypt action
+B.Configure the CMK key policy to allow IAM KMS actions only when the kms ViaService condition
+matches the Amazon S3 service name.
+
+C.Configure the IAM user's policy lo allow KMS to pass a rote lo Amazon $3
+
+D.Configure the IAM user's policy to allow only Amazon S3 operations when they are combined with
+the CMK
+
+Answer: B

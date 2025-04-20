@@ -1,0 +1,19 @@
+423) A company has a VPC that has no internet access and has the private DNS hostnames option enabled. An
+Amazon Aurora database is running inside the VPC. A security engineer wants to use AWS Secrets Manager to
+automatically rotate the credentials for the Aurora database The security engineer configures the Secrets Manager
+default AWS Lambda rotation function to run inside the same VPC that the Aurora database uses. However, the
+security engineer determines that the password cannot be rotated properly because the Lambda function cannot
+communicate with the Secrets Manager endpoint.
+
+What is the MOST secure way that the security engineer can give the Lambda function the ability to communicate with
+the Secrets Manager endpoint?
+
+A. Add a NAT gateway to the VPC to allow access to the Secrets Manager endpoint.
+
+B. Add a gateway VPC endpoint to the VPC to allow access to the Secrets Manager endpoint.
+C. Add an interface VPC endpoint to the VPC to allow access to the Secrets Manager
+endpoint.
+
+D. Add an internet gateway for the VPC to allow access to the Secrets Manager endpoint.
+
+Answer:C

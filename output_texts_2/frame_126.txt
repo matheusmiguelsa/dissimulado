@@ -1,0 +1,27 @@
+288) A company is running workloads in a single IAM account on Amazon EC2 instances and Amazon EMR clusters a
+recent security audit revealed that multiple Amazon Elastic Block Store (Amazon EBS) volumes and snapshots are not
+encrypted.
+
+The company's security engineer is working on a solution that will allow users to deploy EC2 Instances and EMR clusters
+while ensuring that all new EBS volumes and EBS snapshots are encrypted at rest. The solution must also minimize
+operational overhead.
+
+Which steps should the security engineer take to meet these requirements?
+
+A.Create an Amazon Event Bridge (Amazon Cloud watch Events) event with an EC2 instance as the source and create
+volume as the event trigger.
+
+When the event is triggered invoke an IAM Lambda function to evaluate and notify the security engineer if the EBS
+volume that was created is not encrypted.
+
+B.Use a customer managed IAM policy that will verify that the encryption flag of the Createvolume context is set to
+true. Apply this rule to all users.
+
+C.Create an IAM Config rule to evaluate the configuration of each EC2 instance on creation or modification. Have the
+IAM Config rule trigger an IAM Lambdafunction to alert the security team and terminate the instance it the EBS
+volume is not encrypted. 5
+
+D.Use the IAM Management Console or IAM CLi to enable encryption by default for EBS volumes in each IAM Region
+where the company operates.
+
+Answer: D shi

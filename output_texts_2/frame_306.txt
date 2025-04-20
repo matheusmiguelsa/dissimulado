@@ -1,0 +1,20 @@
+A. In each Region, create an Amazon EventBridge rule to deliver findings to an Amazon Kinesis Data Firehose delivery stream.
+Configure the Kinesis Data Firehose delivery streams to deliver the logs to a single Amazon S3 bucket.
+
+B. In each Region, create an Amazon EventBridge rule to deliver findings to an Amazon Kinesis data stream. Configure the
+Kinesis data streams to output the logs to a single Amazon S3 bucket.
+
+C. Use AWS Glue DataBrew to crawl the Amazon S3 bucket and build the schem a. Use AWS Glue Data Catalog to query the
+data and create views to flatten nested attributes. Build Amazon QuickSight dashboards by using Amazon Athena.
+
+D. Partition the Amazon S3 data. Use AWS Glue to crawl the $3 bucket and build the schema. Use Amazon Athena to query the
+data and create views to flatten nested attributes. Build Amazon QuickSight dashboards that use the Athena views.
+
+E. Designate an AWS account as a delegated administrator for Security Hub. Publish events to Amazon CloudWatch from the
+delegated administrator account, all member accounts, and required Regions that are enabled for Security Hub findings.
+
+F. Designate an AWS account in an organization in AWS Organizations as a delegated administrator for Security Hub. Publish
+events to Amazon EventBridge from the delegated administrator account, all member accounts, and required Regions that are
+enabled for Security Hub findings.
+
+Correct Answer: A,D,F

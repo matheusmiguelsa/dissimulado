@@ -1,0 +1,17 @@
+236) Your company has a set of EC2 Instances defined in IAM. These Ec2 Instances have strict security groups
+attached to them. You need to ensure that changes to the Security groups are noted and acted on accordingly. How
+can you achieve this?
+
+A.Use Cloudwatch logs to monitor the activity on the Security Groups. Use filters to search for the changes
+and use SNS for the notification.
+
+B.Use Cloudwatch metrics to monitor the activity on the Security Groups. Use filters to search for the changes
+and use SNS for the notification.
+
+C.Use IAM inspector to monitor the activity on the Security Groups. Use filters to search for the changes and
+use SNS f the notification.
+
+D.Use Cloudwatch events to be triggered for any changes to the Security Groups. Configure the Lambda
+function for email notification as well.
+
+Answer: D

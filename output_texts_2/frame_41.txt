@@ -1,0 +1,17 @@
+251) A company has multiple Amazon $3 buckets encrypted with customer-managed CMKs Due to regulatory requirements
+the keys must be rotated every year. The company's Security Engineer has enabled automatic key rotation for the CMKs;
+however the company wants to verity that the rotation has occurred.
+
+What should the Security Engineer do to accomplish this?
+
+A.Filter IAM CloudTrail logs for KeyRotaton events.
+
+B.Monitor Amazon CloudWatcn Events for any IAM KMS CMK rotation events.
+
+C.Using the IAM CLI. run the IAM kms gel-key-relation-status operation with the --key-id parameter
+to check the CMK rotation date.
+
+D.Use Amazon Athena to query IAM CloudTrail logs saved in an S3 bucket to filter Generate New
+Key events.
+
+Answer: C

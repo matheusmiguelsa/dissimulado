@@ -1,0 +1,12 @@
+#16Topic 1
+A company has complex connectivity rules governing ingress, egress, and communications between Amazon EC2 instances. The rules are so complex that they cannot be implemented within the limits of the maximum number of security groups and network access control lists (network ACLs).
+What mechanism will allow the company to implement all required network rules without incurring additional cost?
+
+A. Configure AWS WAF rules to implement the required rules.
+B. Use the operating system built-in, host-based firewall to implement the required rules. Most Voted
+C. Use a NAT gateway to control ingress and egress according to the requirements.
+D. Launch an EC2-based firewall product from the AWS Marketplace, and implement the required rules in that product.
+ 
+Answer: B
+B (100%)
+

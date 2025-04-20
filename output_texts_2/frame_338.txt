@@ -1,0 +1,17 @@
+385) A company hosts a public website on an Amazon EC2 instance. HTTPS traffic must be able to access the website.
+The company uses SSH for management of the web server.
+
+The website is on the subnet 10.0.1.0/24. The management subnet is 192.168.100.0/24. A security engineer must create
+a security group for the EC2 instance.
+
+Which combination of steps should the security engineer take to meet these requirements in the MOST secure manner?
+(Select TWO.)
+
+A. Allow port 443 from source 0.0.0.0/0.
+B. Allow port 22 from 192.168.100.0/24.
+C. Allow port 443 from 10.0.1.0/24.
+
+D. Allow port 22 from source 0.0.0.0/0.
+E. Allow port 22 from 10.0.1.0/24.
+
+Correct Answer: A,B

@@ -1,0 +1,19 @@
+380) A company is designing a multi-account structure for its development teams. The company is using AWS
+Organizations and AWS Single Sign-On (AWS SSO). The company must implement a solution so that the development
+teams can use only specific AWS Regions and so that each AWS account allows access to only specific AWS services.
+Which solution will meet these requirements with the LEAST operational overhead?
+
+A. Deactivate AWS Security Token Service (AWS STS) in Regions that the developers are not allowed to
+use.
+
+B. For each AWS account, create tailored identity-based policies for AWS SSO. Use statements that
+include the Condition, Resource, and NotAction elements to allow access to only the Regions and
+services that are needed.
+
+C. Use AWS SSO to set up service-linked roles with IAM policy statements that include the Condition,
+Resource, and NotAction elements to allow access to only the Regions and services that are needed.
+
+D. Create SCPs that include the Condition, Resource, and NotAction elements to allow access to only the
+Regions and services that are needed.
+
+Correct Answer: D

@@ -1,0 +1,14 @@
+245) Your CTO thinks your IAM account was hacked.
+
+What is the only way to know for certain if there was unauthorized access and what they
+did, assuming your hackers are very sophisticated IAM engineers and doing everything
+they can to cover their tracks?
+
+A.Use CloudTrail Log File Integrity Validation.
+
+B.Use IAM Config SNS Subscriptions and process events in real time.
+C.Use CloudTrail backed up to IAM S3 and Glacier.
+
+D.Use IAM Config Timeline forensics.
+
+Answer: A

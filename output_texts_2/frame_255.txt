@@ -1,0 +1,21 @@
+347) A company is using an AWS Key Management Service (AWS KMS) AWS owned key in its application to encrypt files in
+an AWS account The company's security team wants the ability to change to new key material for new files whenever a
+
+potential key breach occurs A security engineer must implement a solution that gives the security team the ability to change
+the key whenever the team wants to do so.
+
+Which solution will meet these requirements?
+
+A.Create a new customer managed key Add a key rotation schedule to the key Invoke the key rotation schedule
+every time the security team requests a key change.
+
+B.Create a new AWS managed key Add a key rotation schedule to the key Invoke the key rotation schedule every
+time the security team requests a key change.
+
+C.Create a key alias Create a new customer managed key every time the security team requests a key change
+Associate the alias with the new key.
+
+D.Create a key alias Create a new AWS managed key every time the security team requests a key change
+Associate the alias with the new key.
+
+Answer: A

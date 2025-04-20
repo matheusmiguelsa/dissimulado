@@ -1,0 +1,21 @@
+426) A security engineer needs to implement a solution to determine whether a company's Amazon EC2 instances are
+being used to mine cryptocurrency. The solution must provide notifications of cryptocurrency-related activity to an
+Amazon Simple Notification Seivtce (Amazon SNS) topic.
+
+Which solution will meet these requirements?
+
+A. Create AWS Config custom rules by using Guard custom policy. Configure the AWS Config rules to detect
+when an EC2 instance queries a DNS domain name that is associated with cryptocurrency-related activity.
+Configure AWS Config to initiate alerts to the SNS topic.
+
+B. Enable Amazon GuardDuty Create an Amazon EventBridge rule to send alerts to the SNS topic when GuardDuty
+creates a finding that is associated with cryptocurrency-related activity.
+
+C. Enable Amazon Inspector. Create an Amazon EventBridge rule to send alerts to the SNS topic when Amazon
+Inspector creates a finding that is associated with cryptocurrency-related activity.
+
+D. Enable VPC flow logs. Send the flow logs to an Amazon S3 bucket. Set up a query in Amazon Athena to detect
+when an EC2 instance queries a DNS domain name that is associated with cryptocurrency-related activity.
+Configure the Athena query to initiate alerts to the SNS topic.
+
+Answer: B

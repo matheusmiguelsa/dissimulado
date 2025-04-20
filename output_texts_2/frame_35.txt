@@ -1,0 +1,18 @@
+248) There are currently multiple applications hosted in a VPC. During monitoring it has been noticed that multiple port
+scans are coming in from a specific IP Address block. The internal security team has requested that all offending IP
+Addresses be denied for the next 24 hours.
+
+Which of the following is the best method to quickly and temporarily deny access from the specified IP Address's.
+
+A.Create an AD policy to modify the Windows Firewall settings on all hosts in the VPC to deny access from
+the IP Address block.
+
+B.Modify the Network ACLs associated with all public subnets in the VPC to deny access from the IP
+Address block.
+
+C.Add a rule to all of the VPC Security Groups to deny access from the IP Address block.
+
+D.Modify the Windows Firewall settings on all AMI'S that your organization uses in that VPC to deny access
+from the IP address block.
+
+Answer: B

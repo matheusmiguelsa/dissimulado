@@ -1,0 +1,21 @@
+309) A company is running an application in The eu-west-1 Region. The application uses an IAM Key Management
+Service (IAM KMS) CMK to encrypt sensitive dat.
+
+A.The company plans to deploy the application in the eu-north-1 Region.
+
+A security engineer needs to implement a key management solution for the application deployment in the new
+Region. The security engineer must minimize changes to the application code.
+
+Which change should the security engineer make to the IAM KMS configuration to meet these requirements?
+B.Update the key policies in eu-west-1. Point the application in eu-north-1 to use the same CMK as the application
+in eu-west-1.
+
+C.Allocate a new CMK to eu-north-1 to be used by the application that is deployed in that Region.
+
+D.Allocate a new CMK to eu-north-1. Create the same alias name for both keys. Configure the application
+deployment to use the key alias.
+
+E.Allocate a new CMK to eu-north-1. Create an alias for eu-'-1. Change the application code to point to the alias
+for eu--1.
+
+Answer: B

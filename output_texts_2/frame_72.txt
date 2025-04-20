@@ -1,0 +1,16 @@
+266) A corporation is preparing to acquire several companies. A Security Engineer must design a solution to ensure that newly
+acquired IAM accounts follow the corporation's security best practices. The solution should monitor each Amazon S3 bucket
+for unrestricted public write access and use [AM managed services.
+
+What should the Security Engineer do to meet these requirements?
+
+A.Configure Amazon Macie to continuously check the configuration of all S3 buckets.
+
+B.Enable IAM Config to check the configuration of each $3 bucket.
+
+C.Set up IAM Systems Manager to monitor S3 bucket policies for public write access.
+
+D.Configure an Amazon EC2 instance to have an IAM role and a cron job that checks the status of all $3
+buckets.
+
+Answer: C

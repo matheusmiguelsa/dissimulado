@@ -1,0 +1,20 @@
+444) A security engineer is designing a cloud architecture to support an application. The application runs on Amazon EC2
+instances and processes sensitive information, including credit card numbers.
+
+The application will send the credit card numbers to a component that is running in an isolated environment. The component
+will encrypt, store, and decrypt the numbers. The component then will issue tokens to replace the numbers in other parts of
+the application.
+
+The component of the application that manages the tokenization process will be deployed on a separate set of EC2
+instances. Other components of the application must not be able to store or access the credit card numbers.
+
+Which solution will meet these requirements?
+
+A. Use EC2 Dedicated Instances for the tokenization component of the application.
+
+B. Place the EC2 instances that manage the tokenization process into a partition placement group.
+
+C. Create a separate VPDeploy new EC2 instances into the separate VPC to support the data tokenization.
+D. Deploy the tokenization code onto AWS Nitro Enclaves that are hosted on EC2 instances.
+
+Answer: D

@@ -1,0 +1,15 @@
+269) An IT department currently has a Java web application deployed on Apache Tomcat running on Amazon EC2 instances.
+All traffic to the EC2 instances is sent through an internet-facing Application Load Balancer (ALB) The Security team has
+noticed during the past two days thousands of unusual read requests coming from hundreds of IP addresses. This is causing
+the Tomcat server to run out of threads and reject new connections.
+
+Which the SIMPLEST change that would address this server issue?
+
+A.Create an Amazon CloudFront distribution and configure the ALB as the origin.
+B.Block the malicious IPs with a network access list (NACL).
+
+C.Create an [AM Web Application Firewall (WAF). and attach it to the ALB
+
+D.Map the application domain name to use Route 53
+
+Answer: A

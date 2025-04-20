@@ -1,0 +1,25 @@
+357) A company uses SAML federation to grant users access to AWS accounts. A company workload that is in an isolated
+AWS account runs on immutable infrastructure with no human access to Amazon EC2. The company requires a specialized
+user known as a break glass user to have access to the workload AWS account and instances in the case of SAML errors. A
+recent audit discovered that the company did not create the break glass user for the AWS account that contains the workload.
+The company must create the break glass user. The company must log any activities of the break glass user and send the
+logs to a security team.
+
+Which combination of solutions will meet these requirements? (Select TWO.)
+
+A. Create a break glass EC2 key pair for the AWS account. Provide the key pair to the security team. Use AWS CloudTrail to
+monitor key pair activity. Send notifications to the security team by using Amazon Simple Notification Service (Amazon SNS).
+B. Create a local individual break glass IAM user for the security team. Create a trail in AWS CloudTrail that has Amazon
+CloudWatch Logs turned on. Use Amazon EventBridge to monitor local user activities.
+
+C. Configure AWS Systems Manager Session Manager for Amazon EC2. Configure an AWS Cloud Trail filter based on Session
+Manager. Send the results to an Amazon Simple Notification Service (Amazon SNS) topic.
+
+D. Create a local individual break glass IAM user on the operating system level of each workload instance. Configure
+unrestricted security groups on the instances to grant access to the break glass IAM users.
+
+E. Create a break glass IAM role for the account. Allow security team members to perform the AssumeRoleWithSAML
+operation. Create an AWS Cloud Trail trail that has Amazon CloudWatch Logs turned on. Use Amazon EventBridge to monitor
+security team activities.
+
+Correct Answer: B,C

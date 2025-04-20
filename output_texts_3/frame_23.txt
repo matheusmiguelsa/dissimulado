@@ -1,0 +1,14 @@
+#24Topic 1
+A company's database developer has just migrated an Amazon RDS database credential to be stored and managed by AWS Secrets Manager. The developer has also enabled rotation of the credential within the Secrets Manager console and set the rotation to change every 30 days.
+After a short period of time, a number of existing applications have failed with authentication errors.
+What is the MOST likely cause of the authentication errors?
+
+A. Migrating the credential to RDS requires that all access come through requests to the Secrets Manager.
+B. Enabling rotation in Secrets Manager causes the secret to rotate immediately, and the applications are using the earlier credential. Most Voted
+C. The Secrets Manager IAM policy does not allow access to the RDS database.
+D. The Secrets Manager IAM policy does not allow access for the applications.
+ 
+Answer: B
+B (58%)
+A (42%)
+

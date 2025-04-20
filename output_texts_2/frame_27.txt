@@ -1,0 +1,12 @@
+244) Your CTO is very worried about the security of your IAM account. How best can you
+prevent hackers from completely hijacking your account?
+
+A.Use short but complex password on the root account and any administrators.
+
+B.Use IAM IAM Geo-Lock and disallow anyone from logging in except for in your city.
+
+C.Use MFA on all users and accounts, especially on the root account.
+
+D.Don't write down or remember the root account password after creating the IAM account.
+
+Answer: C

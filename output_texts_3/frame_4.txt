@@ -1,0 +1,12 @@
+#5Topic 1
+Compliance requirements state that all communications between company on-premises hosts and EC2 instances be encrypted in transit. Hosts use custom proprietary protocols for their communication, and EC2 instances need to be fronted by a load balancer for increased availability.
+Which of the following solutions will meet these requirements?
+
+A. Offload SSL termination onto an SSL listener on a Classic Load Balancer, and use a TCP connection between the load balancer and the EC2 instances.
+B. Route all traffic through a TCP listener on a Classic Load Balancer, and terminate the TLS connection on the EC2 instances. Most Voted
+C. Create an HTTPS listener using an Application Load Balancer, and route all of the communication through that load balancer.
+D. Offload SSL termination onto an SSL listener using an Application Load Balancer, and re-spawn and SSL connection between the load balancer and the EC2 instances.
+ 
+Answer: B
+B (100%)
+

@@ -1,0 +1,16 @@
+4
+A multinational company is developing a sophisticated web application that requires integration with multiple third-party APIs. The company’s unique keys for each API are hardcoded inside an AWS CloudFormation template.
+
+The security team requires that the keys be passed into the template without exposing their values in plaintext. Moreover, the keys must be encrypted at rest and in transit.
+
+Which of the following provides the HIGHEST level of security while meeting these requirements?
+
+A. Use AWS Systems Manager Parameter Store to store the API keys. Then, reference them in the AWS CloudFormation templates using !GetAtt AppKey.Value
+B. Use AWS Systems Manager Parameter Store to store the API keys as SecureString parameters. Then, reference them in the AWS CloudFormation templates using {{resolve:ssm:AppKey}}
+C. Utilize AWS Secrets Manager to store the API keys. Then, reference them in the AWS CloudFormation templates using {{resolve:secretsmanager:AppKey:SecretString:password}}
+D. Use an Amazon S3 bucket to store the API keys. Then, create a custom AWS Lambda function to read the keys from the S3 bucket. Reference the keys in the AWS CloudFormation templates using a custom resource that invokes the Lambda function.
+Answer: C
+
+
+
+

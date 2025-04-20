@@ -1,0 +1,32 @@
+10
+A newly hired Security Analyst is assigned to manage the existing CloudFormation templates of the company. The Analyst opened the templates and analyzed the configured IAM policy for an S3 bucket as shown below:
+
+<pre>
+{
+  “Version”: “2012-10-17”,
+  “Statement”: [
+    {
+      “Effect”: “Allow”,
+      “Action”: [
+        “s3:Get*”,
+        “s3:List*”
+     ],
+     “Resource”: “*”
+  },
+  {
+     “Effect”: “Allow”,
+     “Action”: “s3:PutObject”,
+     “Resource”: “arn:aws:s3:::team-palawan/*”
+   }
+ ] }
+</pre>
+
+What does the following IAM policy allow? (Select THREE.)
+
+A. Allows reading objects from all S3 buckets owned by the account.
+B. Allows writing objects into the team-palawan S3 bucket.
+C. Allows changing access rights for the team-palawan S3 bucket.
+D. Allows reading objects in the team-palawan S3 bucket but not allowed to list the objects in the bucket.
+E. Allows reading objects from the team-palawan S3 bucket.
+F. Allows reading and deleting objects from the team-palawan S3 bucket.
+Answer: A,B,E

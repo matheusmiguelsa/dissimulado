@@ -1,0 +1,23 @@
+280) A security engineer must troubleshoot an administrator's inability to make an existing Amazon $3 bucket public in an
+account that is part of an organization n IAM Organizations. The administrator switched the role from the master account to
+a member account and then attempted to make one S3 bucket public. This action was immediately denied.
+
+Which actions should the security engineer take to troubleshoot the permissions issue? (Select TWO.)
+
+A.Review the cross-account role permissions and the $3 bucket policy Verify that the Amazon $3 block public
+access option in the member account is deactivated.
+
+B.Review the role permissions m the master account and ensure it has sufficient privileges to perform S3
+operations.
+
+C.Filter IAM CloudTrail logs for the master account to find the original deny event and update the cross-account
+role m the member account accordingly Verify that the Amazon S3 block public access option in the master
+account is deactivated.
+
+D.Evaluate the SCPs covering the member account and the permissions boundary of the role in the member
+account for missing permissions and explicit denies.
+
+E.Ensure the S3 bucket policy explicitly allows the s3 PutBucketPublicAccess action for the role m the member
+account.
+
+Answer: D,E

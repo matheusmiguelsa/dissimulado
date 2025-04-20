@@ -1,0 +1,22 @@
+305) A company's cloud operations team is responsible for building effective security for IAM cross- account access. The
+team asks a security engineer to help troubleshoot why some developers in the developer account (123456789012) in the
+developers group are not able to assume a cross-account role (ReadS3) into a production account (999999999999) to read
+the contents of an Amazon $3 bucket (productionapp). The two account policies are as follows:
+
+Which recommendations should the security engineer make to resolve this issue? (Select TWO.)
+
+A.Ask the developers to change their password and use a different web browser.
+
+B.Ensure that developers are using multi-factor authentication (MFA) when they log in to their developer
+account as the developer role.
+
+C.Modify the production account ReadS3 role policy to allow the PutBucketPolicy action on the productionapp
+$3 bucket.
+
+D.Update the trust relationship policy on the production account $3 role to allow the account number of the
+developer account.
+
+E.Update the developer group permissions in the developer account to allow access to the productionapp $3
+bucket.
+
+Answer: A,D

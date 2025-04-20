@@ -1,0 +1,23 @@
+285) A company's policy requires that all API keys be encrypted and stored separately from source code in a centralized
+security account. This security account is managed by the company's security team However, an audit revealed that an API
+key is steed with the source code of an IAM Lambda function m an IAM CodeCommit repository in the DevOps account.
+
+How should the security learn securely store the API key?
+
+A.Create a CodeCommit repository in the security account using IAM Key Management Service (IAM KMS) tor
+encryption Require the development team to migrate the Lambda source code to this repository.
+
+B.Store the API key in an Amazon S3 bucket in the security account using server-side encryption with Amazon S3
+managed encryption keys (SSE-S3) to encrypt the key Create a resigned URL tor the S3 key. and specify the URL ma
+Lambda environmental variable in the [AM CloudFormation template Update the Lambda function code to retrieve the
+key using the URL and call the API
+
+C.Create a secret in IAM Secrets Manager in the security account to store the API key using IAM Key Management
+Service (IAM KMS) tor encryption Grant access to the IAM role used by the Lambda function so that the function can
+retrieve the key from Secrets Manager and call the API
+
+D.Create an encrypted environment variable for the Lambda function to store the API key using IAM Key Management
+Service (IAM KMS) tor encryption Grant access to the IAM role used by the Lambda function so that the function can
+decrypt the key at runtime.
+
+Answer: C

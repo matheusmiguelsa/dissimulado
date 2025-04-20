@@ -1,0 +1,21 @@
+455) A security engineer is checking an AWS CloudFormation template for vulnerabilities. The security engineer finds a
+parameter that has a default value that exposes an application's API key in plaintext. The parameter is referenced several
+
+times throughout the template. The security engineer must replace the parameter while maintaining the ability to
+reference the value in the template.
+
+Which solution will meet these requirements in the MOST secure way?
+
+A. Store the API key value as a SecureString parameter in AWS Systems Manager Parameter Store. In the
+template, replace all references to the value with {{resolve:ssm:MySSMParameterName:1}}.
+
+B. Store the API key value in AWS Secrets Manager. In the template, replace all references to the value with
+{{resolve:secretsmanager:MySecretid:SecretString}}.
+
+C. Store the API key value in Amazon DynamoDB. In the template, replace all references to the value with
+{{resolve:dynamodb:MyTableName:MyPrimaryKey}}.
+
+D. Store the API key value in a new Amazon S3 bucket. In the template, replace all references to the value
+with {{resolve:s3:MyBucketName:MyObjectName}}.
+
+Answer: 8

@@ -1,0 +1,24 @@
+355) A company's security engineer wants to receive an email alert whenever Amazon GuardDuty, AWS Identity and Access
+Management Access Analyzer, or Amazon Made generate a high-severity security finding. The company uses AWS Control Tower
+to govern all of its accounts. The company also uses AWS Security Hub with all of the AWS service integrations turned on.
+
+Which solution will meet these requirements with the LEAST operational overhead?
+
+A.Set up separate AWS Lambda functions for GuardDuty, 1AM Access Analyzer, and Macie to call each service's public API
+to retrieve high-severity findings. Use Amazon Simple Notification Service (Amazon SNS) to send the email alerts. Create an
+Amazon EventBridge rule to invoke the functions on a schedule.
+
+B.Create an Amazon EventBridge rule with a pattern that matches Security Hub findings events with high severity. Configure
+the rule to send the findings to a target Amazon Simple Notification Service (Amazon SNS) topic. Subscribe the desired
+email addresses to the SNS topic.
+
+C.Create an Amazon EventBridge rule with a pattern that matches AWS Control Tower events with high severity. Configure
+the rule to send the findings to a target Amazon Simple Notification Service (Amazon SNS) topic. Subscribe the desired
+email addresses to the SNS topic.
+
+D.Host an application on Amazon EC2 to call the GuardDuty, 1AM Access Analyzer, and Macie APIs.
+
+Within the application, use the Amazon Simple Notification Service (Amazon SNS) API to retrieve high-severity findings and
+to send the findings to an SNS topic. Subscribe the desired email addresses to the SNS topic.
+
+Answer: B

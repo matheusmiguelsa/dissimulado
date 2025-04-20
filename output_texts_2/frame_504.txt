@@ -1,0 +1,14 @@
+456) A security engineer must use AWS Key Management Service (AWS KMS) to design a key management solution for a set
+
+of Amazon Elastic Block Store (Amazon EBS) volumes that contain sensitive data. The solution needs to ensure that the key
+material automatically expires in 90 days.
+
+Which solution meets these criteria?
+
+A. A customer managed CMK that uses customer provided key material
+B. A customer managed CMK that uses AWS provided key material
+C. An AWS managed CMK
+
+D. Operation system-native encryption that uses GnuPG
+
+Answer: A

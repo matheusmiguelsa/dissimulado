@@ -1,0 +1,19 @@
+328) A company wants to monitor the deletion of customer managed CMKs A security engineer must create an alarm that
+will notify the company before a CMK is deleted The security engineer has configured the integration of IAM CloudTrail
+with Amazon CloudWatch.
+
+What should the security engineer do next to meet this requirement?
+
+A.Use inbound rule 100 to allow traffic on TCP port 443 Use inbound rule 200 to deny traffic on TCP port 3306 Use
+outbound rule 100 to allow traffic on TCP port 443
+
+B.Use inbound rule 100 to deny traffic on TCP port 3306. Use inbound rule 200 to allow traffic on TCP port range
+1024-65535. Use outbound rule 100 to allow traffic on TCP port 443
+
+C.Use inbound rule 100 to allow traffic on TCP port range 1024-65535 Use inbound rule 200 to deny traffic on TCP
+port 3306 Use outbound rule 100 to allow traffic on TCP port 443
+
+D.Use inbound rule 100 to deny traffic on TCP port 3306 Use inbound rule 200 to allow traffic on TCP port 443 Use
+outbound rule 100 to allow traffic on TCP port 443
+
+Answer: A

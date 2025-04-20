@@ -1,0 +1,21 @@
+446) A security engineer is configuring account-based access control (ABAC) to allow only specific principals to put
+objects into an Amazon S3 bucket. The principals already have access to Amazon S3.
+
+The security engineer needs to configure a bucket policy that allows principals to put objects into the $3 bucket only if the
+value of the Team tag on the object matches the value of the Team tag that is associated with the principal. During testing,
+the security engineer notices that a principal can still put objects into the $3 bucket when the tag values do not match.
+
+Which combination of factors are causing the PutObject operation to succeed when the tag values are different? (Choose
+two.)
+
+A. The principal's identity-based policy grants access to put objects into the S3 bucket with no conditions.
+B. The principal's identity-based policy overrides the condition because the identity-based policy contains an
+explicit allow.
+
+C. The $3 bucket's resource policy does not deny access to put objects.
+
+D. The $3 bucket's resource policy cannot allow actions to the principal.
+
+E. The bucket policy does not apply to principals in the same zone of trust.
+
+Answer: AC

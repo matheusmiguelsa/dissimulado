@@ -1,0 +1,22 @@
+383) A security engineer is investigating a malware infection that has spread across a set of Amazon EC2 instances. A key
+indicator of the compromise is outbound traffic on TCP port 2905 to a set of command and control hosts on the internet.
+The security engineer creates a network ACL rule that denies the identified outbound traffic. The security engineer applies
+the network ACL rule to the subnet of the EC2 instances. The security engineer must identify any EC2 instances that are
+trying to communtcate on TCP port 2905.
+
+Which solution will identify the affected EC2 instances with the LEAST operational effort?
+
+A. Create a firewall in AWS Network Firewall. Attach the firewall to the subnet of the EC2 instances. Create a
+custom rule to identify and log traffic from the firewall on TCP port 2905. Create an Amazon CloudWatch Logs
+metric filter to identify firewall logs that reference traffic on TCP port 2905.
+
+B. Create a Network Access Scope in Amazon VPC Network Access Analyzer. Use the Network Access Scope
+to identify EC2 instances that try to send traffic to TCP port 2905.
+
+C. Enable VPC flow logs for the VPC where the affected EC2 instances are located Configure the flow logs to
+capture rejected traffic. In the flow logs, search for REJECT records that have a destination TCP port of 2905.
+D. Enable Amazon GuardDuty Create a custom GuardDuty IP list to create a finding when an EC2 instance tries
+to communicate with one of the command and control hosts. Use Amazon Detective to identify the EC2
+instances that initiate the communication.
+
+Correct Answer: C

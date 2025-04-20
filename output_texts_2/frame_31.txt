@@ -1,0 +1,14 @@
+246) Your development team is using access keys to develop an application that has access to $3 and DynamoDB. A new
+
+security policy has outlined that the credentials should not be older than 2 months, and should be rotated. How can you
+achieve this?
+
+A.Use the application to rotate the keys in every 2 months via the SDK
+
+B.Use a script to query the creation date of the keys. If older than 2 months, create new access key and updaie all
+applications to use it inactivate the old key and delete it.
+
+C.Delete the user associated with the keys after every 2 months. Then recreate the user again.
+D.Delete the IAM Role associated with the keys after every 2 months. Then recreate the IAM Role again.
+
+Answer: B

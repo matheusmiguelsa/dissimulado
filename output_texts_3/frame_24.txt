@@ -1,0 +1,12 @@
+#25Topic 1
+A Security Engineer launches two Amazon EC2 instances in the same Amazon VPC but in separate Availability Zones. Each instance has a public IP address and is able to connect to external hosts on the internet. The two instances are able to communicate with each other by using their private IP addresses, but they are not able to communicate with each other when using their public IP addresses.
+Which action should the Security Engineer take to allow communication over the public IP addresses?
+
+A. Associate the instances to the same security groups.
+B. Add 0.0.0.0/0 to the egress rules of the instance security groups.
+C. Add the instance IDs to the ingress rules of the instance security groups.
+D. Add the public IP addresses to the ingress rules of the instance security groups. Most Voted
+ 
+Answer: D
+D (100%)
+

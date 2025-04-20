@@ -1,0 +1,16 @@
+346) A company has an AWS Key Management Service (AWS KMS) customer managed key with imported key material
+Company policy requires all encryption keys to be rotated every year.
+
+What should a security engineer do to meet this requirement for this customer managed key?
+
+A.Enable automatic key rotation annually for the existing customer managed key.
+
+B.Use the AWS CLI to create an AWS Lambda function to rotate the existing customer managed key
+annually.
+
+C.Import new key material to the existing customer managed key Manually rotate the key.
+
+D.Create a new customer managed key Import new key material to the new key Point the key alias to
+the new key.
+
+Answer: A

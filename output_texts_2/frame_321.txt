@@ -1,0 +1,23 @@
+A. Create an Amazon Simple Notification Service (Amazon SNS) topic. Subscribe the security team's email addresses to the
+SNS topic. Create custom rules in CloudFormation Guard for each resource configuration. In the CIICD pipeline, before the build
+stage, configure a Docker image to run the cfn-guard command on the CloudFormation template. Configure the Cl/CD pipeline
+to publish a notification to the SNS topic if any issues are found.
+
+B. Create a centralized CloudFormation stack set that includes a standard set of resources that the developers can deploy in
+each AWS account. Configure each CloudFormation template to meet the security requirements. For any new resources or
+configurations, update the CloudFormation template and send the template to the security team for review. When the review is
+com-pleted, add the new CloudFormation stack to the repository for the devel-opers to use.
+
+C. Create an Amazon Simple Notification Service (Amazon SNS) topic. Subscribe the security team’s email addresses to the
+SNS topic. Create a custom AWS Lambda function that will run the aws cloudformation validate-template AWS CLI command on
+all CloudFormation templates before the build stage in the CI/CD pipeline. Configure the Cl/CD pipeline to publish a notification
+to the SNS topic if any issues are found.
+
+D. Create an Amazon Simple Notification Service (Amazon SNS) topic and an Am-azon Simple Queue Service (Amazon SQS)
+queue. Subscribe the security team's email addresses to the SNS topic. Create an Amazon S3 bucket in the shared services
+AWS account. Include an event notification to publish to the SQS queue when new objects are added to the S3 bucket. Require
+the de-velopers to put their CloudFormation templates in the S3 bucket. Launch EC2 instances that automatically scale based
+on the SQS queue depth. Con-figure the EC2 instances to use CloudFormation Guard to scan the templates and deploy the
+templates if there are no issues. Configure the CIICD pipe-line to publish a notification to the SNS topic if any issues are found.
+
+Correct Answer: A

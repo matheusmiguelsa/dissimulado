@@ -1,0 +1,25 @@
+324) A company's application team needs to host a MySQL database on IAM. According to the company's security policy, all
+data that is stored on IAM must be encrypted at rest. In addition, all cryptographic material must be compliant with FIPS
+140-2 Level 3 validation.
+
+The application team needs a solution that satisfies the company's security requirements and minimizes operational
+overhead.
+
+Which solution will meet these requirements?
+
+A.Host the database on Amazon RDS. Use Amazon Elastic Block Store (Amazon EBS) for encryption.
+
+Use an IAM Key Management Service (IAM KMS) custom key store that is backed by IAM CloudHSM for key
+management.
+
+B.Host the database on Amazon RDS. Use Amazon Elastic Block Store (Amazon EBS) for encryption.
+
+Use an IAM managed CMK in IAM Key Management Service (IAM KMS) for key management.
+
+C.Host the database on an Amazon EC2 instance. Use Amazon Elastic Block Store (Amazon EBS) for encryption. Use a
+customer managed CMK in IAM Key Management Service (IAM KMS) for key management.
+
+D.Host the database on an Amazon EC2 instance. Use Transparent Data Encryption (TDE) for encryption and key
+management.
+
+Answer: B

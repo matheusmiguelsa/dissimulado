@@ -1,0 +1,16 @@
+295) A company has implemented IAM WAF and Amazon CloudFront for an application. The application runs on Amazon EC2
+instances that are part of an Auto Scaling group. The Auto Scaling group is behind an Application Load Balancer (ALB).
+
+The [AM WAF web ACL uses an IAM Managed Rules rule group and is associated with the CloudFront distribution. CloudFront
+receives the request from IAM WAF and then uses the ALB as the distribution’s origin.
+
+During a security review, a security engineer discovers that the infrastructure is susceptible to a large, layer 7 DDoS attack.
+How can the security engineer improve the security at the edge of the solution to defend against this type of attack?
+
+A.Configure the CloudFront distribution to use the Lambda@Edge feature. Create an IAM Lambda function that
+imposes a rate limit on CloudFront viewer requests. Block the request if the rate limit is exceeded.
+B.Configure the |AM WAF web ACL so that the web ACL has more capacity units to process all IAM WAF rules faster.
+C.Configure IAM WAF with a rate-based rule that imposes a rate limit that automatically blocks requests when the
+rate limit is exceeded.
+D.Configure the CloudFront distribution to use IAM WAF as its origin instead of the ALB.
+Answer: C

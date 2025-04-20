@@ -1,0 +1,24 @@
+403) A company used a lift-and-shift approach to migrate from its on-premises data centers to the AWS Cloud. The company
+migrated on-premises VMs to Amazon EC2 instances. Now the company wants to replace some of components that are
+running on the EC2 instances with managed AWS services that provide similar functionality.
+
+Initially, the company will transition from load balancer software that runs on EC2 instances to AWS Elastic Load Balancers. A
+security engineer must ensure that after this transition, all the load balancer logs are centralized and searchable for auditing.
+The security engineer must also ensure that metrics are generated to show which ciphers are in use.
+
+Which solution will meet these requirements?
+
+A. Create an Amazon CloudWatch Logs log group. Configure the load balancers to send logs to the log group. Use the
+CloudWatch Logs console to search the logs. Create CloudWatch Logs filters on the logs for the required metrics.
+
+B. Create an Amazon $3 bucket. Configure the load balancers to send logs to the $3 bucket. Use Amazon Athena to
+search the logs that are in the $3 bucket. Create Amazon CloudWatch filters on the S3 log files for the required metrics.
+C. Create an Amazon S3 bucket. Configure the load balancers to send logs to the $3 bucket. Use Amazon Athena to
+search the logs that are in the S3 bucket. Create Athena queries for the required metrics. Publish the metrics to Amazon
+CloudWatch.
+
+D. Create an Amazon CloudWatch Logs log group. Configure the load balancers to send logs to the log group. Use the
+AWS Management Console to search the logs. Create Amazon Athena queries for the required metrics. Publish the
+metrics to Amazon CloudWatch.
+
+Answer: C

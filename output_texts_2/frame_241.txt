@@ -1,0 +1,23 @@
+340) A company needs to store multiple years of financial records. The company wants to use Amazon S3 to store copies of
+these documents. The company must implement a solution to prevent the documents from being edited, replaced, or deleted
+for 7 years after the documents are stored in Amazon S3. The solution must also encrypt the documents at rest.
+
+A security engineer creates a new S3 bucket to store the documents.
+
+What should the security engineer do next to meet these requirements?
+
+A.Configure $3 server-side encryption. Create an S3 bucket policy that has an explicit deny rule for all users for
+s3:DeleteObject and s3:PutObject API calls. Configure S3 Object Lock to use governance mode with a retention
+period of 7 years.
+
+B.Configure S3 server-side encryption. Configure S3 Versioning on the S3 bucket. Configure S3 Object Lock to use
+compliance mode with a retention period of 7 years.
+
+C.Configure $3 Versioning. Configure $3 Intelligent-Tiering on the S3 bucket to move the documents to $3 Glacier
+Deep Archive storage. Use S3 server-side encryption immediately. Expire the objects after 7 years.
+
+D.Set up $3 Event Notifications and use S3 server-side encryption. Configure S3 Event Notifications to target an AWS
+Lambda function that will review any S3 API call to the S3 bucket and deny the s3:DeleteObject and s3:PutObject API
+calls. Remove the $3 event notification after 7 years.
+
+Answer: B

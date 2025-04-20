@@ -1,0 +1,17 @@
+254) A company became aware that one of its access keys was exposed on a code sharing website 11 days ago. A
+Security Engineer must review all use of the exposed access keys to determine the extent of the exposure. The company
+enabled IAM CloudTrail m an regions when it opened the account.
+
+Which of the following will allow (he Security Engineer 10 complete the task?
+
+A.Filter the event history on the exposed access key in the CloudTrail console Examine the data from the
+past 11 days.
+
+B.Use the IAM CLI lo generate an IAM credential report Extract all the data from the past 11 days.
+
+C.Use Amazon Athena to query the CloudTrail logs from Amazon S3 Retrieve the rows for the exposed
+access key tor the past 11 days.
+
+D.Use the Access Advisor tab in the IAM console to view all of the access key activity for the past 11 days.
+
+Answer: C

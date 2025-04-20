@@ -1,0 +1,8 @@
+C. Enable multi-factor authentication (MFA) for the root user.
+
+D. Set a strong randomized password and store it in a secure location.
+
+D. Create an access key ID and secret access key, and store them in a secure location.
+F. Apply ihe following permissions boundary to the toot user:
+
+Answer: A,C,E

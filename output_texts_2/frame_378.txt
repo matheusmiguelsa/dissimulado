@@ -1,0 +1,27 @@
+402) A security engineer is designing an IAM policy for a script that will use the AWS CLI. The script currently assumes an
+IAM role that is attached to three AWS managed IAM policies: AmazonEC2FullAccess, AmazonDynamoDBFullAccess, and
+AmazonVPCFullAccess.
+
+The security engineer needs to construct a least privilege IAM policy that will replace the AWS managed IAM policies that
+are attached to this role.
+
+Which solution will meet these requirements in the MOST operationally efficient way?
+
+A. In AWS CloudTrail, create a trail for management events. Run the script with the existing AWS managed IAM policies.
+Use IAM Access Analyzer to generate a new IAM policy that is based on access activity in the trail. Replace the existing
+AWS managed IAM policies with the generated IAM policy for the role.
+
+B. Remove the existing AWS managed IAM policies from the role. Attach the IAM Access Analyzer Role Policy Generator
+to the role. Run the script. Return to [AM Access Analyzer and generate a least privilege IAM policy. Attach the new [AM
+policy to the role.
+
+C. Create an account analyzer in IAM Access Analyzer. Create an archive rule that has a filter that checks whether the
+PrincipalArn value matches the ARN of the role. Run the script. Remove the existing AWS managed IAM policies from the
+role.
+
+D. In AWS CloudTrail, create a trail for management events. Remove the existing AWS managed IAM policies from the
+role. Run the script. Find the authorization failure in the trail event that is associated with the script. Create a new IAM
+policy that includes the action and resource that caused the authorization failure. Repeat the process until the script
+succeeds. Attach the new IAM policy to the role.
+
+Answer: A 

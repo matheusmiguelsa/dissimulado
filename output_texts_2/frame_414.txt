@@ -1,0 +1,12 @@
+419) A healthcare company has multiple AWS accounts in an organization in AWS Organizations. The company uses
+Amazon S3 buckets to store sensitive information of patients. The company needs to restrict users from deleting any $3
+bucket across the organization.
+
+What is the MOST scalable solution that meets these requirements?
+A. Permissions boundaries in AWS Identity and Access Management (1AM)
+B. S3 bucket policies
+
+C. Tag policies
+D. SCPs
+
+Correct Answer: D

@@ -1,0 +1,17 @@
+318) A company has developed a new Amazon RDS database application. The company must secure the ROS database
+credentials for encryption in transit and encryption at rest. The company also must rotate the credentials automatically
+on a regular basis.
+
+Which solution meets these requirements?
+
+A.Use IAM Systems Manager Parameter Store to store the database credentiais. Configure automatic rotation
+of the credentials.
+
+B.Use IAM Secrets Manager to store the database credentials. Configure automat* rotation of the credentials.
+C.Store the database credentials in an Amazon $3 bucket that is configured with server-side encryption with S3
+managed encryption keys (SSE-S3) Rotate the credentials with IAM database authentication.
+
+D.Store the database credentials m Amazon S3 Glacier, and use $3 Glacier Vault Lock Configure an [IAM
+Lambda function to rotate the credentials on a scheduled basts.
+
+Answer: A
